@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{34}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -98,5 +98,113 @@ Robert~C. Martin.
 \newblock Встречаем yx\_scope: Di-фреймворк для работы со скоупами в открытом доступе, 2025.
 \newblock URL \url{https://habr.com/ru/companies/yandex/articles/852278/}.
 \newblock Дата обращения: 9 апреля 2025.
+
+\bibitem[gRPC Authors(2025{\natexlab{a}})]{GRPCIntro}
+gRPC Authors.
+\newblock What is grpc? an introduction to grpc, 2025{\natexlab{a}}.
+\newblock URL \url{https://grpc.io/docs/what-is-grpc/introduction/}.
+\newblock Дата обращения: 19 апреля 2025.
+
+\bibitem[gRPC Authors(2025{\natexlab{b}})]{GRPCDartBasics}
+gRPC Authors.
+\newblock grpc basics: Dart, 2025{\natexlab{b}}.
+\newblock URL \url{https://grpc.io/docs/languages/dart/basics/}.
+\newblock Дата обращения: 19 апреля 2025.
+
+\bibitem[Team(2025{\natexlab{a}})]{FlutterConceptsArch}
+Flutter Team.
+\newblock Architectural concepts, 2025{\natexlab{a}}.
+\newblock URL \url{https://docs.flutter.dev/app-architecture/concepts}.
+\newblock Дата обращения: 19 апреля 2025.
+
+\bibitem[Team(2025{\natexlab{b}})]{FlutterArchRecommendations}
+Flutter Team.
+\newblock Architecture recommendations, 2025{\natexlab{b}}.
+\newblock URL \url{https://docs.flutter.dev/app-architecture/recommendations}.
+\newblock Дата обращения: 20 апреля 2025.
+
+\bibitem[Team(2025{\natexlab{c}})]{FlutterArchGeneralApproach}
+Flutter Team.
+\newblock General approach to app architecture (case study overview), 2025{\natexlab{c}}.
+\newblock URL \url{https://docs.flutter.dev/app-architecture/case-study}.
+\newblock Дата обращения: 15 апреля 2025.
+
+\bibitem[Team(2025{\natexlab{d}})]{FlutterArchUILayer}
+Flutter Team.
+\newblock Ui layer (app architecture case study), 2025{\natexlab{d}}.
+\newblock URL \url{https://docs.flutter.dev/app-architecture/case-study/ui-layer}.
+\newblock Дата обращения: 17 апреля 2025.
+
+\bibitem[Team(2025{\natexlab{e}})]{FlutterArchDataLayer}
+Flutter Team.
+\newblock Data layer (app architecture case study), 2025{\natexlab{e}}.
+\newblock URL \url{https://docs.flutter.dev/app-architecture/case-study/data-layer}.
+\newblock Дата обращения: 3 апреля 2025.
+
+\bibitem[Team(2025{\natexlab{f}})]{FlutterArchDI}
+Flutter Team.
+\newblock Dependency injection (app architecture case study), 2025{\natexlab{f}}.
+\newblock URL \url{https://docs.flutter.dev/app-architecture/case-study/dependency-injection}.
+\newblock Дата обращения: 1 марта 2025.
+
+\bibitem[Team(2025{\natexlab{g}})]{FlutterArchDesignPatterns}
+Flutter Team.
+\newblock Design patterns, 2025{\natexlab{g}}.
+\newblock URL \url{https://docs.flutter.dev/app-architecture/design-patterns}.
+\newblock Дата обращения: 3 марта 2025.
+
+\bibitem[Team(2025{\natexlab{h}})]{FlutterUIBasics}
+Flutter Team.
+\newblock Flutter ui basics, 2025{\natexlab{h}}.
+\newblock URL \url{https://docs.flutter.dev/ui}.
+\newblock Дата обращения: 4 марта 2025.
+
+\bibitem[Team(2025{\natexlab{i}})]{FlutterWidgetCatalog}
+Flutter Team.
+\newblock Widget catalog, 2025{\natexlab{i}}.
+\newblock URL \url{https://docs.flutter.dev/ui/widgets}.
+\newblock Дата обращения: 5 апреля 2025.
+
+\bibitem[Team(2025{\natexlab{j}})]{FlutterStateMgmtIntro}
+Flutter Team.
+\newblock Introduction to state management, 2025{\natexlab{j}}.
+\newblock URL \url{https://docs.flutter.dev/data-and-backend/state-mgmt/intro}.
+\newblock Дата обращения: 6 апреля 2025.
+
+\bibitem[Team(2025{\natexlab{k}})]{FlutterStateEphemeralVsApp}
+Flutter Team.
+\newblock Ephemeral versus app state, 2025{\natexlab{k}}.
+\newblock URL \url{https://docs.flutter.dev/data-and-backend/state-mgmt/ephemeral-vs-app}.
+\newblock Дата обращения: 19 апреля 2025.
+
+\bibitem[Яндекс.Образования({\natexlab{a}})]{YandexFlutterOOPDart}
+Команда Яндекс.Образования.
+\newblock ООП в dart (Объектно-ориентированное программирование), {\natexlab{a}}.
+\newblock URL \url{https://education.yandex.ru/handbook/flutter/article/dart-oop}.
+\newblock Дата обращения: 8 февраля 2025.
+
+\bibitem[Яндекс.Образования({\natexlab{b}})]{YandexFlutterProjectStructure}
+Команда Яндекс.Образования.
+\newblock Структура flutter-проекта, {\natexlab{b}}.
+\newblock URL \url{https://education.yandex.ru/handbook/flutter/article/flutter-struktura-proekta}.
+\newblock Дата обращения: 13 января 2025.
+
+\bibitem[Яндекс.Образования({\natexlab{c}})]{YandexFlutterDependencies}
+Команда Яндекс.Образования.
+\newblock Зависимости flutter-проекта, {\natexlab{c}}.
+\newblock URL \url{https://education.yandex.ru/handbook/flutter/article/flutter-zavisimosti-proekta}.
+\newblock Дата обращения: 23 марта 2025.
+
+\bibitem[Яндекс.Образования({\natexlab{d}})]{YandexFlutterWidgetTypes}
+Команда Яндекс.Образования.
+\newblock Какие бывают виджеты: Statelesswidget, statefulwidget, inheritedwidget, {\natexlab{d}}.
+\newblock URL \url{https://education.yandex.ru/handbook/flutter/article/widgets-basics-stless-stful-inherited}.
+\newblock Дата обращения: 27 апреля 2025.
+
+\bibitem[Яндекс.Образования({\natexlab{e}})]{YandexFlutterI18n}
+Команда Яндекс.Образования.
+\newblock Интернационализация flutter-приложения, {\natexlab{e}}.
+\newblock URL \url{https://education.yandex.ru/handbook/flutter/article/project-internacionalizaciya}.
+\newblock Дата обращения: 15 апреля 2025.
 
 \end{thebibliography}
