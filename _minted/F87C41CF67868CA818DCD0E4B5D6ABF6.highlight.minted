@@ -1,0 +1,18 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{part of}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{routes\PYGZus{}bloc.dart}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{;}
+
+\PYG{n}{sealed}\PYG{+w}{ }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{RoutesEvent}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{Equatable}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{RoutesEvent}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{final}\PYG{+w}{ }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{RoutesFetched}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{RoutesEvent}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{UserFilterRoutesParams}\PYG{o}{?}\PYG{+w}{ }\PYG{n}{userFilterRoutesParams}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{RoutesFetched}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{this}\PYG{p}{.}\PYG{n}{userFilterRoutesParams}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{List}\PYG{o}{\PYGZlt{}}\PYG{k+kt}{Object}\PYG{o}{?}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{k+kd}{get}\PYG{+w}{ }\PYG{n}{props}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{p}{[}\PYG{n}{userFilterRoutesParams}\PYG{p}{]}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

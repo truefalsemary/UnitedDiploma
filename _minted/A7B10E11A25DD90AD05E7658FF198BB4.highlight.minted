@@ -1,0 +1,87 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{import}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{package:grpc/grpc.dart}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{;}
+
+\PYG{n}{sealed}\PYG{+w}{ }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{BaseGrpcException}\PYG{+w}{ }\PYG{k+kd}{implements}\PYG{+w}{ }\PYG{n}{Exception}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{k+kt}{String}\PYG{+w}{ }\PYG{n}{featureName}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{k+kt}{String}\PYG{o}{?}\PYG{+w}{ }\PYG{n}{details}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{o}{?}\PYG{+w}{ }\PYG{n}{code}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{BaseGrpcException}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k}{this}\PYG{p}{.}\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{this}\PYG{p}{.}\PYG{n}{details}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{this}\PYG{p}{.}\PYG{n}{code}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{AlreadyExistsGrpcException}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{BaseGrpcException}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{AlreadyExistsGrpcException}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k}{super}\PYG{p}{.}\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{details}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{code}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{k+kt}{String}\PYG{+w}{ }\PYG{n}{toString}\PYG{p}{(}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n}{featureName}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{AlreadyExistsGrpcException}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{InvalidArgumentGrpcException}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{BaseGrpcException}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{InvalidArgumentGrpcException}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k}{super}\PYG{p}{.}\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{details}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{code}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{k+kt}{String}\PYG{+w}{ }\PYG{n}{toString}\PYG{p}{(}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n}{featureName}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{InvalidArgumentGrpcException}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{InternalServerGrpcException}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{BaseGrpcException}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{InternalServerGrpcException}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k}{super}\PYG{p}{.}\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{details}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{code}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{k+kt}{String}\PYG{+w}{ }\PYG{n}{toString}\PYG{p}{(}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n}{featureName}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{InternalServerGrpcException}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{UnknownGrpcException}\PYG{+w}{ }\PYG{k+kd}{extends}\PYG{+w}{ }\PYG{n}{BaseGrpcException}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{UnknownGrpcException}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k}{super}\PYG{p}{.}\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{details}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k}{super}\PYG{p}{.}\PYG{n}{code}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{k+kt}{String}\PYG{+w}{ }\PYG{n}{toString}\PYG{p}{(}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n}{featureName}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s1}{UnknownGrpcException}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{extension}\PYG{+w}{ }\PYG{n+nc}{GrpcErrorToException}\PYG{+w}{ }\PYG{k+kd}{on}\PYG{+w}{ }\PYG{n}{GrpcError}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{n}{BaseGrpcException}\PYG{+w}{ }\PYG{n}{toCustomGrpcException}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k+kt}{String}\PYG{+w}{ }\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}
+\PYG{+w}{      }\PYG{k}{switch}\PYG{+w}{ }\PYG{p}{(}\PYG{k}{this}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{GrpcError}\PYG{p}{.}\PYG{n}{alreadyExists}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{AlreadyExistsGrpcException}\PYG{p}{(}
+\PYG{+w}{            }\PYG{n+nl}{featureName:}\PYG{+w}{ }\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{details:}\PYG{+w}{ }\PYG{n}{message}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{code:}\PYG{+w}{ }\PYG{n}{code}\PYG{p}{,}
+\PYG{+w}{          }\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{        }\PYG{n}{GrpcError}\PYG{p}{.}\PYG{n}{invalidArgument}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{InvalidArgumentGrpcException}\PYG{p}{(}
+\PYG{+w}{            }\PYG{n+nl}{featureName:}\PYG{+w}{ }\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{details:}\PYG{+w}{ }\PYG{n}{message}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{code:}\PYG{+w}{ }\PYG{n}{code}\PYG{p}{,}
+\PYG{+w}{          }\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{        }\PYG{n}{GrpcError}\PYG{p}{.}\PYG{n}{internal}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{InternalServerGrpcException}\PYG{p}{(}
+\PYG{+w}{            }\PYG{n+nl}{featureName:}\PYG{+w}{ }\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{details:}\PYG{+w}{ }\PYG{n}{message}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{code:}\PYG{+w}{ }\PYG{n}{code}\PYG{p}{,}
+\PYG{+w}{          }\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{        }\PYG{n}{\PYGZus{}}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{UnknownGrpcException}\PYG{p}{(}
+\PYG{+w}{            }\PYG{n+nl}{featureName:}\PYG{+w}{ }\PYG{n}{featureName}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{details:}\PYG{+w}{ }\PYG{n}{message}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{code:}\PYG{+w}{ }\PYG{n}{code}\PYG{p}{,}
+\PYG{+w}{          }\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

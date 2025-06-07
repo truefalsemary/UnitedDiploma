@@ -1,0 +1,98 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{abstract}\PYG{+w}{ }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{ContentApiClient}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{Iterable}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{Route}\PYG{o}{\PYGZgt{}}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{getRoutes}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{UserFilterRoutesParams}\PYG{o}{?}\PYG{+w}{ }\PYG{n}{userFilterRoutesParams}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{GetRoutesFilterOptionsResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{getRoutesFilter}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{UploadImageResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{uploadImages}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{Stream}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{UploadImageRequest}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{request}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{CreatePlaceResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{createPlace}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{proto}\PYG{p}{.}\PYG{n}{CreatePlaceRequest}\PYG{+w}{ }\PYG{n}{request}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{CreateRouteResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{createRoute}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{proto}\PYG{p}{.}\PYG{n}{CreateRouteRequest}\PYG{+w}{ }\PYG{n}{request}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{ContentApiClientImpl}\PYG{+w}{ }\PYG{k+kd}{implements}\PYG{+w}{ }\PYG{n}{ContentApiClient}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{proto}\PYG{p}{.}\PYG{n}{ContentServiceClient}\PYG{+w}{ }\PYG{n}{\PYGZus{}client}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n}{ContentApiClientImpl}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k+kt}{String}\PYG{+w}{ }\PYG{n}{host}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{k+kt}{int}\PYG{+w}{ }\PYG{n}{port}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{\PYGZus{}client}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{proto}\PYG{p}{.}\PYG{n}{ContentServiceClient}\PYG{p}{(}
+\PYG{+w}{          }\PYG{n}{ClientChannel}\PYG{p}{(}
+\PYG{+w}{            }\PYG{n}{host}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{port:}\PYG{+w}{ }\PYG{n}{port}\PYG{p}{,}
+\PYG{+w}{            }\PYG{n+nl}{options:}\PYG{+w}{ }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{ChannelOptions}\PYG{p}{(}
+\PYG{+w}{              }\PYG{n+nl}{credentials:}\PYG{+w}{ }\PYG{n}{ChannelCredentials}\PYG{p}{.}\PYG{n}{insecure}\PYG{p}{(}\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{            }\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{          }\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{        }\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{GetRoutesFilterOptionsResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{getRoutesFilter}\PYG{p}{(}\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{async}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{response}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}client}\PYG{p}{.}\PYG{n}{getRoutesFilterOptions}\PYG{p}{(}\PYG{n}{Empty}\PYG{p}{(}\PYG{p}{)}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{response}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{Iterable}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{Route}\PYG{o}{\PYGZgt{}}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{getRoutes}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{UserFilterRoutesParams}\PYG{o}{?}\PYG{+w}{ }\PYG{n}{userFilterRoutesParams}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{async}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{request}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{proto}\PYG{p}{.}\PYG{n}{GetRoutesRequest}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{minDifficulty}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{userFilterRoutesParams}\PYG{o}{?}\PYG{p}{.}\PYG{n}{minDifficulty}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{maxDifficulty}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{userFilterRoutesParams}\PYG{o}{?}\PYG{p}{.}\PYG{n}{maxDifficulty}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{minDistance}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{userFilterRoutesParams}\PYG{o}{?}\PYG{p}{.}\PYG{n}{minDistance}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{maxDistance}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{userFilterRoutesParams}\PYG{o}{?}\PYG{p}{.}\PYG{n}{maxDistance}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{minDifficulty}\PYG{+w}{ }\PYG{o}{!}\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{+w}{ }\PYG{o}{|}\PYG{o}{|}\PYG{+w}{ }\PYG{n}{maxDifficulty}\PYG{+w}{ }\PYG{o}{!}\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{n}{request}\PYG{p}{.}\PYG{n}{difficultyFilter}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{proto}\PYG{p}{.}\PYG{n}{DifficultyFilter}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{minDifficulty}\PYG{+w}{ }\PYG{o}{!}\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{request}\PYG{p}{.}\PYG{n}{difficultyFilter}\PYG{p}{.}\PYG{n}{minDifficulty}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{minDifficulty}\PYG{p}{;}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{      }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{maxDifficulty}\PYG{+w}{ }\PYG{o}{!}\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{n}{request}\PYG{p}{.}\PYG{n}{difficultyFilter}\PYG{p}{.}\PYG{n}{maxDifficulty}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{maxDifficulty}\PYG{p}{;}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{minDistance}\PYG{+w}{ }\PYG{o}{!}\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{+w}{ }\PYG{o}{|}\PYG{o}{|}\PYG{+w}{ }\PYG{n}{maxDistance}\PYG{+w}{ }\PYG{o}{!}\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{n}{request}\PYG{p}{.}\PYG{n}{distanceFilter}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{proto}\PYG{p}{.}\PYG{n}{DistanceFilter}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{minDistance}\PYG{+w}{ }\PYG{o}{!}\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{request}\PYG{p}{.}\PYG{n}{distanceFilter}\PYG{p}{.}\PYG{n}{minKm}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{minDistance}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k}{if}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{maxDistance}\PYG{+w}{ }\PYG{o}{!}\PYG{o}{=}\PYG{+w}{ }\PYG{k+kc}{null}\PYG{p}{)}\PYG{+w}{ }\PYG{n}{request}\PYG{p}{.}\PYG{n}{distanceFilter}\PYG{p}{.}\PYG{n}{maxKm}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{maxDistance}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{response}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}client}\PYG{p}{.}\PYG{n}{getRoutes}\PYG{p}{(}\PYG{n}{request}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{response}\PYG{p}{.}\PYG{n}{routes}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{UploadImageResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{uploadImages}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{Stream}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{UploadImageRequest}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{request}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{async}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{response}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}client}\PYG{p}{.}\PYG{n}{uploadImages}\PYG{p}{(}\PYG{n}{request}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{response}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{CreatePlaceResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{createPlace}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{proto}\PYG{p}{.}\PYG{n}{CreatePlaceRequest}\PYG{+w}{ }\PYG{n}{request}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{async}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{response}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}client}\PYG{p}{.}\PYG{n}{createPlace}\PYG{p}{(}\PYG{n}{request}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{response}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{proto}\PYG{p}{.}\PYG{n}{CreateRouteResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{createRoute}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{proto}\PYG{p}{.}\PYG{n}{CreateRouteRequest}\PYG{+w}{ }\PYG{n}{request}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{async}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{response}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}client}\PYG{p}{.}\PYG{n}{createRoute}\PYG{p}{(}\PYG{n}{request}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{response}\PYG{p}{;}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}

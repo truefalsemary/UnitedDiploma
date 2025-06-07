@@ -1,0 +1,38 @@
+
+\xpg@aux {spelling=modern}{russian}
+\contentsline {section}{\numberline {}ВВЕДЕНИЕ}{3}{section.1}%
+\contentsline {section}{\numberline {}ГЛАВА 1 ОПРЕДЕЛЕНИЕ ТРЕБОВАНИЙ}{7}{section.2}%
+\contentsline {subsection}{1.1 Исследование целевой аудитории}{7}{section*.1}%
+\contentsline {subsection}{1.2 Приоритизация функциональности}{18}{section*.1}%
+\contentsline {subsection}{1.3 Оценка рынка}{22}{section*.1}%
+\contentsline {subsection}{1.4 Исследование конкурентной среды}{26}{table.caption.2}%
+\contentsline {subsection}{1.5 Бизнес-модель стартапа}{42}{Item.51}%
+\contentsline {subsection}{1.6 Экосистема монетизации}{47}{Item.51}%
+\contentsline {subsection}{1.7 Финансовая модель}{49}{Item.51}%
+\contentsline {section}{\numberline {}ГЛАВА 2 ПРОЕКТИРОВАНИЕ АРХИТЕКТУРЫ СЕРВЕРНОЙ ЧАСТИ ПРИЛОЖЕНИЯ}{56}{section.3}%
+\contentsline {subsection}{2.1 Описание требований и ограничений}{56}{section*.5}%
+\contentsline {subsection}{2.2 Архитектурное решение}{63}{section*.5}%
+\contentsline {subsection}{2.3 Диаграммы проектирования}{70}{section*.5}%
+\contentsline {subsection}{2.4 Компоненты инфраструктуры}{97}{figure.caption.18}%
+\contentsline {subsection}{2.5 Меры обеспечения безопасности}{101}{figure.caption.18}%
+\contentsline {subsection}{Выводы по главе}{104}{figure.caption.18}%
+\contentsline {section}{\numberline {}ГЛАВА 3 РЕАЛИЗАЦИЯ СЕРВИСНОЙ ЧАСТИ}{106}{section.4}%
+\contentsline {subsection}{3.1 Технологический стек}{106}{section*.19}%
+\contentsline {subsection}{3.2 Реализация микросервисов}{116}{section*.19}%
+\contentsline {subsection}{3.3 Организация DevOps-инфраструктуры и CI/CD}{136}{section*.19}%
+\contentsline {subsection}{3.4 Тестирование микросервисной системы}{140}{section*.19}%
+\contentsline {subsection}{Выводы по главе}{142}{section*.19}%
+\contentsline {section}{\numberline {}ГЛАВА 4 ПРОЕКТИРОВАНИЕ АРХИТЕКТУРЫ И ВЫБОР ТЕХНОЛОГИЧЕСКОГО СТЕКА}{145}{section.5}%
+\contentsline {subsection}{4.1 Проектирование архитектуры мобильного приложения}{147}{section*.20}%
+\contentsline {subsection}{4.2 Основные пути пользователя}{149}{section*.20}%
+\contentsline {subsection}{4.3 Архитектура мобильного приложения}{156}{figure.caption.23}%
+\contentsline {section}{\numberline {}ГЛАВА 5 РАЗРАБОТКА МОБИЛЬНОГО ПРИЛОЖЕНИЯ}{181}{section.6}%
+\contentsline {subsection}{5.1 Базовая структура приложения}{181}{section*.30}%
+\contentsline {subsection}{5.2 Реализация слоя данных (взаимодействия с бекендом)}{183}{figure.caption.31}%
+\contentsline {section}{\numberline {}ГЛАВА 6 ПРОЕКТИРОВАНИЕ ПОЛЬЗОВАТЕЛЬСКОГО ИНТЕРФЕЙСА МОБИЛЬНОГО ПРИЛОЖЕНИЯ}{190}{section.7}%
+\contentsline {subsection}{6.1 Принципы и подходы к проектированию интерфейса}{191}{section*.32}%
+\contentsline {subsection}{6.2. Разработка макетов интерфейса}{195}{section*.32}%
+\contentsline {subsection}{6.3. Проектирование структуры экранов и пользовательских сценариев}{196}{section*.32}%
+\contentsline {subsection}{6.4. Технические требования к интерфейсу}{207}{figure.caption.41}%
+\contentsline {section}{\numberline {}ЗАКЛЮЧЕНИЕ}{211}{section.8}%
+\contentsline {section}{ИСТОЧНИКИ}{213}{section.8}%

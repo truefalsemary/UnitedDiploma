@@ -1,0 +1,102 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Яндекс.Путешествия}(2025)]{12}
+{Яндекс.Путешествия}.
+\newblock {Аналитика ранних бронирований гостиниц: отчёт 2025}.
+\newblock [Электронный ресурс], 2025.
+\newblock URL \url{https://travel.yandex.ru/analytics}.
+\newblock Дата обращения: 17 мая 2025.
+
+\bibitem[Ньюман(2020)]{6}
+С. Ньюман.
+\newblock \emph{{Создание микросервисов}}.
+\newblock Питер / O’Reilly, СПб., 2-е изд. edition, 2020.
+
+\bibitem[Митра and Надараишвили(2021)]{5}
+Р. Митра and И. Надараишвили.
+\newblock \emph{{Микросервисы: от архитектуры до релиза. Пошаговое руководство}}.
+\newblock Питер / O’Reilly, СПб., 2021.
+
+\bibitem[Беллемар(2022)]{2}
+А. Беллемар.
+\newblock \emph{{Создание событийно-управляемых микросервисов: масштабирование организационных данных}}.
+\newblock Питер / O’Reilly, СПб., 2022.
+
+\bibitem[Индрасири and Куруппу(2021)]{1}
+К. Индрасири and Д. Куруппу.
+\newblock \emph{{gRPC: запуск и эксплуатация облачных приложений}}.
+\newblock Питер / O’Reilly, СПб., 2021.
+
+\bibitem[Россо et~al.(2022)Россо, Ландер, Бранд, and Харрис]{3}
+Дж. Россо, Р. Ландер, А. Бранд, and Дж. Харрис.
+\newblock \emph{{Kubernetes на практике}}.
+\newblock Питер / O’Reilly, СПб., 2022.
+
+\bibitem[Стронг and Лэнси(2022)]{4}
+Дж. Стронг and В. Лэнси.
+\newblock \emph{{Kubernetes в сети}}.
+\newblock Питер / O’Reilly, СПб., 2022.
+
+\bibitem[7(2025)]{7}
+{JWT.io --- JSON Web Tokens}.
+\newblock [Электронный ресурс], 2025.
+\newblock URL \url{https://jwt.io}.
+\newblock Дата обращения: 17 мая 2025.
+
+\bibitem[{Российский союз туриндустрии}(2024)]{8}
+{Российский союз туриндустрии}.
+\newblock {Внутренний турпоток в России в 2024 году достиг исторического максимума}.
+\newblock [Электронный ресурс], 2024.
+\newblock URL \url{https://russiatourism.ru/news/15770}.
+\newblock Дата обращения: 17 мая 2025.
+
+\bibitem[{Федеральная служба государственной статистики (Росстат)}(2023)]{9}
+{Федеральная служба государственной статистики (Росстат)}.
+\newblock {Туризм в Российской Федерации: основные показатели 2023 года}.
+\newblock [Электронный ресурс], 2023.
+\newblock URL \url{https://rosstat.gov.ru}.
+\newblock Дата обращения: 17 мая 2025.
+
+\bibitem[10(2024)]{10}
+{Внутренний туризм в России вырос на 10 \% // Ведомости}.
+\newblock [Электронный ресурс], 2024.
+\newblock URL \url{https://www.vedomosti.ru/tourism}.
+\newblock Опубликовано: 23.12.2024. Дата обращения: 17 мая 2025.
+
+\bibitem[{АТОР}(2025)]{11}
+{АТОР}.
+\newblock {Средние траты семей с детьми на летний отдых составляют 282 тыс. руб.}
+\newblock [Электронный ресурс], 2025.
+\newblock URL \url{https://atorus.ru/article/}.
+\newblock Дата обращения: 17 мая 2025.
+
+\bibitem[{Outbrain}(2024)]{13}
+{Outbrain}.
+\newblock {Native Advertising in Travel Industry Report 2024}.
+\newblock [Электронный ресурс], 2024.
+\newblock URL \url{https://www.outbrain.com/native-travel-2024}.
+\newblock Дата обращения: 17 мая 2025.
+
+\bibitem[Martin(2017)]{MartinCleanArchitectureBook}
+Robert~C. Martin.
+\newblock \emph{Clean Architecture: A Craftsman's Guide to Software Structure and Design}.
+\newblock Prentice Hall, 2017.
+
+\bibitem[Мартин(2012)]{CleanArchitectureHabr}
+Роберт~С. Мартин.
+\newblock Чистая архитектура, 2012.
+\newblock URL \url{https://habr.com/ru/post/158955/}.
+\newblock Дата обращения: 6 апреля 2025.
+
+\bibitem[Кольцов(2025)]{YxScopeHabr}
+Сергей Кольцов.
+\newblock Встречаем yx\_scope: Di-фреймворк для работы со скоупами в открытом доступе, 2025.
+\newblock URL \url{https://habr.com/ru/companies/yandex/articles/852278/}.
+\newblock Дата обращения: 9 апреля 2025.
+
+\end{thebibliography}

@@ -1,0 +1,360 @@
+\section{ПРИЛОЖЕНИЕ}
+\textbf{content\_api\_client.dart}
+\begin{minted}{dart}
+abstract class ContentApiClient {
+  Future<Iterable<proto.Route>> getRoutes(
+    UserFilterRoutesParams? userFilterRoutesParams,
+  );
+
+  Future<proto.GetRoutesFilterOptionsResponse> getRoutesFilter();
+
+  Future<proto.UploadImageResponse> uploadImages(
+    Stream<proto.UploadImageRequest> request,
+  );
+
+  Future<proto.CreatePlaceResponse> createPlace(
+    proto.CreatePlaceRequest request,
+  );
+
+  Future<proto.CreateRouteResponse> createRoute(
+    proto.CreateRouteRequest request,
+  );
+}
+
+class ContentApiClientImpl implements ContentApiClient {
+  final proto.ContentServiceClient _client;
+
+  ContentApiClientImpl({
+    required String host,
+    required int port,
+  }) : _client = proto.ContentServiceClient(
+          ClientChannel(
+            host,
+            port: port,
+            options: const ChannelOptions(
+              credentials: ChannelCredentials.insecure(),
+            ),
+          ),
+        );
+
+  @override
+  Future<proto.GetRoutesFilterOptionsResponse> getRoutesFilter() async {
+    final response = await _client.getRoutesFilterOptions(Empty());
+    return response;
+  }
+
+  @override
+  Future<Iterable<proto.Route>> getRoutes(
+    UserFilterRoutesParams? userFilterRoutesParams,
+  ) async {
+    final request = proto.GetRoutesRequest();
+    final minDifficulty = userFilterRoutesParams?.minDifficulty;
+    final maxDifficulty = userFilterRoutesParams?.maxDifficulty;
+    final minDistance = userFilterRoutesParams?.minDistance;
+    final maxDistance = userFilterRoutesParams?.maxDistance;
+
+    if (minDifficulty != null || maxDifficulty != null) {
+      request.difficultyFilter = proto.DifficultyFilter();
+      if (minDifficulty != null) {
+        request.difficultyFilter.minDifficulty = minDifficulty;
+      }
+      if (maxDifficulty != null) {
+        request.difficultyFilter.maxDifficulty = maxDifficulty;
+      }
+    }
+
+    if (minDistance != null || maxDistance != null) {
+      request.distanceFilter = proto.DistanceFilter();
+      if (minDistance != null) request.distanceFilter.minKm = minDistance;
+      if (maxDistance != null) request.distanceFilter.maxKm = maxDistance;
+    }
+
+    final response = await _client.getRoutes(request);
+    return response.routes;
+  }
+
+  @override
+  Future<proto.UploadImageResponse> uploadImages(
+    Stream<proto.UploadImageRequest> request,
+  ) async {
+    final response = await _client.uploadImages(request);
+    return response;
+  }
+
+  @override
+  Future<proto.CreatePlaceResponse> createPlace(
+    proto.CreatePlaceRequest request,
+  ) async {
+    final response = await _client.createPlace(request);
+    return response;
+  }
+
+  @override
+  Future<proto.CreateRouteResponse> createRoute(
+    proto.CreateRouteRequest request,
+  ) async {
+    final response = await _client.createRoute(request);
+    return response;
+  }
+}
+\end{minted}
+
+\textbf{content\_repository.dart}
+\begin{minted}{dart}
+typedef PlaceId = String;
+
+abstract class ContentRepository {
+  Future<RouteModels?> getRouteModels(
+    UserFilterRoutesParams? userFilterRoutesParams,
+  );
+  Future<AvailableFilterRoutesParams> getAvailableFilterRoutesParams();
+
+  Future<PlaceId> createPlace(CreatePlaceModel place);
+
+  Future<CreateRouteResponse> createRoute(CreateRouteModel route);
+}
+
+final class ContentRepositoryImpl implements ContentRepository {
+  final ContentApiClient _apiClient;
+  final ContentModelsConverter _modelsConverter;
+  final Logger _logger;
+
+  const ContentRepositoryImpl({
+    required ContentApiClient apiClient,
+    required ContentModelsConverter modelsConverter,
+    required Logger logger,
+  })  : _apiClient = apiClient,
+        _modelsConverter = modelsConverter,
+        _logger = logger;
+
+  @override
+  Future<RouteModels?> getRouteModels(
+    UserFilterRoutesParams? userFilterRoutesParams,
+  ) async {
+    _logger.i('try to get routes');
+    try {
+      final routes = await _apiClient.getRoutes(userFilterRoutesParams);
+      return _modelsConverter.convertRoutesToRouteModels(routes);
+    } on GrpcError catch (error) {
+      throw error.toCustomGrpcException(featureName: 'GetRoutes');
+    }
+  }
+
+  @override
+  Future<AvailableFilterRoutesParams> getAvailableFilterRoutesParams() async {
+    _logger.i('try to get available filter routes params');
+
+    try {
+      final routesFilter = await _apiClient.getRoutesFilter();
+      return _modelsConverter
+          .convertGetRoutesFilterOptionsResponseToAvailableFilterRoutesParams(
+        routesFilter,
+      );
+    } on GrpcError catch (error) {
+      throw error.toCustomGrpcException(
+        featureName: 'GetRouteFilterParams',
+      );
+    }
+  }
+
+  @override
+  Future<PlaceId> createPlace(
+    CreatePlaceModel createPlaceModel,
+  ) async {
+    try {
+      final protoPlace =
+          _modelsConverter.convertCreatePlaceModelToCreatePlaceRequest(
+        createPlaceModel,
+      );
+
+      final response = await _apiClient.createPlace(protoPlace);
+      final placeId = response.placeId;
+
+      try {
+        final imageUploadRequests = await Future.wait(
+          createPlaceModel.images.map(
+            (image) => _modelsConverter.convertXFileToUploadImageRequest(
+              placeId,
+              image,
+            ),
+          ),
+        );
+        await _apiClient.uploadImages(
+          Stream.fromIterable(imageUploadRequests),
+        );
+
+        return placeId;
+      } on GrpcError catch (error) {
+        throw error.toCustomGrpcException(featureName: 'UploadImages');
+      }
+    } on GrpcError catch (error) {
+      throw error.toCustomGrpcException(featureName: 'CreatePlace');
+    }
+  }
+
+  @override
+  Future<CreateRouteResponse> createRoute(CreateRouteModel route) async {
+    _logger.d('try to create route');
+
+    try {
+      final protoRoute =
+          _modelsConverter.convertCreateRouteModelToCreateRouteRequest(
+        route,
+      );
+
+      final response = await _apiClient.createRoute(protoRoute);
+
+      _logger.d('route created: $response');
+      return response;
+    } on GrpcError catch (error) {
+      throw error.toCustomGrpcException(featureName: 'CreateRoute');
+    }
+  }
+}
+\end{minted}
+
+\textbf{grpc\_exceptions.dart}
+\begin{minted}{dart}
+import 'package:grpc/grpc.dart';
+
+sealed class BaseGrpcException implements Exception {
+  final String featureName;
+  final String? details;
+  final int? code;
+
+  const BaseGrpcException({
+    required this.featureName,
+    this.details,
+    this.code,
+  });
+}
+
+class AlreadyExistsGrpcException extends BaseGrpcException {
+  const AlreadyExistsGrpcException({
+    required super.featureName,
+    super.details,
+    super.code,
+  });
+
+  @override
+  String toString() => '${featureName}AlreadyExistsGrpcException';
+}
+
+class InvalidArgumentGrpcException extends BaseGrpcException {
+  const InvalidArgumentGrpcException({
+    required super.featureName,
+    super.details,
+    super.code,
+  });
+
+  @override
+  String toString() => '${featureName}InvalidArgumentGrpcException';
+}
+
+class InternalServerGrpcException extends BaseGrpcException {
+  const InternalServerGrpcException({
+    required super.featureName,
+    super.details,
+    super.code,
+  });
+
+  @override
+  String toString() => '${featureName}InternalServerGrpcException';
+}
+
+class UnknownGrpcException extends BaseGrpcException {
+  const UnknownGrpcException({
+    required super.featureName,
+    super.details,
+    super.code,
+  });
+
+  @override
+  String toString() => '${featureName}UnknownGrpcException';
+}
+
+extension GrpcErrorToException on GrpcError {
+  BaseGrpcException toCustomGrpcException({
+    required String featureName,
+  }) =>
+      switch (this) {
+        GrpcError.alreadyExists => AlreadyExistsGrpcException(
+            featureName: featureName,
+            details: message,
+            code: code,
+          ),
+        GrpcError.invalidArgument => InvalidArgumentGrpcException(
+            featureName: featureName,
+            details: message,
+            code: code,
+          ),
+        GrpcError.internal => InternalServerGrpcException(
+            featureName: featureName,
+            details: message,
+            code: code,
+          ),
+        _ => UnknownGrpcException(
+            featureName: featureName,
+            details: message,
+            code: code,
+          ),
+      };
+}
+\end{minted}
+
+\textbf{routes\_state.dart}
+\begin{minted}{dart}
+part of 'routes_bloc.dart';
+
+sealed class RoutesState with EquatableMixin {
+  const RoutesState();
+}
+
+final class RoutesLoadSuccess extends RoutesState {
+  final RouteModels routes;
+  final UserFilterRoutesParams? userFilterRoutesParams;
+
+  const RoutesLoadSuccess({required this.routes, this.userFilterRoutesParams});
+
+  @override
+  List<Object?> get props => [routes, userFilterRoutesParams];
+}
+
+final class RoutesInitial extends RoutesState {
+  @override
+  List<Object?> get props => [];
+}
+
+final class RoutesLoadInProgress extends RoutesState {
+  @override
+  List<Object?> get props => [];
+}
+
+final class RoutesLoadFailure extends RoutesState {
+  @override
+  List<Object?> get props => [];
+}
+\end{minted}
+
+\textbf{routes\_event.dart}
+\begin{minted}{dart}
+part of 'routes_bloc.dart';
+
+sealed class RoutesEvent extends Equatable {
+  const RoutesEvent();
+}
+
+final class RoutesFetched extends RoutesEvent {
+  final UserFilterRoutesParams? userFilterRoutesParams;
+
+  const RoutesFetched({
+    this.userFilterRoutesParams,
+  });
+
+  @override
+  List<Object?> get props => [userFilterRoutesParams];
+}
+\end{minted}
+
+
+</rewritten_file>

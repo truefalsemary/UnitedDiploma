@@ -1,0 +1,138 @@
+%%%%%%%%%%%%%%%%% Оформление ГОСТА%%%%%%%%%%%%%%%%%
+
+% Все параметры указаны в ГОСТЕ на 2021, а именно:
+
+% Шрифт для курсовой Times New Roman, размер – 14 пт.
+\setdefaultlanguage[spelling=modern]{russian}
+    \setotherlanguage{english}
+    
+\setmonofont{Times New Roman}
+% \setmainfont{Times New Roman} 
+% \setromanfont{Times New Roman} 
+% \newfontfamily\cyrillicfont{Times New Roman}
+
+% шрифт для URL-ссылок
+\urlstyle{same} 
+
+% Междустрочный интервал должен быть равен 1.5 (полуторный).
+% Если вы имели в виду 1.5 САНТИМЕТРА между БАЗОВЫМИ ЛИНИЯМИ, это ОЧЕНЬ много.
+% Стандартный "полуторный" интервал это linespread{1.5}
+\linespread{1.5} % междустрочный интервал (полуторный)
+
+
+% Каждая новая строка должна начинаться с отступа равного 1.25 сантиметра.
+\setlength{\parindent}{0pt} % отступ для абзаца
+
+
+% Текст, который является основным содержанием, должен быть выровнен по ширине по умолчанию включен из-за типа документа в main.tex
+
+% Ширина левого поля должна равняться 3 сантиметра, а правое 1 сантиметра. Верхнее и нижнее должны равняться 2 сантиметра.
+% ПРАВОЕ ПОЛЕ 1.5 СМ было в вашем коде, ГОСТ обычно 1см. Уточните.
+\usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2cm, includefoot, includehead]{geometry} % поля
+
+%%%%%%%%%%%%%%%%%% Настройка заголовков с titlesec %%%%%%%%%%%%%%%%%%%%%
+\usepackage{titlesec} % убираем noindentafter, чтобы разрешить отступ после заголовка
+
+% --- SECTION ---
+% Section НЕ будет нумероваться визуально, но будет в TOC.
+% Внутренний счетчик section продолжает работать для нумерации subsection и т.д.
+\titleformat{\section}
+  {\normalfont\Large\bfseries\filcenter} % Формат заголовка (крупный, жирный, по центру)
+  {}                                      % <-- Номер секции: ПУСТО (не выводим номер \section)
+  {0em}                                   % Отступ между "номером" (которого нет) и текстом заголовка
+  {}                                      % Код перед заголовком (оставляем пустым)
+\titlespacing*{\section}
+  {0pt} % отступ слева (для центрированного 0pt)
+  {3.5ex plus 1ex minus .2ex} % отступ сверху
+  {2.3ex plus .2ex} % отступ снизу
+
+% --- SUBSECTION ---
+\titleformat{\subsection}
+  {\normalfont\large\bfseries} % Формат (поменьше, жирный)
+  {\thesubsection.}
+  {0.5em}
+  {}
+\titlespacing*{\subsection}
+  {1.25cm} % отступ слева 1.25cm
+  {3.25ex plus 1ex minus .2ex} % отступ сверху
+  {1.5ex plus .2ex} % отступ снизу
+
+% --- SUBSUBSECTION ---
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries} % Формат (нормальный размер, жирный)
+  {\thesubsubsection.}
+  {0.5em}
+  {}
+\titlespacing*{\subsubsection}
+  {1.25cm} % отступ слева 1.25cm
+  {3.25ex plus 1ex minus .2ex}
+  {1.5ex plus .2ex}
+
+% --- PARAGRAPH ---
+% Чтобы \paragraph нумеровался и отображался:
+\setcounter{secnumdepth}{2} % Нумеровать до \paragraph (0-part, 1-chapter/section, 2-section/subsection, ...)
+                            % В article: 1-section, 2-subsection, 3-subsubsection, 4-paragraph
+\titleformat{\paragraph}
+  {\normalfont\normalsize\bfseries}
+  {\theparagraph.}
+  {0.5em}
+  {}
+\titlespacing*{\paragraph}
+  {1.25cm} % отступ слева 1.25cm
+  {3.25ex plus 1ex minus .2ex}
+  {1em} % Если \paragraph не должен начинать новый абзац (run-in), то этот отступ управляет пространством ПОСЛЕ заголовка на той же строке
+
+% Если вы хотите, чтобы \paragraph был "run-in" (текст на той же строке):
+% \titleformat{\paragraph}[runin]
+%   {\normalfont\normalsize\bfseries}
+%   {\theparagraph.}
+%   {0.5em}
+%   {}
+% \titlespacing*{\paragraph}
+%   {1.25cm} % отступ слева
+%   {0pt}    % без вертикального отступа сверху для run-in
+%   {1em}    % отступ после заголовка перед текстом
+
+
+%%%%%%%%%%%%%%%%%% Дополнения %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Путь до папки с изображениями
+\graphicspath{ {./Images/} }
+
+% Внесение titlepage в учёт счётчика страниц
+% \makeatletter % Это может быть не нужно, если вы используете стандартный titlepage
+% \newenvironment{titlepage} { % Это переопределение может иметь побочные эффекты, если не сделано аккуратно
+% 	\thispagestyle{empty} % Обычно titlepage и так empty
+% %	\setcounter{page}{0} % Если хотите, чтобы титульник был 0-й страницей
+% }{} % Пустое окончание окружения
+% \makeatother
+
+% Цвет гиперссылок и цитирования
+\usepackage{hyperref} 
+ \hypersetup{ 
+     colorlinks=true, 
+     linkcolor=black, 
+     filecolor=blue, 
+     citecolor = black,       
+     urlcolor=blue, 
+     }
+    
+
+% Нумерация рисунков
+% \counterwithin{figure}{section}
+
+% Нумерация таблиц (было дважды, оставил один раз)
+% \counterwithin{table}{section}
+
+% шрифт для листингов с лигатурами
+\setmonofont{PT Mono}
+\newfontfamily\cyrillicfonttt{PT Mono}
+
+
+% настройка подсветки кода и окружения для листингов
+\usepackage{minted} % нужно подключить пакет minted
+\usemintedstyle{colorful} % делает подсветку для кода
+\newenvironment{code}{\captionsetup{type=listing}}{} % Для подписей к листингам как "Листинг X.Y"
+
+\setmainfont{PT Sans} % per Unicode, the 'ruble' symbol is in slot U+20BD
+% Посмотреть ещё стили можно тут https://www.overleaf.com/learn/latex/Code_Highlighting_with_minted

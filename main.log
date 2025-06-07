@@ -1,0 +1,4651 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.5.18)  7 JUN 2025 16:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/local/texlive/2025/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2025/texmf-dist/tex/latex/extsizes/size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen141
+)
+\c@part=\count192
+\c@section=\count193
+\c@subsection=\count194
+\c@subsubsection=\count195
+\c@paragraph=\count196
+\c@subparagraph=\count197
+\c@figure=\count198
+\c@table=\count199
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen142
+)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 13.
+
+(./Settings/packages.tex
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty
+Package: polyglossia 2025/01/31 v2.4 Modern multilingual typesetting with XeLaT
+eX and LuaLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count266
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count267
+\l__pdf_internal_box=\box52
+\g__pdf_backend_annotation_int=\count268
+\g__pdf_backend_link_int=\count269
+))
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count270
+\l__fontspec_language_int=\count271
+\l__fontspec_strnum_int=\count272
+\l__fontspec_tmp_int=\count273
+\l__fontspec_tmpa_int=\count274
+\l__fontspec_tmpb_int=\count275
+\l__fontspec_tmpc_int=\count276
+\l__fontspec_em_int=\count277
+\l__fontspec_emdef_int=\count278
+\l__fontspec_strong_int=\count279
+\l__fontspec_strongdef_int=\count280
+\l__fontspec_tmpa_dim=\dimen143
+\l__fontspec_tmpb_dim=\dimen144
+\l__fontspec_tmpc_dim=\dimen145
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+\l_xpg_alias_keyvals_int=\count281
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
+File: gloss-latex.ldf polyglossia: module for default language
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count282
+\calc@Bcount=\count283
+\calc@Adimen=\dimen146
+\calc@Bdimen=\dimen147
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count284
+\calc@Cskip=\skip53
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen148
+\ESO@tempdimb=\dimen149
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 274.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+)
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+\AM@pagewidth=\dimen152
+\AM@pageheight=\dimen153
+\AM@fboxrule=\dimen154
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/ppxetex.def
+File: ppxetex.def 2025/01/30 v0.6e Pdfpages driver for XeTeX (AM)
+)
+\pdfpages@includegraphics@status=\count285
+\AM@pagebox=\box53
+\AM@global@opts=\toks18
+\AM@pagecnt=\count286
+\AM@toc@title=\toks19
+\AM@lof@heading=\toks20
+\c@AM@survey=\count287
+\AM@templatesizebox=\box54
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tocvsec2/tocvsec2.sty
+Package: tocvsec2 2014/03/10 v1.3a variable ToC section entries
+\c@max@tocdepth=\count288
+\c@max@secnumdepth=\count289
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen155
+\captionmargin=\dimen156
+\caption@leftmargin=\dimen157
+\caption@rightmargin=\dimen158
+\caption@width=\dimen159
+\caption@indent=\dimen160
+\caption@parindent=\dimen161
+\caption@hangindent=\dimen162
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count290
+\c@continuedfloat=\count291
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2025/03/06 v3.6.0 Yet another Pygments shim for LaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2025/03/04 v1.12.0 fvextra - extensions and patches for fancyv
+rb
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count292
+\FV@InFile=\read2
+\FV@TabBox=\box55
+\c@FancyVerbLine=\count293
+\FV@StepNumber=\count294
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2025/01/29 line numbers on paragraphs v5.4
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count295
+\output=\toks21
+\linenoprevgraf=\count296
+\linenumbersep=\dimen163
+\linenumberwidth=\dimen164
+\c@linenumber=\count297
+\c@pagewiselinenumber=\count298
+\c@LN@truepage=\count299
+\c@internallinenumber=\count300
+\c@internallinenumbers=\count301
+\quotelinenumbersep=\dimen165
+\bframerule=\dimen166
+\bframesep=\dimen167
+\bframebox=\box56
+LaTeX Info: Redefining \\ on input line 3187.
+)
+\c@FancyVerbWriteLine=\count302
+\c@FancyVerbBufferLine=\count303
+\c@FV@TrueTabGroupLevel=\count304
+\c@FV@TrueTabCounter=\count305
+\FV@TabBox@Group=\box57
+\FV@bgcolorstructbox=\box58
+\FV@TmpLength=\skip54
+\c@FV@HighlightLinesStart=\count306
+\c@FV@HighlightLinesStop=\count307
+\FV@LoopCount=\count308
+\FV@NCharsBox=\box59
+\FV@BreakIndent=\dimen168
+\FV@BreakIndentNChars=\count309
+\FV@BreakSymbolSepLeft=\dimen169
+\FV@BreakSymbolSepLeftNChars=\count310
+\FV@BreakSymbolSepRight=\dimen170
+\FV@BreakSymbolSepRightNChars=\count311
+\FV@BreakSymbolIndentLeft=\dimen171
+\FV@BreakSymbolIndentLeftNChars=\count312
+\FV@BreakSymbolIndentRight=\dimen172
+\FV@BreakSymbolIndentRightNChars=\count313
+\c@FancyVerbLineBreakLast=\count314
+\FV@LineBox=\box60
+\FV@LineIndentBox=\box61
+\c@FV@BreakBufferDepth=\count315
+\FV@LineWidth=\dimen173
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
+Package: latex2pydata 2025/03/03 v0.5.0 latex2pydata - write data to file in Py
+thon literal format
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks22
+\pgfkeys@temptoks=\toks23
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks24
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks25
+\pgfopts@list@add@b@toks=\toks26
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count316
+\float@exts=\toks27
+\float@box=\box62
+\@float@everytoks=\toks28
+\@floatcapt=\box63
+)
+\c@minted@FancyVerbLineTemp=\count317
+\@float@every@listing=\toks29
+\c@listing=\count318
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count319
+\lst@gtempboxa=\box64
+\lst@token=\toks30
+\lst@length=\count320
+\lst@currlwidth=\dimen174
+\lst@column=\count321
+\lst@pos=\count322
+\lst@lostspace=\dimen175
+\lst@width=\dimen176
+\lst@newlines=\count323
+\lst@lineno=\count324
+\lst@maxwidth=\dimen177
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count325
+\lst@skipnumbers=\count326
+\lst@framebox=\box65
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks31
+\ex@=\dimen178
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen179
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count327
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count328
+\leftroot@=\count329
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count330
+\DOTSCASE@=\count331
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box66
+\strutbox@=\box67
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen180
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count332
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count333
+\dotsspace@=\muskip17
+\c@parentequation=\count334
+\dspbrk@lvl=\count335
+\tag@help=\toks32
+\row@=\count336
+\column@=\count337
+\maxfields@=\count338
+\andhelp@=\toks33
+\eqnshift@=\dimen181
+\alignsep@=\dimen182
+\tagshift@=\dimen183
+\tagwidth@=\dimen184
+\totwidth@=\dimen185
+\lineht@=\dimen186
+\@envbody=\toks34
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks35
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+\@LN@amsmath@ams@eqpen=\count339
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip58
+\bibsep=\skip59
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count340
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count341
+\multirow@dima=\skip61
+\bigstrutjot=\dimen187
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count342
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen188
+\Hy@linkcounter=\count343
+\Hy@pagecounter=\count344
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count345
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count346
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen189
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count347
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count348
+\c@Item=\count349
+\c@Hfootnote=\count350
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
+\pdfm@box=\box68
+\c@Hy@AnnotLevel=\count351
+\HyField@AnnotCount=\count352
+\Fld@listcount=\count353
+\c@bookmark@seq@number=\count354
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip62
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen192
+\pgfutil@tempdimb=\dimen193
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box69
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen194
+\pgf@y=\dimen195
+\pgf@xa=\dimen196
+\pgf@ya=\dimen197
+\pgf@xb=\dimen198
+\pgf@yb=\dimen199
+\pgf@xc=\dimen256
+\pgf@yc=\dimen257
+\pgf@xd=\dimen258
+\pgf@yd=\dimen259
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count355
+\c@pgf@countb=\count356
+\c@pgf@countc=\count357
+\c@pgf@countd=\count358
+\t@pgf@toka=\toks37
+\t@pgf@tokb=\toks38
+\t@pgf@tokc=\toks39
+\pgf@sys@id@count=\count359
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count360
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count361
+\pgfsyssoftpath@bigbuffer@items=\count362
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen260
+\pgfmath@count=\count363
+\pgfmath@box=\box70
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count364
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen261
+\pgf@picmaxx=\dimen262
+\pgf@picminy=\dimen263
+\pgf@picmaxy=\dimen264
+\pgf@pathminx=\dimen265
+\pgf@pathmaxx=\dimen266
+\pgf@pathminy=\dimen267
+\pgf@pathmaxy=\dimen268
+\pgf@xx=\dimen269
+\pgf@xy=\dimen270
+\pgf@yx=\dimen271
+\pgf@yy=\dimen272
+\pgf@zx=\dimen273
+\pgf@zy=\dimen274
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen275
+\pgf@path@lasty=\dimen276
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen277
+\pgf@shorten@start@additional=\dimen278
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box71
+\pgf@hbox=\box72
+\pgf@layerbox@main=\box73
+\pgf@picture@serial@count=\count365
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen279
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen280
+\pgf@pt@y=\dimen281
+\pgf@pt@temp=\dimen282
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen283
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen284
+\pgf@sys@shading@range@num=\count366
+\pgf@shadingcount=\count367
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box74
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box75
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen285
+\pgf@nodesepend=\dimen286
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen287
+\pgffor@skip=\dimen288
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+))
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count368
+\pgfplotmarksize=\dimen289
+)
+\tikz@lastx=\dimen290
+\tikz@lasty=\dimen291
+\tikz@lastxsaved=\dimen292
+\tikz@lastysaved=\dimen293
+\tikz@lastmovetox=\dimen294
+\tikz@lastmovetoy=\dimen295
+\tikzleveldistance=\dimen296
+\tikzsiblingdistance=\dimen297
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count369
+\tikznumberofchildren=\count370
+\tikznumberofcurrentchild=\count371
+\tikz@fig@count=\count372
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count373
+\pgfmatrixcurrentcolumn=\count374
+\pgf@matrix@numberofcolumns=\count375
+)
+\tikz@expandcount=\count376
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))))
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 17.
+
+(./Settings/format.tex
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-russian.ldf
+File: gloss-russian.ldf polyglossia: module for Russian
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/xpg-cyrillicnumbers.s
+ty
+Package: xpg-cyrillicnumbers 2019/11/15 v0.2 Formatting of Cyrillic alphabetic 
+numbers
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/babelsh.def
+File: babelsh.def 2022/06/21 Babel common definitions for shorthands
+ Taken verbatim from babel files (2022/06/06 v3.76)
+)
+Package babel Info: Making " an active character on input line 115.
+)
+
+Package polyglossia Info: Default language is russian
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
+File: gloss-english.ldf polyglossia: module for English
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
+(fontspec)             New Roman' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Times New
+(fontspec)             Roman/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/I/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
+(fontspec)             Roman/BI/OT:script=latn;language=dflt;"
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count377
+\Gm@cntv=\count378
+\c@Gm@tempcnt=\count379
+\Gm@bindingoffset=\dimen298
+\Gm@wd@mp=\dimen299
+\Gm@odd@mp=\dimen300
+\Gm@even@mp=\dimen301
+\Gm@layoutwidth=\dimen302
+\Gm@layoutheight=\dimen303
+\Gm@layouthoffset=\dimen304
+\Gm@layoutvoffset=\dimen305
+\Gm@dimlist=\toks45
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box80
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen306
+\ttl@minus=\dimen307
+\ttl@toksa=\toks46
+\titlewidth=\dimen308
+\titlewidthlast=\dimen309
+\titlewidthfirst=\dimen310
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 118.
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "PT Mono/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'PTMono(0)' created for font 'PT Mono' with
+(fontspec)             options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"PT
+(fontspec)             Mono/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"PT
+(fontspec)             Mono/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"PT
+(fontspec)             Mono/BI/OT:script=latn;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "PT Mono/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'PTMono(1)' created for font 'PT Mono' with
+(fontspec)             options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"PT
+(fontspec)             Mono/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"PT
+(fontspec)             Mono/B/OT:script=latn;language=dflt;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"PT
+(fontspec)             Mono/BI/OT:script=latn;language=dflt;"
+
+)
+
+Package fontspec Info: 
+(fontspec)             Font family 'PTSans(0)' created for font 'PT Sans' with
+(fontspec)             options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"PT
+(fontspec)             Sans/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"PT
+(fontspec)             Sans/B/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"PT
+(fontspec)             Sans/I/OT:script=latn;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"PT
+(fontspec)             Sans/BI/OT:script=latn;language=dflt;mapping=tex-text;"
+
+
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 21.
+
+(./Settings/listings.tex)
+
+Package fontspec Info: 
+(fontspec)             Font family 'PTSans(1)' created for font 'PT Sans' with
+(fontspec)             options [Ligatures=TeX,Script=Cyrillic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"PT
+(fontspec)             Sans/OT:script=cyrl;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"PT
+(fontspec)             Sans/B/OT:script=cyrl;language=dflt;mapping=tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"PT
+(fontspec)             Sans/I/OT:script=cyrl;language=dflt;mapping=tex-text;"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"PT
+(fontspec)             Sans/BI/OT:script=cyrl;language=dflt;mapping=tex-text;"
+
+
+No file main.aux.
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 26.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 26.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 26.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 26.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 26.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 26.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 26.
+LaTeX Font Info:    Redeclaring math accent \check on input line 26.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 26.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 26.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 26.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 26.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 26.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/PTSans(0)/m/n on input line 26.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/PTSans(0)/m/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/PTSans(0)/m/n --> TU/PTSans(0)/m/n on input line 26.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/PTSans(0)/m/it on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/PTSans(0)/b/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/PTMono(0)/m/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/PTSans(0)/m/n --> TU/PTSans(0)/b/n on input line 26.
+
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/PTSans(0)/b/it on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 26.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/PTMono(0)/b/n on input line 26.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
+
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count380
+Package hyperref Info: Link coloring ON on input line 26.
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(85.35826pt, 469.47049pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=469.47049pt
+* \textheight=662.23584pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-15.36449pt
+* \headheight=14.0pt
+* \headsep=25.0pt
+* \topskip=14.0pt
+* \footskip=30.0pt
+* \marginparwidth=15.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\openout2 = `macros.aux'.
+
+(./macros.tex)
+File: titlepage.pdf Graphic file (type pdf)
+<use titlepage.pdf>
+File: titlepage.pdf Graphic file (type pdf)
+<use titlepage.pdf, page 1>
+File: titlepage.pdf Graphic file (type pdf)
+<use titlepage.pdf, page 1>
+File: titlepage.pdf Graphic file (type pdf)
+<use titlepage.pdf, page 1>
+File: titlepage.pdf Graphic file (type pdf)
+<use titlepage.pdf, page 1>
+
+
+File: titlepage.pdf Graphic file (type pdf)
+<use titlepage.pdf, page 1>
+[1
+
+
+
+
+
+]
+\openout2 = `tocpage.aux'.
+
+ (./tocpage.tex
+No file main.toc.
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+
+
+[2
+
+])
+\openout2 = `Chapters/introduction.aux'.
+
+ (./Chapters/introduction.tex
+
+[3
+
+
+
+]
+Overfull \hbox (14.14023pt too wide) in paragraph at lines 8--9
+[]\TU/PTSans(1)/m/n/14.4 По данным Федеральной службы государственной статистик
+и (Росстат), вклад
+ []
+
+
+Package natbib Warning: Citation `12' on page 4 undefined on input line 12.
+
+
+
+[4]
+Overfull \hbox (7.99014pt too wide) in paragraph at lines 15--17
+\TU/PTSans(1)/m/n/14.4 круга внутренних путешественников и тем самым стимулиров
+ать социально-
+ []
+
+
+
+[5]
+Overfull \hbox (15.80933pt too wide) in paragraph at lines 18--19
+[]\TU/PTSans(1)/b/n/14.4 Бизнес-аналитика и стратегия монетизации \TU/PTSans(1)
+/m/n/14.4 – исследовать рынок travel-
+ []
+
+
+Overfull \hbox (8.29256pt too wide) in paragraph at lines 21--22
+[]\TU/PTSans(1)/b/n/14.4 Разработка масштабируемого серверного ядра \TU/PTSans(
+1)/m/n/14.4 – спроектировать мик-
+ []
+
+)
+
+[6]
+\openout2 = `Chapters/first_chapter_business.aux'.
+
+ (./Chapters/first_chapter_business.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
+
+
+Overfull \hbox (5.75816pt too wide) in paragraph at lines 12--13
+[]\TU/PTSans(1)/m/n/14.4 Возможность выбора и создания маршрутов с учётом разли
+чных слож-
+ []
+
+
+
+[7
+
+
+
+]
+Overfull \hbox (10.20099pt too wide) in paragraph at lines 22--23
+\TU/PTSans(1)/m/n/14.4 единенных сходными характеристиками и потребностями. Сег
+ментация важ-
+ []
+
+
+Overfull \hbox (1.7431pt too wide) in paragraph at lines 24--25
+\TU/PTSans(1)/m/n/14.4 руты умеренной сложности, с наличием инфраструктуры (туа
+леты, ме-
+ []
+
+
+
+[8]
+
+[9]
+
+[10]
+Overfull \hbox (2.99461pt too wide) in paragraph at lines 38--39
+[]\TU/PTSans(1)/m/n/14.4 Доступ к карточке маршрута, содержащей развернутое тек
+стовое опи-
+ []
+
+
+Overfull \hbox (10.42502pt too wide) in paragraph at lines 39--40
+[]\TU/PTSans(1)/m/n/14.4 Визуализация маршрутов посредством качественных фотогр
+афий, поз-
+ []
+
+
+
+[11]
+Overfull \hbox (0.40263pt too wide) in paragraph at lines 59--60
+[]\TU/PTSans(1)/m/n/14.4 Наличие специализированного фильтра для поиска маршрут
+ов, адап-
+ []
+
+
+Overfull \hbox (5.0983pt too wide) in paragraph at lines 61--62
+\TU/PTSans(1)/m/n/14.4 мацию о наличии пандусов, ширине дорожек, доступности об
+ществен-
+ []
+
+
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+Overfull \hbox (6.97032pt too wide) in paragraph at lines 107--108
+[]\TU/PTSans(1)/m/n/14.4 Как студент, часто путешествующий в компании друзей-ро
+весников, я стрем-
+ []
+
+
+
+[16]
+Overfull \hbox (11.80742pt too wide) in paragraph at lines 124--125
+\TU/PTSans(1)/m/n/14.4 вательских предпочтений в удобной веб-панели администрат
+ора, обес-
+ []
+
+
+Overfull \hbox (10.10822pt too wide) in paragraph at lines 128--130
+\TU/PTSans(1)/m/n/14.4 ные территории России), я нуждаюсь в функционале офлайн-
+доступа к марш-
+ []
+
+
+
+[17]
+
+[18]
+Overfull \hbox (12.28264pt too wide) in paragraph at lines 147--148
+\TU/PTSans(1)/m/n/14.4 висом, предоставляя исчерпывающую информацию о доступных
+ марш-
+ []
+
+
+Overfull \hbox (2.98022pt too wide) in paragraph at lines 149--150
+\TU/PTSans(1)/m/n/14.4 ние пользовательского контента, вовлечение тревел-блогер
+ов и опыт-
+ []
+
+
+
+[19]
+Overfull \hbox (0.94179pt too wide) in paragraph at lines 161--162
+[]\TU/PTSans(1)/m/n/14.4 Сохранение избранных маршрутов и функция их обмена. Да
+нная воз-
+ []
+
+
+
+[20]
+Overfull \hbox (7.66022pt too wide) in paragraph at lines 171--172
+[]\TU/PTSans(1)/m/n/14.4 Персонализированные рекомендации маршрутов, основанные
+ на ана-
+ []
+
+
+
+[21]
+
+[22]
+
+[23]
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[]\TU/PTSans(1)/b/n/14.4 2023
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[]\TU/PTSans(1)/b/n/14.4 2024
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]\TU/PTSans(1)/m/n/14.4 78-160
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
+[]\TU/PTSans(1)/m/n/14.4 92-170
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]\TU/PTSans(1)/m/n/14.4 740 млрд
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--215
+[]\TU/PTSans(1)/m/n/14.4 917 млрд
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[]\TU/PTSans(1)/m/n/14.4 4,3 трлн
+ []
+
+
+Underfull \hbox (badness 5490) in paragraph at lines 217--217
+[]\TU/PTSans(1)/m/n/14.4 2-2,2 трлн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 217--217
+\TU/PTSans(1)/m/n/14.4 руб. (про-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--219
+[]\TU/PTSans(1)/m/n/14.4 256 млрд
+ []
+
+
+Overfull \hbox (5.32082pt too wide) in paragraph at lines 208--222
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (1.55466pt too wide) in paragraph at lines 229--230
+\TU/PTSans(1)/m/n/14.4 проекта, поскольку позволяет выявить ключевые тенденции 
+и лучшие прак-
+ []
+
+
+
+[25]
+
+[26]
+Overfull \hbox (12.09413pt too wide) in paragraph at lines 237--238
+[]\TU/PTSans(1)/m/n/14.4 Развитая многофункциональность и интеграция с обществе
+нным транс-
+ []
+
+
+Overfull \hbox (13.35207pt too wide) in paragraph at lines 250--252
+[]\TU/PTSans(1)/m/n/14.4 Выводы и перспективы: Несмотря на выявленные ограничен
+ия, Яндекс.Карты
+ []
+
+
+Overfull \hbox (5.55783pt too wide) in paragraph at lines 250--252
+\TU/PTSans(1)/m/n/14.4 Яндекс.Карт, предоставив путешественникам продвинутые ин
+струменты для
+ []
+
+
+
+[27]
+Overfull \hbox (0.35814pt too wide) in paragraph at lines 259--260
+[]\TU/PTSans(1)/m/n/14.4 Международное присутствие и широкая географическая дос
+тупность.
+ []
+
+
+
+[28]
+Overfull \hbox (3.53378pt too wide) in paragraph at lines 260--261
+[]\TU/PTSans(1)/m/n/14.4 Высокая степень вовлечённости аудитории. Благодаря акт
+ивной поль-
+ []
+
+
+Overfull \hbox (7.85379pt too wide) in paragraph at lines 261--262
+[]\TU/PTSans(1)/m/n/14.4 Комплексная интеграция с сервисами бронирования. Платф
+орма обес-
+ []
+
+
+
+[29]
+Overfull \hbox (11.20132pt too wide) in paragraph at lines 269--270
+[]\TU/PTSans(1)/m/n/14.4 Ограниченные возможности фильтрации по специализирован
+ным кри-
+ []
+
+
+Overfull \hbox (14.83778pt too wide) in paragraph at lines 269--270
+\TU/PTSans(1)/m/n/14.4 териям. TripAdvisor предлагает недостаточно гибкие инстр
+ументы филь-
+ []
+
+
+Overfull \hbox (6.69415pt too wide) in paragraph at lines 273--275
+\TU/PTSans(1)/m/n/14.4 чественно новые возможности персонализированного планиро
+вания марш-
+ []
+
+
+Overfull \hbox (2.34663pt too wide) in paragraph at lines 273--275
+\TU/PTSans(1)/m/n/14.4 рутов, детализированной фильтрации по специфическим крит
+ериям и улуч-
+ []
+
+
+
+[30]
+Overfull \hbox (0.47333pt too wide) in paragraph at lines 277--278
+[]\TU/PTSans(1)/m/n/14.4 Russpass является специализированной цифровой туристич
+еской платфор-
+ []
+
+
+Overfull \hbox (12.31143pt too wide) in paragraph at lines 281--282
+\TU/PTSans(1)/m/n/14.4 гих мест размещения, приобретение билетов на различные в
+иды транс-
+ []
+
+
+Overfull \hbox (8.51111pt too wide) in paragraph at lines 281--282
+\TU/PTSans(1)/m/n/14.4 порта, заказ экскурсий, а также планирование развлекател
+ьных и куль-
+ []
+
+
+Overfull \hbox (0.49539pt too wide) in paragraph at lines 281--282
+\TU/PTSans(1)/m/n/14.4 турных мероприятий. Такая комплексная интеграция различн
+ых услуг
+ []
+
+
+Overfull \hbox (3.84294pt too wide) in paragraph at lines 281--282
+\TU/PTSans(1)/m/n/14.4 позволяет минимизировать затраты времени на организацион
+ные во-
+ []
+
+
+
+[31]
+Overfull \hbox (8.58311pt too wide) in paragraph at lines 282--283
+\TU/PTSans(1)/m/n/14.4 проектом, инициированным Правительством Москвы, она акти
+вно вза-
+ []
+
+
+Overfull \hbox (28.76257pt too wide) in paragraph at lines 284--285
+[]\TU/PTSans(1)/m/n/14.4 Интуитивность интерфейса и удобство эксплуатации. Плат
+форма Russpass
+ []
+
+
+
+[32]
+Overfull \hbox (4.36768pt too wide) in paragraph at lines 291--292
+\TU/PTSans(1)/m/n/14.4 функций. В отличие от более специализированных туристиче
+ских сер-
+ []
+
+
+Overfull \hbox (14.39139pt too wide) in paragraph at lines 292--293
+\TU/PTSans(1)/m/n/14.4 вого продвижения. Несмотря на поддержку на государственн
+ом уровне,
+ []
+
+
+Overfull \hbox (15.43497pt too wide) in paragraph at lines 295--297
+\TU/PTSans(1)/m/n/14.4 бильное приложение «Путешествия по России» способно допо
+лнить Russpass,
+ []
+
+
+Overfull \hbox (11.15816pt too wide) in paragraph at lines 295--297
+\TU/PTSans(1)/m/n/14.4 предлагая туристам более глубокие возможности для персон
+ализации марш-
+ []
+
+
+
+[33]
+
+[34]
+Overfull \hbox (5.4202pt too wide) in paragraph at lines 311--312
+[]\TU/PTSans(1)/m/n/14.4 Вариативность качества контента. Открытость платформы 
+и отсутствие
+ []
+
+
+
+[35]
+Overfull \hbox (36.24294pt too wide) in paragraph at lines 314--315
+\TU/PTSans(1)/m/n/14.4 ограничивать конкурентные преимущества и привлекательнос
+ть izi.TRAVEL
+ []
+
+
+
+[36]
+Overfull \hbox (7.83432pt too wide) in paragraph at lines 325--326
+\TU/PTSans(1)/m/n/14.4 гие), физическую подготовку пользователей, уровень сложн
+ости марш-
+ []
+
+
+
+[37]
+Overfull \hbox (1.40259pt too wide) in paragraph at lines 327--328
+[]\TU/PTSans(1)/m/n/14.4 Социальные функции и пользовательский контент. Пользов
+атели име-
+ []
+
+
+
+[38]
+Overfull \hbox (0.8266pt too wide) in paragraph at lines 349--350
+\TU/PTSans(1)/m/n/14.4 ную на автоматическое ведение и документирование путешес
+твий. Создан-
+ []
+
+
+
+[39]
+Overfull \hbox (3.18819pt too wide) in paragraph at lines 353--354
+[]\TU/PTSans(1)/m/n/14.4 Автоматическое отслеживание и документирование маршрут
+ов. Плат-
+ []
+
+
+Overfull \hbox (6.06183pt too wide) in paragraph at lines 353--354
+\TU/PTSans(1)/m/n/14.4 движения, создавая детализированный журнал путешествий б
+ез необ-
+ []
+
+
+Overfull \hbox (22.46974pt too wide) in paragraph at lines 354--355
+[]\TU/PTSans(1)/m/n/14.4 Создание персонализированных фотоальбомов и отчётов. С
+ервис предо-
+ []
+
+
+Overfull \hbox (5.8234pt too wide) in paragraph at lines 355--356
+[]\TU/PTSans(1)/m/n/14.4 Интерактивные карты путешествий. Пользователи имеют во
+зможность
+ []
+
+
+
+[40]
+Overfull \hbox (13.05217pt too wide) in paragraph at lines 363--364
+[]\TU/PTSans(1)/m/n/14.4 Вопросы конфиденциальности. Автоматическое документиро
+вание ме-
+ []
+
+
+
+[41]
+Overfull \hbox (8.99817pt too wide) in paragraph at lines 383--384
+[]\TU/PTSans(1)/m/n/14.4 Проект «Путешествия по России» предлагает пользователя
+м единый онлайн-
+ []
+
+
+
+[42]
+
+[43]
+
+[44]
+
+[45]
+Overfull \hbox (4.25378pt too wide) in paragraph at lines 404--405
+\TU/PTSans(1)/m/n/14.4 ные перевозчики. Интеграция с их системами бронирования 
+(или под-
+ []
+
+
+Overfull \hbox (3.82854pt too wide) in paragraph at lines 404--405
+\TU/PTSans(1)/m/n/14.4 ключение через GDS/агрегаторы) позволяет пользователям и
+скать би-
+ []
+
+
+Overfull \hbox (11.98277pt too wide) in paragraph at lines 405--406
+[]\TU/PTSans(1)/m/n/14.4 Экскурсионные и туроператоры: поставщики экскурсионных
+ программ,
+ []
+
+
+Overfull \hbox (2.38982pt too wide) in paragraph at lines 411--412
+[]\TU/PTSans(1)/m/n/14.4 Разработка и поддержка ИТ-платформы (включая разработк
+у, хостинг,
+ []
+
+
+
+[46]
+Overfull \hbox (37.41061pt too wide) in paragraph at lines 412--413
+[]\TU/PTSans(1)/m/n/14.4 Расходы на маркетинг и продвижение (онлайн-реклама, SE
+O-продвижение,
+ []
+
+
+
+[47]
+
+[48]
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+
+Overfull \hbox (3.2314pt too wide) in paragraph at lines 450--455
+\TU/PTSans(1)/m/n/14.4 курсии) как нативный контент в маршрутном приложении. До
+пустимая став-
+ []
+
+
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]\TU/PTSans(1)/b/n/14.4 Доход рекла-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]\TU/PTSans(1)/b/n/14.4 Доход комис-
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 460--461
+[]\TU/PTSans(1)/b/n/14.4 Всего, млн
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+[]\TU/PTSans(1)/m/n/14.4 (30000×70
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
+[]\TU/PTSans(1)/m/n/14.4 (30000×200
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
+[]\TU/PTSans(1)/m/n/14.4 (70000×180
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
+[]\TU/PTSans(1)/m/n/14.4 (70000×240
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]\TU/PTSans(1)/m/n/14.4 (120000×210
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]\TU/PTSans(1)/m/n/14.4 (120000×250
+ []
+
+
+Overfull \hbox (3.09444pt too wide) in paragraph at lines 458--469
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+
+
+[50]
+
+[51]
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+
+
+[52]
+Overfull \hbox (34.15494pt too wide) in paragraph at lines 485--486
+[]\TU/PTSans(1)/m/n/14.4 Проведён сравнительный анализ шести ключевых сервисов 
+(Яндекс.Карты,
+ []
+
+
+Overfull \hbox (4.86664pt too wide) in paragraph at lines 485--486
+\TU/PTSans(1)/m/n/14.4 ная база, комплексные услуги бронирования — и ограничени
+я — неод-
+ []
+
+
+
+[53]
+
+[54]
+Overfull \hbox (14.8314pt too wide) in paragraph at lines 495--496
+\TU/PTSans(1)/m/n/14.4 Таким образом, в главе 1 сформулированы четкие функциона
+льные и нефунк-
+ []
+
+)
+
+[55]
+\openout2 = `Chapters/second_chapter_backend_architecture.aux'.
+
+ (./Chapters/second_chapter_backend_architecture.tex
+Overfull \hbox (2.08488pt too wide) in paragraph at lines 2--3
+\TU/PTSans(1)/m/n/14.4 компонентных и ER моделей баз данных) и принципов органи
+зации DevOps
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 5.
+
+
+Overfull \hbox (10.38818pt too wide) in paragraph at lines 8--9
+\TU/PTSans(1)/m/n/14.4 языке Go (Golang) с использованием микросервисной архите
+ктуры. Это озна-
+ []
+
+
+Overfull \hbox (6.60097pt too wide) in paragraph at lines 10--11
+\TU/PTSans(1)/m/n/14.4 данных. Сервис аутентификации должен обеспечивать выдачу
+ средств
+ []
+
+
+
+[56
+
+
+
+]
+Overfull \hbox (6.842pt too wide) in paragraph at lines 11--12
+[]\TU/PTSans(1)/m/n/14.4 Сервис Profile (Управление профилем пользователя): Фун
+кционал про-
+ []
+
+
+
+[57]
+Overfull \hbox (0.794pt too wide) in paragraph at lines 13--14
+[]\TU/PTSans(1)/m/n/14.4 Сервис FileStorage (Хранение изображений и медиафайлов
+): для под-
+ []
+
+
+
+[58]
+Overfull \hbox (8.27815pt too wide) in paragraph at lines 14--15
+\TU/PTSans(1)/m/n/14.4 гистрации нового пользователя бэкенд с помощью сервиса N
+otification
+ []
+
+
+
+[59]
+Overfull \hbox (2.68039pt too wide) in paragraph at lines 20--21
+[]\TU/PTSans(1)/m/n/14.4 Масштабируемость и отказоустойчивость: Архитектура сис
+темы долж-
+ []
+
+
+Overfull \hbox (6.42053pt too wide) in paragraph at lines 20--21
+\TU/PTSans(1)/m/n/14.4 но запустить дополнительные экземпляры наиболее загружен
+ных сер-
+ []
+
+
+
+[60]
+Overfull \hbox (14.40198pt too wide) in paragraph at lines 21--22
+[]\TU/PTSans(1)/m/n/14.4 Безопасность: Важным нефункциональным требованием явля
+ется обес-
+ []
+
+
+Overfull \hbox (10.54271pt too wide) in paragraph at lines 23--24
+[]\TU/PTSans(1)/m/n/14.4 Безопасное хранение паролей: Все пользовательские паро
+ли хра-
+ []
+
+
+
+[61]
+
+[62]
+Overfull \hbox (1.40259pt too wide) in paragraph at lines 36--37
+[]\TU/PTSans(1)/m/n/14.4 Независимое масштабирование сервисов. Дробление прилож
+ения на
+ []
+
+
+
+[63]
+
+Package natbib Warning: Citation `6' on page 64 undefined on input line 37.
+
+
+Overfull \hbox (5.75139pt too wide) in paragraph at lines 40--41
+\TU/PTSans(1)/m/n/14.4 ных технологий контейнеризации и оркестрации. Каждый мик
+росервис упа-
+ []
+
+
+Overfull \hbox (35.68262pt too wide) in paragraph at lines 40--41
+\TU/PTSans(1)/m/n/14.4 кован в контейнер (Docker) и управляется оркестратором (
+например, Kubernetes),
+ []
+
+
+
+[64]
+Overfull \hbox (3.98694pt too wide) in paragraph at lines 43--44
+[]\TU/PTSans(1)/m/n/14.4 Микросервисная архитектура даёт следующие ключевые пре
+имущества для
+ []
+
+
+Package natbib Warning: Citation `5' on page 65 undefined on input line 45.
+
+
+Package natbib Warning: Citation `2' on page 65 undefined on input line 47.
+
+
+
+[65]
+Overfull \hbox (1.1252pt too wide) in paragraph at lines 48--49
+[]\TU/PTSans(1)/m/n/14.4 Разделение хранилищ данных: Каждый микросервис имеет с
+вою соб-
+ []
+
+
+Package natbib Warning: Citation `1' on page 66 undefined on input line 52.
+
+
+
+[66]
+Overfull \hbox (18.29924pt too wide) in paragraph at lines 56--58
+\TU/PTSans(1)/m/n/14.4 хронная обработка отдельных задач через брокер сообщений
+ NATS JetStream.
+ []
+
+
+Overfull \hbox (57.77605pt too wide) in paragraph at lines 56--58
+\TU/PTSans(1)/m/n/14.4 ному выполнению или мгновенному ответу, например: отправ
+ка email-уведомлений,
+ []
+
+
+Overfull \hbox (8.43784pt too wide) in paragraph at lines 56--58
+\TU/PTSans(1)/m/n/14.4 обработчики) подтверждают получение, что даёт гарантии д
+оставки по край-
+ []
+
+
+
+[67]
+
+[68]
+
+[69]
+File: Images/second_chapter_backend_architecture/Picture1.png Graphic file (typ
+e bmp)
+<Images/second_chapter_backend_architecture/Picture1.png>
+
+Overfull \hbox (4.7684pt too wide) in paragraph at lines 68--75
+\TU/PTSans(1)/m/n/14.4 ствия по России» рассматриваются следующие компоненты: к
+онечный поль-
+ []
+
+
+Overfull \hbox (27.7076pt too wide) in paragraph at lines 68--75
+\TU/PTSans(1)/m/n/14.4 зователь, мобильное клиентское приложение, серверная час
+ть, S3-совместимое
+ []
+
+
+
+[70]
+
+[71]
+Overfull \hbox (9.43016pt too wide) in paragraph at lines 84--85
+[]\TU/PTSans(1)/m/n/14.4 Activity Service — сервис обработки пользовательской а
+ктивности (лай-
+ []
+
+File: Images/second_chapter_backend_architecture/Picture2.png Graphic file (typ
+e bmp)
+<Images/second_chapter_backend_architecture/Picture2.png>
+
+Overfull \hbox (0.22855pt too wide) in paragraph at lines 93--99
+\TU/PTSans(1)/m/n/14.4 висы взаимодействуют между собой синхронно через gRPC-вы
+зовы и асин-
+ []
+
+
+
+[72]
+
+[73]
+File: Images/second_chapter_backend_architecture/Picture3.png Graphic file (typ
+e bmp)
+<Images/second_chapter_backend_architecture/Picture3.png>
+
+
+[74]
+Overfull \hbox (15.46375pt too wide) in paragraph at lines 124--125
+\TU/PTSans(1)/m/n/14.4 создания/обновления профиля и управления отношениями «по
+дписка–
+ []
+
+
+Overfull \hbox (22.67815pt too wide) in paragraph at lines 126--127
+[]\TU/PTSans(1)/m/n/14.4 FileStorage Client — клиентский модуль для взаимодейст
+вия с FileStorage
+ []
+
+File: Images/second_chapter_backend_architecture/Picture4.png Graphic file (typ
+e bmp)
+<Images/second_chapter_backend_architecture/Picture4.png>
+
+
+[75]
+
+[76]
+File: Images/second_chapter_backend_architecture/Picture5.png Graphic file (typ
+e bmp)
+<Images/second_chapter_backend_architecture/Picture5.png>
+
+
+[77]
+
+[78]
+Overfull \hbox (0.93544pt too wide) in paragraph at lines 155--156
+\TU/PTSans(1)/m/n/14.4 стопримечательности), route_places (связующая таблица ме
+жду routes
+ []
+
+File: Images/second_chapter_backend_architecture/Picture6.png Graphic file (typ
+e bmp)
+<Images/second_chapter_backend_architecture/Picture6.png>
+
+
+[79]
+File: Images/second_chapter_backend_architecture/Picture7.png Graphic file (typ
+e bmp)
+<Images/second_chapter_backend_architecture/Picture7.png>
+
+
+[80]
+Overfull \hbox (3.50824pt too wide) in paragraph at lines 181--182
+[]\TU/PTSans(1)/b/n/14.4 FileStorage Service \TU/PTSans(1)/m/n/14.4 управляет з
+агрузкой и выдачей файлов (например, изоб-
+ []
+
+File: Images/second_chapter_backend_architecture/Picture8.png Graphic file (typ
+e bmp)
+<Images/second_chapter_backend_architecture/Picture8.png>
+
+
+[81]
+
+[82]
+
+[83]
+File: Images/second_chapter_backend_architecture/Picture9.png Graphic file (typ
+e bmp)
+<Images/second_chapter_backend_architecture/Picture9.png>
+
+
+[84]
+Overfull \hbox (0.4865pt too wide) in paragraph at lines 217--218
+[]\TU/PTSans(1)/m/n/14.4 id (uuid, PRIMARY KEY) — глобально уникальный идентифи
+катор поль-
+ []
+
+File: Images/second_chapter_backend_architecture/Picture10.png Graphic file (ty
+pe bmp)
+<Images/second_chapter_backend_architecture/Picture10.png>
+
+
+[85]
+Overfull \hbox (8.27014pt too wide) in paragraph at lines 227--228
+\TU/PTSans(1)/m/n/14.4 же информацию о связях «подписчиков-подписок». ERD этого
+ сервиса вклю-
+ []
+
+
+Overfull \hbox (2.86633pt too wide) in paragraph at lines 234--235
+[]\TU/PTSans(1)/m/n/14.4 date_of_birth (date) — дата рождения; может использова
+ться для опре-
+ []
+
+
+
+[86]
+Overfull \hbox (2.8663pt too wide) in paragraph at lines 237--238
+\TU/PTSans(1)/m/n/14.4 филя (обычно совпадает с регистрацией); автоматически за
+даётся при
+ []
+
+
+Overfull \hbox (7.64581pt too wide) in paragraph at lines 239--240
+[]\TU/PTSans(1)/m/n/14.4 following_count (integer) — количество пользователей, 
+на которых под-
+ []
+
+
+
+[87]
+Overfull \hbox (0.7258pt too wide) in paragraph at lines 245--246
+\TU/PTSans(1)/m/n/14.4 писка. Является частью составного первичного ключа и вне
+шним клю-
+ []
+
+
+
+[88]
+File: Images/second_chapter_backend_architecture/Picture11.png Graphic file (ty
+pe bmp)
+<Images/second_chapter_backend_architecture/Picture11.png>
+
+
+[89]
+Overfull \vbox (22.35323pt too high) has occurred while \output is active []
+
+
+
+[90]
+
+[91]
+Overfull \hbox (6.04489pt too wide) in paragraph at lines 283--284
+[]\TU/PTSans(1)/m/n/14.4 id (uuid, PRIMARY KEY) — глобально уникальный идентифи
+катор марш-
+ []
+
+
+
+[92]
+
+[93]
+File: Images/second_chapter_backend_architecture/Picture12.png Graphic file (ty
+pe bmp)
+<Images/second_chapter_backend_architecture/Picture12.png>
+
+
+[94]
+
+[95]
+Overfull \hbox (0.44328pt too wide) in paragraph at lines 336--337
+[]\TU/PTSans(1)/m/n/14.4 comment_id (bigint, PRIMARY KEY) — уникальный идентифи
+катор ком-
+ []
+
+File: Images/second_chapter_backend_architecture/Picture13.png Graphic file (ty
+pe bmp)
+<Images/second_chapter_backend_architecture/Picture13.png>
+
+
+[96]
+Overfull \hbox (1.23656pt too wide) in paragraph at lines 348--349
+[]\TU/PTSans(1)/m/n/14.4 Организация инфраструктуры и DevOps-процессов является
+ важной частью
+ []
+
+
+
+[97]
+Overfull \hbox (5.00009pt too wide) in paragraph at lines 351--353
+\TU/PTSans(1)/m/n/14.4 ки: если изменяется код микросервиса, запускается создан
+ие Docker-образа
+ []
+
+
+
+[98]
+Overfull \hbox (0.8109pt too wide) in paragraph at lines 355--357
+\TU/PTSans(1)/m/n/14.4 (GHCR) под личной учётной записью pedrecho. Все образы с
+ервисов и сфор-
+ []
+
+
+Overfull \hbox (3.5706pt too wide) in paragraph at lines 355--357
+\TU/PTSans(1)/m/n/14.4 мированные чарты публикуются в этот регистр, что позволя
+ет удобно управ-
+ []
+
+
+
+[99]
+Overfull \hbox (3.69768pt too wide) in paragraph at lines 363--365
+[]\TU/PTSans(1)/m/n/14.4 В качестве внешнего прокси-сервера и балансировщика на
+грузки для gRPC-
+ []
+
+
+Package natbib Warning: Citation `3' on page 100 undefined on input line 367.
+
+
+Package natbib Warning: Citation `4' on page 100 undefined on input line 367.
+
+
+Overfull \hbox (56.75616pt too wide) in paragraph at lines 367--368
+\TU/PTSans(1)/m/n/14.4 версий. Вместо этого в репозитории сохраняется шаблон va
+lues.secret.example.yaml,
+ []
+
+
+Overfull \hbox (60.55777pt too wide) in paragraph at lines 367--368
+\TU/PTSans(1)/m/n/14.4 без реальных значений. На этапе деплоя значения из value
+s.yaml и values.secret.yaml
+ []
+
+
+
+[100]
+
+Package natbib Warning: Citation `7' on page 101 undefined on input line 375.
+
+
+Overfull \hbox (7.81606pt too wide) in paragraph at lines 376--377
+[]\TU/PTSans(1)/m/n/14.4 Refresh-токен (UUID) со значительно более длительным в
+ременем жиз-
+ []
+
+
+
+[101]
+Overfull \hbox (0.74821pt too wide) in paragraph at lines 381--382
+\TU/PTSans(1)/m/n/14.4 выступает в роли «data plane» для микросервисов, централ
+изованно управ-
+ []
+
+
+
+[102]
+Overfull \hbox (3.82855pt too wide) in paragraph at lines 387--388
+\TU/PTSans(1)/m/n/14.4 публичный бакет используется для общедоступных ресурсов 
+(аватары поль-
+ []
+
+
+Overfull \hbox (0.55301pt too wide) in paragraph at lines 387--388
+\TU/PTSans(1)/m/n/14.4 хранятся в приватных бакетах. Доступ к приватным файлам 
+возможен толь-
+ []
+
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+
+
+[103]
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+
+Overfull \hbox (1.94214pt too wide) in paragraph at lines 394--396
+[]\TU/PTSans(1)/m/n/14.4 Проведённый во второй главе анализ и проектирование по
+дтвердили обос-
+ []
+
+
+Overfull \hbox (5.73318pt too wide) in paragraph at lines 394--396
+\TU/PTSans(1)/m/n/14.4 вает требуемые нефункциональные характеристики: масштаби
+руемость (го-
+ []
+
+
+Overfull \hbox (5.78821pt too wide) in paragraph at lines 394--396
+\TU/PTSans(1)/m/n/14.4 ризонтальное масштабирование отдельных узких мест), отка
+зоустойчивость
+ []
+
+
+
+[104])
+
+[105]
+\openout2 = `Chapters/third_chapter_backend_implementation.aux'.
+
+ (./Chapters/third_chapter_backend_implementation.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 4.
+
+
+Overfull \hbox (28.6148pt too wide) in paragraph at lines 9--10
+[]\TU/PTSans(1)/m/n/14.4 Детерминированность сборки: Механизм модулей \TU/PTMon
+o(1)/m/n/14.4 Go \TU/PTSans(1)/m/n/14.4 (\TU/PTMono(1)/m/n/14.4 go.mod \TU/PTSa
+ns(1)/m/n/14.4 и \TU/PTMono(1)/m/n/14.4 go.sum\TU/PTSans(1)/m/n/14.4 )
+ []
+
+
+
+[106
+
+
+
+]
+Overfull \hbox (27.01254pt too wide) in paragraph at lines 17--18
+[]\TU/PTSans(1)/m/n/14.4 Строгие контракты и стабильность \TU/PTMono(1)/m/n/14.
+4 API\TU/PTSans(1)/m/n/14.4 : Определение сервисов в \TU/PTMono(1)/m/n/14.4 .pr
+oto\TU/PTSans(1)/m/n/14.4 -
+ []
+
+
+
+[107]
+Overfull \hbox (4.41217pt too wide) in paragraph at lines 23--24
+\TU/PTSans(1)/m/n/14.4 ственный модуль. Такой подход обеспечивает высокую произ
+водительность
+ []
+
+
+Overfull \hbox (19.95782pt too wide) in paragraph at lines 23--24
+\TU/PTSans(1)/m/n/14.4 ка хранения текущий файл переименовывается и создаётся н
+овый, что предот-
+ []
+
+
+
+[108]
+
+[109]
+Overfull \hbox (11.87686pt too wide) in paragraph at lines 36--37
+[]\TU/PTSans(1)/m/n/14.4 Для работы с \TU/PTMono(1)/m/n/14.4 PostgreSQL \TU/PTS
+ans(1)/m/n/14.4 используется стандартный пакет \TU/PTMono(1)/m/n/14.4 database/
+sql
+ []
+
+
+
+[110]
+Overfull \hbox (4.12167pt too wide) in paragraph at lines 46--47
+[]\TU/PTSans(1)/m/n/14.4 Префиксы ключей: группировка ключей по префиксам (\TU/
+PTMono(1)/m/n/14.4 otp:\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 cache:
+ []
+
+
+Overfull \hbox (3.32841pt too wide) in paragraph at lines 51--52
+\TU/PTSans(1)/m/n/14.4 но без долговременного хранения: сообщения доставляются 
+активным под-
+ []
+
+
+Overfull \hbox (3.0874pt too wide) in paragraph at lines 51--52
+\TU/PTSans(1)/m/n/14.4 писчикам мгновенно и затем удаляются (\TU/PTMono(1)/m/n/
+14.4 at-most-once\TU/PTSans(1)/m/n/14.4 ). \TU/PTMono(1)/m/n/14.4 JetStream \TU
+/PTSans(1)/m/n/14.4 рас-
+ []
+
+
+Overfull \hbox (11.31783pt too wide) in paragraph at lines 51--52
+\TU/PTSans(1)/m/n/14.4 потоках (\TU/PTMono(1)/m/n/14.4 streams\TU/PTSans(1)/m/n
+/14.4 ), и потребители должны отправлять подтверждение (\TU/PTMono(1)/m/n/14.4 
+Ack\TU/PTSans(1)/m/n/14.4 ).
+ []
+
+
+
+[111]
+Overfull \hbox (5.15335pt too wide) in paragraph at lines 57--58
+\TU/PTSans(1)/m/n/14.4 ными политиками хранения и регистрирует \TU/PTMono(1)/m/
+n/14.4 durable\TU/PTSans(1)/m/n/14.4 -консьюмеры для мик-
+ []
+
+
+Overfull \hbox (1.273pt too wide) in paragraph at lines 57--58
+\TU/PTSans(1)/m/n/14.4 росервисов. При публикации \TU/PTMono(1)/m/n/14.4 Broker
+ \TU/PTSans(1)/m/n/14.4 отправляет сообщения в \TU/PTMono(1)/m/n/14.4 JetStream
+
+ []
+
+
+
+[112]
+Overfull \hbox (21.84004pt too wide) in paragraph at lines 66--67
+\TU/PTSans(1)/m/n/14.4 Authorization: Bearer). Сначала декодируются \TU/PTMono(
+1)/m/n/14.4 header \TU/PTSans(1)/m/n/14.4 и \TU/PTMono(1)/m/n/14.4 payload \TU/
+PTSans(1)/m/n/14.4 (из \TU/PTMono(1)/m/n/14.4 base64\TU/PTSans(1)/m/n/14.4 ),
+ []
+
+
+
+[113]
+
+[114]
+Overfull \hbox (17.67078pt too wide) in paragraph at lines 81--82
+[]\TU/PTSans(1)/m/n/14.4 Невозможность обратного вычисления: \TU/PTMono(1)/m/n/
+14.4 bcrypt \TU/PTSans(1)/m/n/14.4 — односторонняя функ-
+ []
+
+
+Overfull \hbox (11.70663pt too wide) in paragraph at lines 85--86
+[]\TU/PTSans(1)/m/n/14.4 Использование единого технологического стека (\TU/PTMo
+no(1)/m/n/14.4 Go\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 gRPC\TU/PTSans
+(1)/m/n/14.4 , PostgreSQL, Redis,
+ []
+
+
+
+[115]
+Overfull \hbox (17.79782pt too wide) in paragraph at lines 94--95
+\TU/PTSans(1)/m/n/14.4 цию пользователей, проверку их учётных данных и управлен
+ие \TU/PTMono(1)/m/n/14.4 JWT\TU/PTSans(1)/m/n/14.4 -токенами
+ []
+
+
+Overfull \hbox (41.31813pt too wide) in paragraph at lines 96--97
+[]\TU/PTSans(1)/m/n/14.4 Основные бизнес-задачи: регистрация (\TU/PTMono(1)/m/n
+/14.4 SignUp\TU/PTSans(1)/m/n/14.4 ), вход (\TU/PTMono(1)/m/n/14.4 SignIn\TU/PT
+Sans(1)/m/n/14.4 ), выход (\TU/PTMono(1)/m/n/14.4 Logout\TU/PTSans(1)/m/n/14.4 
+),
+ []
+
+
+Overfull \hbox (83.7354pt too wide) in paragraph at lines 96--97
+\TU/PTSans(1)/m/n/14.4 обновление токенов (\TU/PTMono(1)/m/n/14.4 RefreshToken\
+TU/PTSans(1)/m/n/14.4 ), проверка валидности токена (\TU/PTMono(1)/m/n/14.4 Val
+idateToken\TU/PTSans(1)/m/n/14.4 ).
+ []
+
+
+
+[116]
+Overfull \hbox (23.61922pt too wide) in paragraph at lines 100--101
+\TU/PTMono(1)/m/n/14.4 NATS \TU/PTSans(1)/m/n/14.4 для рассылки \TU/PTMono(1)/m
+/n/14.4 email\TU/PTSans(1)/m/n/14.4 . Возвращает статус \TU/PTMono(1)/m/n/14.4 
+OK \TU/PTSans(1)/m/n/14.4 или \TU/PTMono(1)/m/n/14.4 INTERNAL_ERROR
+ []
+
+
+
+[117]
+Overfull \hbox (36.20737pt too wide) in paragraph at lines 103--104
+\TU/PTSans(1)/m/n/14.4 и срок. Если токен невалиден или истёк — возвращает \TU/
+PTMono(1)/m/n/14.4 UNAUTHENTICATED\TU/PTSans(1)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (13.00262pt too wide) in paragraph at lines 106--107
+\TU/PTMono(1)/m/n/14.4 Domain \TU/PTSans(1)/m/n/14.4 описывает сущность \TU/PTM
+ono(1)/m/n/14.4 User \TU/PTSans(1)/m/n/14.4 и её бизнес-логику, уровень \TU/PTM
+ono(1)/m/n/14.4 Repository
+ []
+
+
+Overfull \hbox (18.34633pt too wide) in paragraph at lines 106--107
+\TU/PTSans(1)/m/n/14.4 вень \TU/PTMono(1)/m/n/14.4 Usecase \TU/PTSans(1)/m/n/14
+.4 реализует сценарии (регистрация, логин и др.), слой \TU/PTMono(1)/m/n/14.4 D
+elivery
+ []
+
+
+Overfull \hbox (68.23169pt too wide) in paragraph at lines 106--107
+\TU/PTSans(1)/m/n/14.4 менные структуры. В корне пакета определены интерфейсы (
+файлы \TU/PTMono(1)/m/n/14.4 repository.go\TU/PTSans(1)/m/n/14.4 ,
+ []
+
+
+
+[118]
+Overfull \hbox (10.99301pt too wide) in paragraph at lines 108--109
+\TU/PTSans(1)/m/n/14.4 вать токены и осуществлять их отзыв (удаление при \TU/PT
+Mono(1)/m/n/14.4 logout\TU/PTSans(1)/m/n/14.4 ). Таблица \TU/PTMono(1)/m/n/14.4
+ users
+ []
+
+
+Overfull \hbox (66.60197pt too wide) in paragraph at lines 110--111
+[]\TU/PTSans(1)/m/n/14.4 Взаимодействие с другими сервисами: после создания учё
+тной записи \TU/PTMono(1)/m/n/14.4 AuthService
+ []
+
+
+Overfull \hbox (5.33379pt too wide) in paragraph at lines 110--111
+\TU/PTSans(1)/m/n/14.4 (топик \TU/PTMono(1)/m/n/14.4 EmailEventsService\TU/PTSa
+ns(1)/m/n/14.4 ). Сервис \TU/PTMono(1)/m/n/14.4 Notifications \TU/PTSans(1)/m/n
+/14.4 подписан на этот
+ []
+
+
+
+[119]
+Overfull \hbox (63.30309pt too wide) in paragraph at lines 113--114
+\TU/PTSans(1)/m/n/14.4 ФИО, дате рождения, аватаре, а также за реализацию подпи
+сок (\TU/PTMono(1)/m/n/14.4 follow/unfollow\TU/PTSans(1)/m/n/14.4 )
+ []
+
+
+Overfull \hbox (16.05544pt too wide) in paragraph at lines 115--116
+\TU/PTSans(1)/m/n/14.4 ности \TU/PTMono(1)/m/n/14.4 username\TU/PTSans(1)/m/n/1
+4.4 , обработка действий «подписаться/отписаться» между поль-
+ []
+
+
+Overfull \hbox (21.47618pt too wide) in paragraph at lines 115--116
+\TU/PTSans(1)/m/n/14.4 поле \TU/PTMono(1)/m/n/14.4 profiles.image_id\TU/PTSans(
+1)/m/n/14.4 . Поля \TU/PTMono(1)/m/n/14.4 followers_count \TU/PTSans(1)/m/n/14.
+4 и \TU/PTMono(1)/m/n/14.4 following_count
+ []
+
+
+
+[120]
+Overfull \hbox (25.91814pt too wide) in paragraph at lines 121--122
+\TU/PTSans(1)/m/n/14.4 нят — возвращает \TU/PTMono(1)/m/n/14.4 ALREADY_EXISTS\T
+U/PTSans(1)/m/n/14.4 . Далее создает запись в \TU/PTMono(1)/m/n/14.4 profiles\T
+U/PTSans(1)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (9.2519pt too wide) in paragraph at lines 123--124
+[]\TU/PTMono(1)/m/n/14.4 UpdateProfile\TU/PTSans(1)/m/n/14.4 : обновляет имя, ф
+амилию, дату рождения; при смене 
+ []
+
+
+Overfull \hbox (5.02246pt too wide) in paragraph at lines 123--124
+\TU/PTMono(1)/m/n/14.4 username \TU/PTSans(1)/m/n/14.4 повторяет проверку уника
+льности (\TU/PTMono(1)/m/n/14.4 ALREADY_EXISTS \TU/PTSans(1)/m/n/14.4 при
+ []
+
+
+Overfull \hbox (166.49086pt too wide) in paragraph at lines 125--126
+\TU/PTSans(1)/m/n/14.4 пись в таблице \TU/PTMono(1)/m/n/14.4 follows \TU/PTSans
+(1)/m/n/14.4 и инкрементирует счетчики \TU/PTMono(1)/m/n/14.4 followers_count/f
+ollowing_count
+ []
+
+
+
+[121]
+Overfull \hbox (86.65604pt too wide) in paragraph at lines 128--129
+\TU/PTSans(1)/m/n/14.4 ваемый формат) возвращается \TU/PTMono(1)/m/n/14.4 INVAL
+ID_ARGUMENT \TU/PTSans(1)/m/n/14.4 или \TU/PTMono(1)/m/n/14.4 RESOURCE_EXHAUSTE
+D\TU/PTSans(1)/m/n/14.4 . 
+ []
+
+
+Overfull \hbox (4.95305pt too wide) in paragraph at lines 130--131
+\TU/PTSans(1)/m/n/14.4 модель \TU/PTMono(1)/m/n/14.4 Profile (domain)\TU/PTSans
+(1)/m/n/14.4 , интерфейсы репозитория и \TU/PTMono(1)/m/n/14.4 usecase \TU/PTSa
+ns(1)/m/n/14.4 (catalog
+ []
+
+
+Overfull \hbox (26.46663pt too wide) in paragraph at lines 130--131
+\TU/PTSans(1)/m/n/14.4 терфейс \TU/PTMono(1)/m/n/14.4 ProfileUsecase \TU/PTSans
+(1)/m/n/14.4 с методами вроде \TU/PTMono(1)/m/n/14.4 CreateProfile\TU/PTSans(1)
+/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 FollowUser
+ []
+
+
+Overfull \hbox (29.46947pt too wide) in paragraph at lines 130--131
+\TU/PTSans(1)/m/n/14.4 и т. д., а соответствующие имплементации находятся в под
+пакетах \TU/PTMono(1)/m/n/14.4 repository
+ []
+
+
+Overfull \hbox (22.23941pt too wide) in paragraph at lines 130--131
+\TU/PTSans(1)/m/n/14.4 и \TU/PTMono(1)/m/n/14.4 usecase\TU/PTSans(1)/m/n/14.4 .
+ Слой \TU/PTMono(1)/m/n/14.4 Delivery \TU/PTSans(1)/m/n/14.4 реализует \TU/PTMo
+no(1)/m/n/14.4 gRPC\TU/PTSans(1)/m/n/14.4 -сервер (generated из \TU/PTMono(1)/m
+/n/14.4 protobuf\TU/PTSans(1)/m/n/14.4 )
+ []
+
+
+Overfull \hbox (39.90817pt too wide) in paragraph at lines 132--133
+\TU/PTSans(1)/m/n/14.4 (обычно через метаданные \TU/PTMono(1)/m/n/14.4 gRPC/ток
+ен\TU/PTSans(1)/m/n/14.4 ). При создании профиля \TU/PTMono(1)/m/n/14.4 AuthSer
+vice
+ []
+
+
+Overfull \hbox (178.31328pt too wide) in paragraph at lines 132--133
+\TU/PTMono(1)/m/n/14.4 ProfileService \TU/PTSans(1)/m/n/14.4 обращается к \TU/P
+TMono(1)/m/n/14.4 FileStorageService (filestorage.FileStorageService)
+ []
+
+
+
+[122]
+Overfull \hbox (9.16167pt too wide) in paragraph at lines 135--136
+[]\TU/PTSans(1)/m/n/14.4 Назначение: Сервис активности реализует функциональнос
+ть «лайки», «ком-
+ []
+
+
+Overfull \hbox (10.83588pt too wide) in paragraph at lines 137--138
+\TU/PTSans(1)/m/n/14.4 лайков/комментариев. Например, пользователь может постав
+ить лайк марш-
+ []
+
+
+
+[123]
+Overfull \hbox (34.72168pt too wide) in paragraph at lines 139--140
+\TU/PTMono(1)/m/n/14.4 user_id\TU/PTSans(1)/m/n/14.4 , метка и времени): и \TU/
+PTMono(1)/m/n/14.4 route_comments \TU/PTSans(1)/m/n/14.4 (\TU/PTMono(1)/m/n/14.
+4 comment_id PK\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 route_id\TU/PTSa
+ns(1)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (53.97063pt too wide) in paragraph at lines 143--144
+\TU/PTSans(1)/m/n/14.4 ет, что маршрут существует (вызывая метод \TU/PTMono(1)/
+m/n/14.4 GetRoute \TU/PTSans(1)/m/n/14.4 из \TU/PTMono(1)/m/n/14.4 ContentServi
+ce\TU/PTSans(1)/m/n/14.4 );
+ []
+
+
+Overfull \hbox (18.24011pt too wide) in paragraph at lines 143--144
+\TU/PTSans(1)/m/n/14.4 ликует событие \TU/PTMono(1)/m/n/14.4 LikeAdded \TU/PTSa
+ns(1)/m/n/14.4 в \TU/PTMono(1)/m/n/14.4 NATS JetStream \TU/PTSans(1)/m/n/14.4 (
+содержит \TU/PTMono(1)/m/n/14.4 route_id\TU/PTSans(1)/m/n/14.4 ),
+ []
+
+
+Overfull \hbox (76.7357pt too wide) in paragraph at lines 145--146
+\TU/PTSans(1)/m/n/14.4 ществование пользователя (\TU/PTMono(1)/m/n/14.4 Profile
+Service\TU/PTSans(1)/m/n/14.4 ) и маршрута (\TU/PTMono(1)/m/n/14.4 ContentServi
+ce\TU/PTSans(1)/m/n/14.4 ).
+ []
+
+
+Overfull \hbox (6.14696pt too wide) in paragraph at lines 145--146
+\TU/PTSans(1)/m/n/14.4 текст пустой или слишком длинный — \TU/PTMono(1)/m/n/14.
+4 INVALID_ARGUMENT\TU/PTSans(1)/m/n/14.4 . При успе-
+ []
+
+
+
+[124]
+Overfull \hbox (18.36197pt too wide) in paragraph at lines 148--149
+[]\TU/PTMono(1)/m/n/14.4 GetLikeCount/GetCommentCount\TU/PTSans(1)/m/n/14.4 : м
+ожет возвращать текущие счёт-
+ []
+
+
+Overfull \hbox (48.87172pt too wide) in paragraph at lines 150--151
+\TU/PTSans(1)/m/n/14.4 если пользователь не авторизован — UNAUTHENTICATED, и \T
+U/PTMono(1)/m/n/14.4 PERMISSION_DENIED
+ []
+
+
+Overfull \hbox (3.69896pt too wide) in paragraph at lines 152--153
+\TU/PTSans(1)/m/n/14.4 репозиторий для \TU/PTMono(1)/m/n/14.4 CRUD\TU/PTSans(1)
+/m/n/14.4 -операций над таблицами (\TU/PTMono(1)/m/n/14.4 PostgreSQL\TU/PTSans(
+1)/m/n/14.4 ), \TU/PTMono(1)/m/n/14.4 usecase\TU/PTSans(1)/m/n/14.4 -
+ []
+
+
+Overfull \hbox (49.92163pt too wide) in paragraph at lines 152--153
+\TU/PTSans(1)/m/n/14.4 В модуле определены интерфейсы \TU/PTMono(1)/m/n/14.4 Ac
+tivityRepository \TU/PTSans(1)/m/n/14.4 и \TU/PTMono(1)/m/n/14.4 ActivityUsecas
+e\TU/PTSans(1)/m/n/14.4 ,
+ []
+
+
+
+[125]
+Overfull \hbox (24.33798pt too wide) in paragraph at lines 156--157
+[]\TU/PTSans(1)/m/n/14.4 Взаимодействие: при добавлении лайка или комментария \
+TU/PTMono(1)/m/n/14.4 ActivityService
+ []
+
+
+Overfull \hbox (6.50694pt too wide) in paragraph at lines 156--157
+\TU/PTSans(1)/m/n/14.4 обращается к \TU/PTMono(1)/m/n/14.4 ContentService (cont
+ent.ContentService) \TU/PTSans(1)/m/n/14.4 для про-
+ []
+
+
+Overfull \hbox (87.99779pt too wide) in paragraph at lines 156--157
+\TU/PTSans(1)/m/n/14.4 верки существования маршрута, а к \TU/PTMono(1)/m/n/14.4
+ ProfileService (profile.ProfileService)
+ []
+
+
+Overfull \hbox (91.42628pt too wide) in paragraph at lines 156--157
+\TU/PTSans(1)/m/n/14.4 капсулированы в \TU/PTMono(1)/m/n/14.4 usecase \TU/PTSan
+s(1)/m/n/14.4 (например, интерфейсы \TU/PTMono(1)/m/n/14.4 ContentClient\TU/PTS
+ans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 ProfileClient\TU/PTSans(1)/m/n/14.4 ).
+
+ []
+
+
+Overfull \hbox (6.73735pt too wide) in paragraph at lines 156--157
+\TU/PTSans(1)/m/n/14.4 Обмен сообщениями с \TU/PTMono(1)/m/n/14.4 FileStorageSe
+rvice \TU/PTSans(1)/m/n/14.4 или \TU/PTMono(1)/m/n/14.4 Notifications \TU/PTSan
+s(1)/m/n/14.4 здесь
+ []
+
+
+Overfull \hbox (6.26855pt too wide) in paragraph at lines 161--162
+[]\TU/PTSans(1)/m/n/14.4 Основные бизнес-задачи: добавление, обновление, удален
+ие и поиск марш-
+ []
+
+
+Overfull \hbox (40.77895pt too wide) in paragraph at lines 161--162
+\TU/PTSans(1)/m/n/14.4 соответствовать несколько мест (через промежуточную табл
+ицу \TU/PTMono(1)/m/n/14.4 route_places\TU/PTSans(1)/m/n/14.4 ),
+ []
+
+
+Overfull \hbox (30.51176pt too wide) in paragraph at lines 161--162
+\TU/PTSans(1)/m/n/14.4 и у каждого места может быть несколько изображений (табл
+ица \TU/PTMono(1)/m/n/14.4 place_files\TU/PTSans(1)/m/n/14.4 ).
+ []
+
+
+Overfull \hbox (57.29572pt too wide) in paragraph at lines 161--162
+\TU/PTSans(1)/m/n/14.4 Сервис обеспечивает консистентное хранение геоданных (\T
+U/PTMono(1)/m/n/14.4 latitude/longitude\TU/PTSans(1)/m/n/14.4 )
+ []
+
+
+
+[126]
+Overfull \hbox (15.81805pt too wide) in paragraph at lines 166--167
+[]\TU/PTMono(1)/m/n/14.4 places (id UUID, name, address, description, latitude,
+
+ []
+
+
+Overfull \hbox (47.01994pt too wide) in paragraph at lines 167--168
+[]\TU/PTSans(1)/m/n/14.4 Связующая таблица \TU/PTMono(1)/m/n/14.4 route_places 
+(route_id, place_id, ordering
+ []
+
+
+Overfull \hbox (23.08133pt too wide) in paragraph at lines 168--169
+[]\TU/PTSans(1)/m/n/14.4 Таблица \TU/PTMono(1)/m/n/14.4 files \TU/PTSans(1)/m/n
+/14.4 (используется \TU/PTMono(1)/m/n/14.4 FileStorageService\TU/PTSans(1)/m/n/
+14.4 ) и \TU/PTMono(1)/m/n/14.4 place_files
+ []
+
+
+Overfull \hbox (36.29193pt too wide) in paragraph at lines 168--169
+\TU/PTMono(1)/m/n/14.4 (place_id, file_id, ordering) \TU/PTSans(1)/m/n/14.4 для
+ привязки файлов-изображений
+ []
+
+
+
+[127]
+Overfull \hbox (14.63368pt too wide) in paragraph at lines 178--179
+[]\TU/PTMono(1)/m/n/14.4 UpdateRoute\TU/PTSans(1)/m/n/14.4 : обновляет свойства
+ маршрута (может менять имя, слож-
+ []
+
+
+
+[128]
+Overfull \hbox (14.84836pt too wide) in paragraph at lines 184--185
+[]\TU/PTMono(1)/m/n/14.4 CreatePlace/GetPlace/UpdatePlace/DeletePlace\TU/PTSans
+(1)/m/n/14.4 : аналогич-
+ []
+
+
+Overfull \hbox (14.83781pt too wide) in paragraph at lines 185--186
+\TU/PTSans(1)/m/n/14.4 маршрутом. Если \TU/PTMono(1)/m/n/14.4 route_id \TU/PTSa
+ns(1)/m/n/14.4 или \TU/PTMono(1)/m/n/14.4 place_id \TU/PTSans(1)/m/n/14.4 не на
+йдены — \TU/PTMono(1)/m/n/14.4 NOT_FOUND\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (1.56905pt too wide) in paragraph at lines 185--186
+\TU/PTSans(1)/m/n/14.4 При добавлении проверяется, что такая связь ещё не сущес
+твует (ина-
+ []
+
+
+Overfull \hbox (33.41927pt too wide) in paragraph at lines 189--190
+\TU/PTSans(1)/m/n/14.4 токи (\TU/PTMono(1)/m/n/14.4 Chunked gRPC\TU/PTSans(1)/m
+/n/14.4 ) и переадресует данные во \TU/PTMono(1)/m/n/14.4 FileStorageService\TU
+/PTSans(1)/m/n/14.4 :
+ []
+
+
+Overfull \hbox (2.04166pt too wide) in paragraph at lines 189--190
+\TU/PTSans(1)/m/n/14.4 либо получает от него \TU/PTMono(1)/m/n/14.4 Presigned U
+RL \TU/PTSans(1)/m/n/14.4 (и сам загружает через \TU/PTMono(1)/m/n/14.4 HTTP\TU
+/PTSans(1)/m/n/14.4 ),
+ []
+
+
+Overfull \hbox (13.5236pt too wide) in paragraph at lines 190--191
+[]\TU/PTMono(1)/m/n/14.4 GetPlaceImage (stream)\TU/PTSans(1)/m/n/14.4 : загрузк
+а изображения с помощью \TU/PTMono(1)/m/n/14.4 gRPC\TU/PTSans(1)/m/n/14.4 -
+ []
+
+
+
+[129]
+Overfull \hbox (21.06921pt too wide) in paragraph at lines 192--193
+\TU/PTSans(1)/m/n/14.4 этом используется унифицированный паттерн обработки ошиб
+ок: \TU/PTMono(1)/m/n/14.4 NOT_FOUND
+ []
+
+
+Overfull \hbox (70.3434pt too wide) in paragraph at lines 192--193
+\TU/PTSans(1)/m/n/14.4 для отсутствующих записей, \TU/PTMono(1)/m/n/14.4 ALREAD
+Y_EXISTS \TU/PTSans(1)/m/n/14.4 для дубликатов, \TU/PTMono(1)/m/n/14.4 INVALID_
+ARGUMENT
+ []
+
+
+Overfull \hbox (33.4807pt too wide) in paragraph at lines 194--195
+\TU/PTSans(1)/m/n/14.4 связывание с файлами), слой \TU/PTMono(1)/m/n/14.4 repos
+itory \TU/PTSans(1)/m/n/14.4 (например, \TU/PTMono(1)/m/n/14.4 PostgresReposito
+ry\TU/PTSans(1)/m/n/14.4 )
+ []
+
+
+Overfull \hbox (6.47945pt too wide) in paragraph at lines 196--197
+\TU/PTSans(1)/m/n/14.4 щает \TU/PTMono(1)/m/n/14.4 file_id\TU/PTSans(1)/m/n/14.
+4 , который связывается с \TU/PTMono(1)/m/n/14.4 place_id \TU/PTSans(1)/m/n/14.
+4 в таблице \TU/PTMono(1)/m/n/14.4 place_files\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+
+[130]
+Overfull \hbox (3.51558pt too wide) in paragraph at lines 198--199
+\TU/PTSans(1)/m/n/14.4 ном другие сервисы обращаются к \TU/PTMono(1)/m/n/14.4 C
+ontentService\TU/PTSans(1)/m/n/14.4 : \TU/PTMono(1)/m/n/14.4 ActivityService
+ []
+
+
+Overfull \hbox (0.82025pt too wide) in paragraph at lines 201--202
+\TU/PTSans(1)/m/n/14.4 хранилищем \TU/PTMono(1)/m/n/14.4 MinIO\TU/PTSans(1)/m/n
+/14.4 , реализуя политику безопасности, ограничения по раз-
+ []
+
+
+
+[131]
+Overfull \hbox (18.7063pt too wide) in paragraph at lines 205--206
+\TU/PTSans(1)/m/n/14.4 5). Поля: \TU/PTMono(1)/m/n/14.4 id (integer, PK)\TU/PTS
+ans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 file_name\TU/PTSans(1)/m/n/14.4 , \TU/
+PTMono(1)/m/n/14.4 storage_bucket\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.
+4 storage_id
+ []
+
+
+
+[132]
+Overfull \hbox (30.81891pt too wide) in paragraph at lines 217--218
+\TU/PTMono(1)/m/n/14.4 ContentService \TU/PTSans(1)/m/n/14.4 поступает аналогич
+но для изображений мест. \TU/PTMono(1)/m/n/14.4 API Gateway
+ []
+
+
+Overfull \hbox (5.56969pt too wide) in paragraph at lines 217--218
+\TU/PTMono(1)/m/n/14.4 (Envoy) \TU/PTSans(1)/m/n/14.4 перенаправляет запросы по
+ \TU/PTMono(1)/m/n/14.4 presigned URL \TU/PTSans(1)/m/n/14.4 напрямую в \TU/PTM
+ono(1)/m/n/14.4 MinIO\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (4.40456pt too wide) in paragraph at lines 217--218
+\TU/PTMono(1)/m/n/14.4 FileStorageService \TU/PTSans(1)/m/n/14.4 также публикуе
+т события об удалении старых фай-
+ []
+
+
+
+[133]
+Overfull \hbox (8.50728pt too wide) in paragraph at lines 220--221
+\TU/PTSans(1)/m/n/14.4 общений пользователям системы через сторонний \TU/PTMono
+(1)/m/n/14.4 SMTP/API \TU/PTSans(1)/m/n/14.4 сервис \TU/PTMono(1)/m/n/14.4 Brev
+o
+ []
+
+
+Overfull \hbox (6.19398pt too wide) in paragraph at lines 222--223
+\TU/PTMono(1)/m/n/14.4 UserRegistered\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n
+/14.4 PasswordReset\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 CommentAdded
+\TU/PTSans(1)/m/n/14.4 ), формирование пи-
+ []
+
+
+Overfull \hbox (4.06763pt too wide) in paragraph at lines 222--223
+\TU/PTSans(1)/m/n/14.4 сем по заранее заданным шаблонам и отправка их через \TU
+/PTMono(1)/m/n/14.4 REST API Brevo\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (17.29639pt too wide) in paragraph at lines 224--225
+\TU/PTSans(1)/m/n/14.4 цепция чистой архитектуры: есть слой получателей сообщен
+ий (\TU/PTMono(1)/m/n/14.4 Subscriber\TU/PTSans(1)/m/n/14.4 )
+ []
+
+
+
+[134]
+Overfull \hbox (7.31207pt too wide) in paragraph at lines 228--229
+\TU/PTMono(1)/m/n/14.4 Gateway \TU/PTSans(1)/m/n/14.4 при недоступности \TU/PTM
+ono(1)/m/n/14.4 Brevo \TU/PTSans(1)/m/n/14.4 трактуется как \TU/PTMono(1)/m/n/1
+4.4 UNAVAILABLE\TU/PTSans(1)/m/n/14.4 ). В \TU/PTMono(1)/m/n/14.4 gRPC\TU/PTSan
+s(1)/m/n/14.4 -
+ []
+
+
+Overfull \hbox (8.46663pt too wide) in paragraph at lines 230--231
+\TU/PTSans(1)/m/n/14.4 сональные данные пользователей, \TU/PTMono(1)/m/n/14.4 A
+ctivityService \TU/PTSans(1)/m/n/14.4 — социальные функ-
+ []
+
+
+
+[135]
+
+[136]
+Overfull \hbox (42.54887pt too wide) in paragraph at lines 241--242
+\TU/PTMono(1)/m/n/14.4 GHCR_USERNAME\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/
+14.4 GOPRIVATE_PAT\TU/PTSans(1)/m/n/14.4 ) для аутентификации в \TU/PTMono(1)/m
+/n/14.4 GitHub Container
+ []
+
+
+
+[137]
+Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+
+Overfull \hbox (9.58855pt too wide) in paragraph at lines 251--252
+\TU/PTSans(1)/m/n/14.4 Все собранные \TU/PTMono(1)/m/n/14.4 Docker\TU/PTSans(1)
+/m/n/14.4 -образы и чарты публикуются в \TU/PTMono(1)/m/n/14.4 GitHub Container
+
+ []
+
+
+Overfull \hbox (28.24422pt too wide) in paragraph at lines 254--255
+\TU/PTSans(1)/m/n/14.4 дельный \TU/PTMono(1)/m/n/14.4 workflow GitHub Actions\T
+U/PTSans(1)/m/n/14.4 . При пуше в ветку \TU/PTMono(1)/m/n/14.4 main \TU/PTSans(
+1)/m/n/14.4 этот \TU/PTMono(1)/m/n/14.4 workflow
+ []
+
+
+Overfull \hbox (99.91295pt too wide) in paragraph at lines 254--255
+\TU/PTSans(1)/m/n/14.4 висы сразу. При вызове \TU/PTMono(1)/m/n/14.4 Helm \TU/P
+TSans(1)/m/n/14.4 передаются файлы \TU/PTMono(1)/m/n/14.4 values.yaml \TU/PTSan
+s(1)/m/n/14.4 и \TU/PTMono(1)/m/n/14.4 values.secret.yaml
+ []
+
+
+
+[138]
+Overfull \hbox (41.32831pt too wide) in paragraph at lines 256--257
+\TU/PTSans(1)/m/n/14.4 схемы (см. раздел 3.4.1). Например, для сервиса \TU/PTMo
+no(1)/m/n/14.4 auth \TU/PTSans(1)/m/n/14.4 определяется \TU/PTMono(1)/m/n/14.4 
+Kubernetes
+ []
+
+
+Overfull \hbox (40.62947pt too wide) in paragraph at lines 261--262
+\TU/PTMono(1)/m/n/14.4 kubectl logs\TU/PTSans(1)/m/n/14.4 . Запись в файл (напр
+имер, в монтируемый \TU/PTMono(1)/m/n/14.4 PersistentVolume\TU/PTSans(1)/m/n/14
+.4 )
+ []
+
+
+
+[139]
+Overfull \hbox (1.43689pt too wide) in paragraph at lines 270--271
+[]\TU/PTSans(1)/m/n/14.4 В \TU/PTMono(1)/m/n/14.4 Go \TU/PTSans(1)/m/n/14.4 для
+ написания юнит-тестов используется стандартный пакет \TU/PTMono(1)/m/n/14.4 te
+sting\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+
+[140]
+Overfull \hbox (25.94693pt too wide) in paragraph at lines 281--282
+[]\TU/PTSans(1)/m/n/14.4 Для тестирования взаимодействия используется \TU/PTMon
+o(1)/m/n/14.4 Postman Collection\TU/PTSans(1)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (13.71208pt too wide) in paragraph at lines 281--282
+\TU/PTSans(1)/m/n/14.4 мер, запросы к сервисам \TU/PTMono(1)/m/n/14.4 Auth\TU/P
+TSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 Profile\TU/PTSans(1)/m/n/14.4 , \TU/
+PTMono(1)/m/n/14.4 Content\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 Notif
+ications\TU/PTSans(1)/m/n/14.4 ).
+ []
+
+
+
+[141]
+Overfull \hbox (31.53542pt too wide) in paragraph at lines 283--284
+\TU/PTSans(1)/m/n/14.4 кать произвольные \TU/PTMono(1)/m/n/14.4 Kubernetes\TU/P
+TSans(1)/m/n/14.4 -ресурсы, включая контейнеры с \TU/PTMono(1)/m/n/14.4 Newman
+ []
+
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Mono/OT:script=latn;langua
+ge=dflt;!
+Missing character: There is no   (U+202F) in font PT Mono/OT:script=latn;langua
+ge=dflt;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Mono/OT:script=latn;langua
+ge=dflt;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Mono/OT:script=latn;langua
+ge=dflt;!
+Missing character: There is no   (U+202F) in font PT Mono/OT:script=latn;langua
+ge=dflt;!
+Missing character: There is no   (U+202F) in font PT Mono/OT:script=latn;langua
+ge=dflt;!
+Missing character: There is no   (U+202F) in font PT Mono/OT:script=latn;langua
+ge=dflt;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+)
+Overfull \hbox (12.87302pt too wide) in paragraph at lines 289--52
+\TU/PTSans(1)/m/n/14.4 обоснования единого технологического стека (\TU/PTMono(1
+)/m/n/14.4 Go 1.24\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 gRPC\TU/PTSan
+s(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 PostgreSQL\TU/PTSans(1)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (44.53731pt too wide) in paragraph at lines 289--52
+\TU/PTSans(1)/m/n/14.4 обладает заложенными во второй главе нефункциональными х
+арактеристиками —
+ []
+
+
+
+[142]
+
+[143]
+
+[144]
+\openout2 = `Chapters/forth_chapter_mobile_architecture.aux'.
+
+ (./Chapters/forth_chapter_mobile_architecture.tex
+Underfull \hbox (badness 10000) in paragraph at lines 19--19
+[][][]\TU/PTSans(1)/m/n/10 SOLID – акроним для пяти принципов объектно-ориентир
+ованного проектирования: Single
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 19--19
+\TU/PTSans(1)/m/n/10 Responsibility Principle (Принцип единственной ответственн
+ости), Open/Closed Principle (Принцип от-
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 19--19
+\TU/PTSans(1)/m/n/10 крытости/закрытости), Liskov Substitution Principle (Принц
+ип подстановки Барбары Лисков), Interface
+ []
+
+
+Underfull \hbox (badness 2005) in paragraph at lines 19--19
+\TU/PTSans(1)/m/n/10 Segregation Principle (Принцип разделения интерфейса) и De
+pendency Inversion Principle (Принцип
+ []
+
+
+
+[145
+
+
+
+]
+Overfull \hbox (9.28743pt too wide) in paragraph at lines 20--21
+\TU/PTSans(1)/m/n/14.4 ента с бэкенд-сервисами, обеспечивающие обмен необходимы
+ми дан-
+ []
+
+
+
+[146]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 32.
+
+
+Overfull \hbox (1.07689pt too wide) in paragraph at lines 46--47
+\TU/PTSans(1)/m/n/14.4 пользователей устройств на базе операционных систем iOS 
+и Android.
+ []
+
+
+
+[147]
+Overfull \hbox (1.68678pt too wide) in paragraph at lines 48--49
+[]\TU/PTSans(1)/b/n/14.4 Адаптивность\TU/PTSans(1)/m/n/14.4 : дизайн интерфейса
+ должен быть адаптирован под раз-
+ []
+
+
+Overfull \hbox (2.90118pt too wide) in paragraph at lines 50--51
+[]\TU/PTSans(1)/b/n/14.4 Защита персональных данных\TU/PTSans(1)/m/n/14.4 : при
+ложение должно обеспечивать на-
+ []
+
+
+Overfull \hbox (9.08582pt too wide) in paragraph at lines 50--51
+\TU/PTSans(1)/m/n/14.4 дёжную защиту персональных данных пользователей, включая
+ их име-
+ []
+
+
+
+[148]
+Overfull \hbox (5.43459pt too wide) in paragraph at lines 51--52
+\TU/PTSans(1)/m/n/14.4 торизованных пользователей. Это предотвращает несанкцион
+ирован-
+ []
+
+
+
+[149]
+File: Images/mobile_logic/история_поиск_маршрута-2025-04-13-175239.png Graphic 
+file (type bmp)
+<Images/mobile_logic/история_поиск_маршрута-2025-04-13-175239.png>
+
+
+[150]
+File: Images/mobile_logic/создание_маршрута-2025-04-13-180512.png Graphic file 
+(type bmp)
+<Images/mobile_logic/создание_маршрута-2025-04-13-180512.png>
+
+
+[151]
+Overfull \hbox (12.39305pt too wide) in paragraph at lines 87--88
+[]\TU/PTSans(1)/b/n/14.4 Потребитель маршрута \TU/PTSans(1)/m/n/14.4 — это поль
+зователь, который ищет интересные марш-
+ []
+
+
+
+[152]
+
+[153]
+
+[154]
+File: Images/mobile_logic/диаграмма_вариантов_использования.png Graphic file (t
+ype bmp)
+<Images/mobile_logic/диаграмма_вариантов_использования.png>
+
+
+[155]
+
+[156]
+
+[157]
+
+[158]
+Overfull \hbox (29.88579pt too wide) in paragraph at lines 198--199
+\TU/PTSans(1)/m/n/14.4 редает пользовательские события в Presenter. Во Flutter 
+это StatefulWidget
+ []
+
+
+
+[159]
+Overfull \hbox (1.65544pt too wide) in paragraph at lines 212--213
+[]\TU/PTSans(1)/m/n/14.4 Presenter всё ещё может становиться громоздким, особен
+но для слож-
+ []
+
+
+
+[160]
+
+[161]
+Overfull \hbox (1.03622pt too wide) in paragraph at lines 261--262
+\TU/PTSans(1)/m/n/14.4 таких как просмотр деталей достопримечательности, архите
+ктура мо-
+ []
+
+
+
+[162]
+Overfull \hbox (20.85062pt too wide) in paragraph at lines 312--313
+[]\TU/PTSans(1)/b/n/14.4 Presenter \TU/PTSans(1)/m/n/14.4 — получает действия о
+т View, запрашивает данные от Interactor
+ []
+
+
+
+[163]
+
+[164]
+
+[165]
+
+[166]
+
+[167]
+Overfull \hbox (7.46214pt too wide) in paragraph at lines 412--413
+[]\TU/PTSans(1)/b/n/14.4 Избыточное количество boilerplate-кода \TU/PTSans(1)/m
+/n/14.4 — требуется написание боль-
+ []
+
+
+
+[168]
+Overfull \hbox (5.19911pt too wide) in paragraph at lines 464--465
+[]\TU/PTSans(1)/b/n/14.4 Events \TU/PTSans(1)/m/n/14.4 — такие события, как ”За
+грузить маршруты”, ”Применить фильтр
+ []
+
+
+
+[169]
+
+[170]
+Overfull \hbox (0.5143pt too wide) in paragraph at lines 494--495
+[]\TU/PTSans(1)/b/n/14.4 Разделение ответственности\TU/PTSans(1)/m/n/14.4 : Чет
+кое разделение UI от бизнес-логики.
+ []
+
+
+
+[171]
+Overfull \hbox (13.8234pt too wide) in paragraph at lines 508--510
+\TU/PTSans(1)/m/n/14.4 объектно-ориентированного проектирования, предложенных Р
+обертом Мар-
+ []
+
+
+Overfull \hbox (32.95375pt too wide) in paragraph at lines 511--512
+[]\TU/PTSans(1)/b/n/14.4 S – Принцип единственной ответственности (Single Respo
+nsibility Principle
+ []
+
+
+Overfull \hbox (13.06253pt too wide) in paragraph at lines 513--514
+[]\TU/PTSans(1)/b/n/14.4 L – Принцип подстановки Барбары Лисков (Liskov Substit
+ution Principle
+ []
+
+
+
+[172]
+Overfull \hbox (1.53346pt too wide) in paragraph at lines 514--515
+\TU/PTSans(1)/m/n/14.4 сов, которые они не используют. Предпочтительнее создава
+ть неболь-
+ []
+
+
+
+[173]
+Overfull \hbox (11.41058pt too wide) in paragraph at lines 524--526
+[]\TU/PTSans(1)/b/n/14.4 Многоуровневое разделение ответственности (Layering)\T
+U/PTSans(1)/m/n/14.4 . Приложение струк-
+ []
+
+
+Overfull \hbox (3.39656pt too wide) in paragraph at lines 527--528
+\TU/PTSans(1)/m/n/14.4 ты Flutter и компоненты управления состоянием (BLoC), ко
+торые адап-
+ []
+
+
+Overfull \hbox (23.12033pt too wide) in paragraph at lines 528--529
+\TU/PTSans(1)/m/n/14.4 источников данных. Включает модели (например, \TU/PTSans
+(1)/m/it/14.4 RouteModel\TU/PTSans(1)/m/n/14.4 , \TU/PTSans(1)/m/it/14.4 PlaceM
+odel\TU/PTSans(1)/m/n/14.4 )
+ []
+
+
+
+[174]
+
+[175]
+Overfull \hbox (2.28902pt too wide) in paragraph at lines 550--551
+[]\TU/PTSans(1)/m/n/14.4 Ключевая задача, которую решает \TU/PTSans(1)/b/n/14.4
+ yx_scope \TU/PTSans(1)/m/n/14.4 – унификация подхода к управ-
+ []
+
+
+Overfull \hbox (25.38664pt too wide) in paragraph at lines 550--551
+\TU/PTSans(1)/m/n/14.4 ции для основной функциональности, возможность встраиван
+ия DI-контейнера
+ []
+
+
+
+[176]
+Overfull \hbox (14.37445pt too wide) in paragraph at lines 555--556
+[]\TU/PTSans(1)/m/n/14.4 yx_scope_flutter: библиотека-адаптер, позволяющая инте
+грировать кон-
+ []
+
+
+
+[177]
+Overfull \hbox (0.23366pt too wide) in paragraph at lines 571--572
+[]\TU/PTSans(1)/b/n/14.4 ScopeHolder\TU/PTSans(1)/m/n/14.4 : Сущность, которая 
+«держит» активный экземпляр Scope.
+ []
+
+
+Overfull \hbox (46.22598pt too wide) in paragraph at lines 572--573
+[]\TU/PTSans(1)/b/n/14.4 ScopeProvider \TU/PTSans(1)/m/n/14.4 и \TU/PTSans(1)/b
+/n/14.4 ScopeBuilder\TU/PTSans(1)/m/n/14.4 : Виджеты из библиотеки \TU/PTMono(1
+)/m/n/14.4 yx_scope_flutter\TU/PTSans(1)/m/n/14.4 ,
+ []
+
+
+
+[178]
+
+[179])
+
+[180]
+\openout2 = `Chapters/fifth_chapter_mobile_implementation.aux'.
+
+ (./Chapters/fifth_chapter_mobile_implementation.tex
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 7.
+
+
+
+[181
+
+
+
+]
+File: Images/mobile_logic/структура_фичи.png Graphic file (type bmp)
+<Images/mobile_logic/структура_фичи.png>
+
+Overfull \hbox (73.09062pt too wide) in paragraph at lines 13--14
+ [] 
+ []
+
+
+
+[182
+
+]
+Overfull \hbox (1.06375pt too wide) in paragraph at lines 27--28
+[]\TU/PTSans(1)/b/n/14.4 getRoutes \TU/PTSans(1)/m/n/14.4 отвечает за получение
+ списка маршрутов согласно выбран-
+ []
+
+
+Overfull \hbox (3.62695pt too wide) in paragraph at lines 30--31
+[]\TU/PTSans(1)/b/n/14.4 createPlace \TU/PTSans(1)/m/n/14.4 отправляет запрос н
+а создание пользвателем места марш-
+ []
+
+
+
+[183
+
+]
+Overfull \hbox (103.65057pt too wide) in paragraph at lines 34--35
+\TU/PTSans(1)/m/n/14.4 ложении является репозиторий, а конкретно в случае фичи 
+контента \TU/PTMono(1)/m/n/14.4 ContentRepository
+ []
+
+
+Overfull \hbox (157.49214pt too wide) in paragraph at lines 36--37
+\TU/PTSans(1)/m/n/14.4 кастомные исключения (\TU/PTMono(1)/m/n/14.4 AlreadyExis
+tsGrpcException\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 InvalidArgumentG
+rpcException\TU/PTSans(1)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (6.36548pt too wide) in paragraph at lines 36--37
+\TU/PTMono(1)/m/n/14.4 InternalServerGrpcException\TU/PTSans(1)/m/n/14.4 , \TU/
+PTMono(1)/m/n/14.4 UnknownGrpcException\TU/PTSans(1)/m/n/14.4 ), наследу-
+ []
+
+
+Overfull \hbox (82.56772pt too wide) in paragraph at lines 36--37
+\TU/PTSans(1)/m/n/14.4 кастомные исключения происходит с помощью расширения \TU
+/PTMono(1)/m/n/14.4 GrpcErrorToException\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (6.62341pt too wide) in paragraph at lines 42--43
+\TU/PTSans(1)/m/n/14.4 (начальное), \TU/PTMono(1)/m/n/14.4 RoutesLoadInProgress
+ \TU/PTSans(1)/m/n/14.4 (загрузка) и \TU/PTMono(1)/m/n/14.4 RoutesLoadFailure
+ []
+
+
+Overfull \hbox (110.98654pt too wide) in paragraph at lines 42--43
+\TU/PTSans(1)/m/n/14.4 (ошибка). Описание этих состояний находится в Приложении
+ А, файл \TU/PTMono(1)/m/n/14.4 routes_state.dart\TU/PTSans(1)/m/n/14.4 . 
+ []
+
+
+
+[184]
+Overfull \hbox (46.64738pt too wide) in paragraph at lines 46--47
+\TU/PTSans(1)/m/n/14.4 стояний происходит в \TU/PTMono(1)/m/n/14.4 RoutesBloc\T
+U/PTSans(1)/m/n/14.4 . Он взаимодействует с \TU/PTMono(1)/m/n/14.4 ContentRepos
+itory
+ []
+
+
+Overfull \hbox (87.23843pt too wide) in paragraph at lines 50--51
+\TU/PTSans(1)/m/n/14.4 торого четыре состояния: \TU/PTMono(1)/m/n/14.4 FilterRo
+utesInitial\TU/PTSans(1)/m/n/14.4 , \TU/PTMono(1)/m/n/14.4 FilterRoutesLoadInPr
+ogress\TU/PTSans(1)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (32.32997pt too wide) in paragraph at lines 52--53
+[]\TU/PTSans(1)/m/n/14.4 Этот блок обрабатывает уже два события: \TU/PTMono(1)/
+m/n/14.4 AvailableFilterRoutesFetched
+ []
+
+
+Overfull \hbox (13.1818pt too wide) in paragraph at lines 54--55
+\TU/PTSans(1)/m/n/14.4 ветствующем файле. Блок обрабатывает события получения д
+оступных филь-
+ []
+
+
+Overfull \hbox (85.5786pt too wide) in paragraph at lines 54--55
+\TU/PTSans(1)/m/n/14.4 тров и изменения пользовательских фильтров, взаимодейств
+уя с \TU/PTMono(1)/m/n/14.4 ContentRepository\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (5.35493pt too wide) in paragraph at lines 54--55
+\TU/PTSans(1)/m/n/14.4 Код блока находится в Приложении А, файл \TU/PTMono(1)/m
+/n/14.4 filter_routes_bloc.dart\TU/PTSans(1)/m/n/14.4 . 
+ []
+
+
+Overfull \hbox (72.63174pt too wide) in paragraph at lines 56--57
+\TU/PTSans(1)/m/n/14.4 зователем фильтров с помощью механизма \TU/PTMono(1)/m/n
+/14.4 BlocListener \TU/PTSans(1)/m/n/14.4 в виджете \TU/PTMono(1)/m/n/14.4 Cont
+entPage\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+
+[185]
+Overfull \hbox (96.30533pt too wide) in paragraph at lines 72--73
+[]\TU/PTSans(1)/m/n/14.4 Так для заполнения общей информации о маршруте был соз
+дан \TU/PTMono(1)/m/n/14.4 CreateRouteFormBloc\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (64.59651pt too wide) in paragraph at lines 72--73
+\TU/PTSans(1)/m/n/14.4 состояний представлен в Приложении А, файл \TU/PTMono(1)
+/m/n/14.4 create_route_form_state.dart\TU/PTSans(1)/m/n/14.4 . 
+ []
+
+
+
+[186]
+Overfull \hbox (115.16255pt too wide) in paragraph at lines 76--77
+\TU/PTSans(1)/m/n/14.4 ректно. Полный код представлен в Приложении А, файл \TU/
+PTMono(1)/m/n/14.4 create_route_form_bloc.dart\TU/PTSans(1)/m/n/14.4 . 
+ []
+
+
+Overfull \hbox (97.38531pt too wide) in paragraph at lines 78--79
+[]\TU/PTSans(1)/m/n/14.4 За создание и изменение порядка точек на маршруте отве
+чает \TU/PTMono(1)/m/n/14.4 CreatePointsFormBloc\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (6.98213pt too wide) in paragraph at lines 78--79
+\TU/PTSans(1)/m/n/14.4 представлен в Приложении А, файл \TU/PTMono(1)/m/n/14.4 
+create_points_form_state.dart\TU/PTSans(1)/m/n/14.4 . 
+ []
+
+
+Overfull \hbox (36.3882pt too wide) in paragraph at lines 80--81
+\TU/PTSans(1)/m/n/14.4 обновления (\TU/PTMono(1)/m/n/14.4 PlaceFormUpdatePoint\
+TU/PTSans(1)/m/n/14.4 ), удаления (\TU/PTMono(1)/m/n/14.4 PlaceFormDeletePoint\
+TU/PTSans(1)/m/n/14.4 )
+ []
+
+
+Overfull \hbox (126.73251pt too wide) in paragraph at lines 82--83
+[]\TU/PTSans(1)/m/n/14.4 Сама логика обновления состояния и обработки событий о
+писана в \TU/PTMono(1)/m/n/14.4 CreatePointsFormBloc\TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+Overfull \hbox (57.10977pt too wide) in paragraph at lines 84--85
+\TU/PTMono(1)/m/n/14.4 CreatePathPointEditedFormModel\TU/PTSans(1)/m/n/14.4 , \
+TU/PTMono(1)/m/n/14.4 CreatePathPointFilledFormModel\TU/PTSans(1)/m/n/14.4 ,
+ []
+
+
+Overfull \hbox (85.08894pt too wide) in paragraph at lines 84--85
+\TU/PTMono(1)/m/n/14.4 CreatePlacePointEditedFormModel\TU/PTSans(1)/m/n/14.4 , 
+и \TU/PTMono(1)/m/n/14.4 CreatePlacePointFilledFormModel\TU/PTSans(1)/m/n/14.4 
+.
+ []
+
+
+Overfull \hbox (90.4301pt too wide) in paragraph at lines 84--85
+\TU/PTSans(1)/m/n/14.4 Код состояний представлен в Приложении А, файл \TU/PTMon
+o(1)/m/n/14.4 create_point_form_state.dart\TU/PTSans(1)/m/n/14.4 . 
+ []
+
+
+
+[187]
+Overfull \hbox (79.2845pt too wide) in paragraph at lines 86--87
+\TU/PTSans(1)/m/n/14.4 Код событий представлен в Приложении А, файл \TU/PTMono(
+1)/m/n/14.4 create_point_form_event.dart\TU/PTSans(1)/m/n/14.4 . 
+ []
+
+
+Overfull \hbox (80.09091pt too wide) in paragraph at lines 90--91
+[]\TU/PTSans(1)/m/n/14.4 Объединение состояния блоков \TU/PTMono(1)/m/n/14.4 Cr
+eatePointsFormBloc \TU/PTSans(1)/m/n/14.4 и \TU/PTMono(1)/m/n/14.4 CreateRouteF
+ormBloc
+ []
+
+
+Overfull \hbox (26.75333pt too wide) in paragraph at lines 90--91
+\TU/PTSans(1)/m/n/14.4 происходит в методе \TU/PTMono(1)/m/n/14.4 createRoute \
+TU/PTSans(1)/m/n/14.4 интерактора \TU/PTMono(1)/m/n/14.4 CreateRouteInteractor\
+TU/PTSans(1)/m/n/14.4 .
+ []
+
+
+
+[188]
+Overfull \hbox (21.51172pt too wide) in paragraph at lines 96--97
+[]\TU/PTSans(1)/m/n/14.4 Взаимодействие между блоками CreatePointsFormBloc и Cr
+eateRouteFormBloc,
+ []
+
+)
+
+[189]
+\openout2 = `Chapters/sixth_chapter_mobile_ui.aux'.
+
+ (./Chapters/sixth_chapter_mobile_ui.tex
+Overfull \hbox (2.93832pt too wide) in paragraph at lines 2--4
+\TU/PTSans(1)/m/n/14.4 зуемые подходы, технические требования и методология, пр
+именённая при
+ []
+
+
+Overfull \hbox (7.53062pt too wide) in paragraph at lines 9--10
+[]\TU/PTSans(1)/m/n/14.4 Зафиксировать требования к элементам управления, визуа
+льному сти-
+ []
+
+
+
+[190
+
+
+
+]
+Overfull \hbox (2.81342pt too wide) in paragraph at lines 20--21
+[]\TU/PTSans(1)/b/n/14.4 2.5. План реализации интерфейсов \TU/PTSans(1)/m/n/14.
+4 — последовательность этапов раз-
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 24.
+
+
+
+[191]
+Overfull \hbox (13.75778pt too wide) in paragraph at lines 31--33
+[]\TU/PTSans(1)/m/n/14.4 Архитектура интерфейса базируется на компонентной моде
+ли. Каждый экран
+ []
+
+
+
+[192]
+Overfull \hbox (2.2509pt too wide) in paragraph at lines 39--40
+\TU/PTSans(1)/m/n/14.4 трастные элементы. В дальнейшем планируется реализация п
+оддерж-
+ []
+
+
+Overfull \hbox (3.35333pt too wide) in paragraph at lines 44--45
+[]\TU/PTSans(1)/m/n/14.4 Для разработки пользовательского интерфейса выбрана кр
+оссплатформен-
+ []
+
+
+
+[193]
+Overfull \hbox (3.41095pt too wide) in paragraph at lines 49--50
+[]\TU/PTSans(1)/m/n/14.4 Возможность реализации сложной анимации и пользователь
+ских сце-
+ []
+
+
+
+[194]
+Overfull \hbox (3.0548pt too wide) in paragraph at lines 64--65
+[]\TU/PTSans(1)/m/n/14.4 Кроссплатформенность: Приложение должно работать как н
+а Android,
+ []
+
+
+Overfull \hbox (3.01543pt too wide) in paragraph at lines 64--65
+\TU/PTSans(1)/m/n/14.4 так и на iOS-устройствах. В качестве фреймворка выбран F
+lutter, обес-
+ []
+
+
+
+[195]
+Overfull \hbox (7.0724pt too wide) in paragraph at lines 69--70
+[]\TU/PTSans(1)/m/n/14.4 Персонализация: Пользовательский интерфейс должен пред
+лагать ин-
+ []
+
+
+
+[196]
+Overfull \hbox (5.14151pt too wide) in paragraph at lines 78--79
+\TU/PTSans(1)/m/n/14.4 персональные предложения, рекламные интеграции, категори
+и марш-
+ []
+
+
+Overfull \hbox (6.42146pt too wide) in paragraph at lines 78--79
+\TU/PTSans(1)/m/n/14.4 маршруты подобранные маршруты в виде ленты постов. (см. 
+Рис.2.2.1.) 
+ []
+
+File: Images/ui/Picture1.png Graphic file (type bmp)
+<Images/ui/Picture1.png>
+
+
+[197]
+
+[198]
+File: Images/ui/Picture2.png Graphic file (type bmp)
+<Images/ui/Picture2.png>
+File: Images/ui/Picture3.png Graphic file (type bmp)
+<Images/ui/Picture3.png>
+
+
+[199]
+File: Images/ui/Picture4.png Graphic file (type bmp)
+<Images/ui/Picture4.png>
+
+
+[200]
+File: Images/ui/Picture5.png Graphic file (type bmp)
+<Images/ui/Picture5.png>
+
+
+[201]
+Overfull \hbox (1.2311pt too wide) in paragraph at lines 120--121
+\TU/PTSans(1)/m/n/14.4 три экрана, чтобы не перегружать интерфейс. На первом эк
+ране поль-
+ []
+
+File: Images/ui/Picture6.png Graphic file (type bmp)
+<Images/ui/Picture6.png>
+File: Images/ui/Picture7.png Graphic file (type bmp)
+<Images/ui/Picture7.png>
+
+
+[202]
+
+[203]
+File: Images/ui/Picture8.png Graphic file (type bmp)
+<Images/ui/Picture8.png>
+
+
+[204]
+File: Images/ui/Picture9.png Graphic file (type bmp)
+<Images/ui/Picture9.png>
+
+
+[205]
+
+[206]
+Overfull \hbox (5.15717pt too wide) in paragraph at lines 154--155
+\TU/PTSans(1)/m/n/14.4 ли (например, планирование маршрута, добавление в избран
+ное, про-
+ []
+
+
+Overfull \hbox (6.69415pt too wide) in paragraph at lines 162--163
+[]\TU/PTSans(1)/m/n/14.4 При проектировании пользовательского интерфейса были о
+пределены клю-
+ []
+
+
+Overfull \hbox (1.26794pt too wide) in paragraph at lines 162--163
+\TU/PTSans(1)/m/n/14.4 терфейса, кроссплатформенности и других параметров, влия
+ющих на поль-
+ []
+
+
+
+[207]
+Overfull \hbox (8.89735pt too wide) in paragraph at lines 167--168
+[]\TU/PTSans(1)/m/n/14.4 Используется система адаптивной вёрстки с применением 
+MediaQuery,
+ []
+
+
+Overfull \hbox (16.73094pt too wide) in paragraph at lines 174--175
+[]\TU/PTSans(1)/m/n/14.4 Элементы управления снабжаются семантическими метками 
+(Semantics,
+ []
+
+
+Overfull \hbox (14.00934pt too wide) in paragraph at lines 175--176
+[]\TU/PTSans(1)/m/n/14.4 Цветовая палитра и контрастность соответствуют рекомен
+дациям WCAG
+ []
+
+
+
+[208]
+Overfull \hbox (18.9498pt too wide) in paragraph at lines 183--184
+[]\TU/PTSans(1)/m/n/14.4 Используется lazy-загрузка компонентов (ListView.build
+er, FutureBuilder)
+ []
+
+
+Overfull \hbox (8.32133pt too wide) in paragraph at lines 184--185
+[]\TU/PTSans(1)/m/n/14.4 Изображения и карты кэшируются и масштабируются под ра
+змер экра-
+ []
+
+
+Overfull \hbox (57.38213pt too wide) in paragraph at lines 185--186
+[]\TU/PTSans(1)/m/n/14.4 Предусмотрена предварительная загрузка данных и отобра
+жение placeholder-
+ []
+
+
+
+[209])
+
+[210]
+\openout2 = `Chapters/conclustion.aux'.
+
+ (./Chapters/conclustion.tex
+Overfull \hbox (4.08905pt too wide) in paragraph at lines 4--5
+\TU/PTSans(1)/m/n/14.4 терфейсы, повышая консистентность и сокращая время вывод
+а новых функ-
+ []
+
+
+Overfull \hbox (5.15207pt too wide) in paragraph at lines 6--7
+[]\TU/PTSans(1)/m/n/14.4 Мобильное приложение реализовано на Flutter с архитект
+урой BLoC + Clean
+ []
+
+
+Overfull \hbox (0.46788pt too wide) in paragraph at lines 6--7
+\TU/PTSans(1)/m/n/14.4 емость функционала. Ключевые модули — авторизация, постр
+оитель марш-
+ []
+
+
+
+[211
+
+
+
+])
+Overfull \hbox (1.85033pt too wide) in paragraph at lines 8--60
+\TU/PTSans(1)/m/n/14.4 ядро на Go: сервисы Auth, Profile, Content, Activity, Fi
+leStorage и Notifications
+ []
+
+
+Overfull \hbox (1.29286pt too wide) in paragraph at lines 8--60
+\TU/PTSans(1)/m/n/14.4 ная шина NATS JetStream обеспечивает горизонтальную масш
+табируемость
+ []
+
+
+
+[212]
+\openout2 = `bibpage.aux'.
+
+ (./bibpage.tex (./main.bbl
+
+[213
+
+
+
+]
+
+[214]))
+
+[215]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 1>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 1>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 1>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 1>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 1>
+[216
+
+
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 2>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 2>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 2>
+[217
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 3>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 3>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 3>
+[218
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 4>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 4>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 4>
+[219
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 5>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 5>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 5>
+[220
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 6>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 6>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 6>
+[221
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 7>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 7>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 7>
+[222
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 8>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 8>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 8>
+[223
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 9>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 9>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 9>
+[224
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 10>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 10>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 10>
+[225
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 11>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 11>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 11>
+[226
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 12>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 12>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 12>
+[227
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 13>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 13>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 13>
+[228
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 14>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 14>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 14>
+[229
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 15>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 15>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 15>
+[230
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 16>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 16>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 16>
+[231
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 17>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 17>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 17>
+[232
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 18>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 18>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 18>
+[233
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 19>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 19>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 19>
+[234
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 20>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 20>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 20>
+[235
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 21>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 21>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 21>
+[236
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 22>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 22>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 22>
+[237
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 23>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 23>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 23>
+[238
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 24>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 24>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 24>
+[239
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 25>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 25>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 25>
+[240
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 26>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 26>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 26>
+[241
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 27>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 27>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 27>
+[242
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 28>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 28>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 28>
+[243
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 29>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 29>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 29>
+[244
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 30>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 30>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 30>
+[245
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 31>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 31>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 31>
+[246
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 32>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 32>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 32>
+[247
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 33>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 33>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 33>
+[248
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 34>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 34>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 34>
+[249
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 35>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 35>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 35>
+[250
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 36>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 36>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 36>
+[251
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 37>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 37>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 37>
+[252
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 38>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 38>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 38>
+[253
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 39>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 39>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 39>
+[254
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 40>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 40>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 40>
+[255
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 41>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 41>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 41>
+[256
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 42>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 42>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 42>
+[257
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 43>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 43>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 43>
+[258
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 44>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 44>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 44>
+[259
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 45>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 45>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 45>
+[260
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 46>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 46>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 46>
+[261
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 47>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 47>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 47>
+[262
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 48>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 48>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 48>
+[263
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 49>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 49>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 49>
+[264
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 50>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 50>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 50>
+[265
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 51>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 51>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 51>
+[266
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 52>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 52>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 52>
+[267
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 53>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 53>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 53>
+[268
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 54>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 54>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 54>
+[269
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 55>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 55>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 55>
+[270
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 56>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 56>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 56>
+[271
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 57>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 57>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 57>
+[272
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 58>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 58>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 58>
+[273
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 59>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 59>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 59>
+[274
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 60>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 60>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 60>
+[275
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 61>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 61>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 61>
+[276
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 62>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 62>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 62>
+[277
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 63>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 63>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 63>
+[278
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 64>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 64>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 64>
+[279
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 65>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 65>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 65>
+[280
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 66>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 66>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 66>
+[281
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 67>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 67>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 67>
+[282
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 68>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 68>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 68>
+[283
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 69>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 69>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 69>
+[284
+
+]
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 70>
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 70>
+
+
+File: backend_diploma_application.pdf Graphic file (type pdf)
+<use backend_diploma_application.pdf, page 70>
+[285
+
+]
+
+Package natbib Warning: There were undefined citations.
+
+(./main.aux (./macros.aux) (./tocpage.aux) (./Chapters/introduction.aux)
+(./Chapters/first_chapter_business.aux)
+(./Chapters/second_chapter_backend_architecture.aux)
+(./Chapters/third_chapter_backend_implementation.aux)
+(./Chapters/forth_chapter_mobile_architecture.aux)
+(./Chapters/fifth_chapter_mobile_implementation.aux)
+(./Chapters/sixth_chapter_mobile_ui.aux) (./Chapters/conclustion.aux)
+(./bibpage.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+))
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  54777D580F9AF174F1EB920169F20FC0;11483.
+ ) 
+Here is how much of TeX's memory you used:
+ 32136 strings out of 473832
+ 698908 string characters out of 5729481
+ 1204005 words of memory out of 5000000
+ 54597 multiletter control sequences out of 15000+600000
+ 561252 words of font info for 101 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 100i,17n,112p,2793b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.pdf (285 pages).

@@ -1,0 +1,112 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kd}{typedef}\PYG{+w}{ }\PYG{n}{PlaceId}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kt}{String}\PYG{p}{;}
+
+\PYG{k+kd}{abstract}\PYG{+w}{ }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{ContentRepository}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{RouteModels}\PYG{o}{?}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{getRouteModels}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{UserFilterRoutesParams}\PYG{o}{?}\PYG{+w}{ }\PYG{n}{userFilterRoutesParams}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{AvailableFilterRoutesParams}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{getAvailableFilterRoutesParams}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{PlaceId}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{createPlace}\PYG{p}{(}\PYG{n}{CreatePlaceModel}\PYG{+w}{ }\PYG{n}{place}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{CreateRouteResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{createRoute}\PYG{p}{(}\PYG{n}{CreateRouteModel}\PYG{+w}{ }\PYG{n}{route}\PYG{p}{)}\PYG{p}{;}
+\PYG{p}{\PYGZcb{}}
+
+\PYG{k+kd}{final}\PYG{+w}{ }\PYG{k+kd}{class}\PYG{+w}{ }\PYG{n+nc}{ContentRepositoryImpl}\PYG{+w}{ }\PYG{k+kd}{implements}\PYG{+w}{ }\PYG{n}{ContentRepository}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{ContentApiClient}\PYG{+w}{ }\PYG{n}{\PYGZus{}apiClient}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{ContentModelsConverter}\PYG{+w}{ }\PYG{n}{\PYGZus{}modelsConverter}\PYG{p}{;}
+\PYG{+w}{  }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{Logger}\PYG{+w}{ }\PYG{n}{\PYGZus{}logger}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{k}{const}\PYG{+w}{ }\PYG{n}{ContentRepositoryImpl}\PYG{p}{(}\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{n}{ContentApiClient}\PYG{+w}{ }\PYG{n}{apiClient}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{n}{ContentModelsConverter}\PYG{+w}{ }\PYG{n}{modelsConverter}\PYG{p}{,}
+\PYG{+w}{    }\PYG{k+kd}{required}\PYG{+w}{ }\PYG{n}{Logger}\PYG{+w}{ }\PYG{n}{logger}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}\PYG{p}{)}\PYG{+w}{  }\PYG{o}{:}\PYG{+w}{ }\PYG{n}{\PYGZus{}apiClient}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{apiClient}\PYG{p}{,}
+\PYG{+w}{        }\PYG{n}{\PYGZus{}modelsConverter}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{modelsConverter}\PYG{p}{,}
+\PYG{+w}{        }\PYG{n}{\PYGZus{}logger}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{logger}\PYG{p}{;}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{RouteModels}\PYG{o}{?}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{getRouteModels}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{UserFilterRoutesParams}\PYG{o}{?}\PYG{+w}{ }\PYG{n}{userFilterRoutesParams}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{async}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{\PYGZus{}logger}\PYG{p}{.}\PYG{n}{i}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{try to get routes}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{k}{try}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{routes}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}apiClient}\PYG{p}{.}\PYG{n}{getRoutes}\PYG{p}{(}\PYG{n}{userFilterRoutesParams}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{\PYGZus{}modelsConverter}\PYG{p}{.}\PYG{n}{convertRoutesToRouteModels}\PYG{p}{(}\PYG{n}{routes}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k+kd}{on}\PYG{+w}{ }\PYG{n}{GrpcError}\PYG{+w}{ }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{error}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{throw}\PYG{+w}{ }\PYG{n}{error}\PYG{p}{.}\PYG{n}{toCustomGrpcException}\PYG{p}{(}\PYG{n+nl}{featureName:}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{GetRoutes}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{AvailableFilterRoutesParams}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{getAvailableFilterRoutesParams}\PYG{p}{(}\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{async}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{\PYGZus{}logger}\PYG{p}{.}\PYG{n}{i}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{try to get available filter routes params}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{try}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{routesFilter}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}apiClient}\PYG{p}{.}\PYG{n}{getRoutesFilter}\PYG{p}{(}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{\PYGZus{}modelsConverter}
+\PYG{+w}{          }\PYG{p}{.}\PYG{n}{convertGetRoutesFilterOptionsResponseToAvailableFilterRoutesParams}\PYG{p}{(}
+\PYG{+w}{        }\PYG{n}{routesFilter}\PYG{p}{,}
+\PYG{+w}{      }\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k+kd}{on}\PYG{+w}{ }\PYG{n}{GrpcError}\PYG{+w}{ }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{error}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{throw}\PYG{+w}{ }\PYG{n}{error}\PYG{p}{.}\PYG{n}{toCustomGrpcException}\PYG{p}{(}
+\PYG{+w}{        }\PYG{n+nl}{featureName:}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{GetRouteFilterParams}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{,}
+\PYG{+w}{      }\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{PlaceId}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{createPlace}\PYG{p}{(}
+\PYG{+w}{    }\PYG{n}{CreatePlaceModel}\PYG{+w}{ }\PYG{n}{createPlaceModel}\PYG{p}{,}
+\PYG{+w}{  }\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{async}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{k}{try}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{protoPlace}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{          }\PYG{n}{\PYGZus{}modelsConverter}\PYG{p}{.}\PYG{n}{convertCreatePlaceModelToCreatePlaceRequest}\PYG{p}{(}
+\PYG{+w}{        }\PYG{n}{createPlaceModel}\PYG{p}{,}
+\PYG{+w}{      }\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{      }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{response}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}apiClient}\PYG{p}{.}\PYG{n}{createPlace}\PYG{p}{(}\PYG{n}{protoPlace}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{placeId}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{n}{response}\PYG{p}{.}\PYG{n}{placeId}\PYG{p}{;}
+
+\PYG{+w}{      }\PYG{k}{try}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{imageUploadRequests}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{Future}\PYG{p}{.}\PYG{n}{wait}\PYG{p}{(}
+\PYG{+w}{          }\PYG{n}{createPlaceModel}\PYG{p}{.}\PYG{n}{images}\PYG{p}{.}\PYG{n}{map}\PYG{p}{(}
+\PYG{+w}{            }\PYG{p}{(}\PYG{n}{image}\PYG{p}{)}\PYG{+w}{ }\PYG{o}{=}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{\PYGZus{}modelsConverter}\PYG{p}{.}\PYG{n}{convertXFileToUploadImageRequest}\PYG{p}{(}
+\PYG{+w}{              }\PYG{n}{placeId}\PYG{p}{,}
+\PYG{+w}{              }\PYG{n}{image}\PYG{p}{,}
+\PYG{+w}{            }\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{          }\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{        }\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{        }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}apiClient}\PYG{p}{.}\PYG{n}{uploadImages}\PYG{p}{(}
+\PYG{+w}{          }\PYG{n}{Stream}\PYG{p}{.}\PYG{n}{fromIterable}\PYG{p}{(}\PYG{n}{imageUploadRequests}\PYG{p}{)}\PYG{p}{,}
+\PYG{+w}{        }\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{        }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{placeId}\PYG{p}{;}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k+kd}{on}\PYG{+w}{ }\PYG{n}{GrpcError}\PYG{+w}{ }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{error}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{        }\PYG{k}{throw}\PYG{+w}{ }\PYG{n}{error}\PYG{p}{.}\PYG{n}{toCustomGrpcException}\PYG{p}{(}\PYG{n+nl}{featureName:}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{UploadImages}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{      }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k+kd}{on}\PYG{+w}{ }\PYG{n}{GrpcError}\PYG{+w}{ }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{error}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{throw}\PYG{+w}{ }\PYG{n}{error}\PYG{p}{.}\PYG{n}{toCustomGrpcException}\PYG{p}{(}\PYG{n+nl}{featureName:}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{CreatePlace}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+
+\PYG{+w}{  }\PYG{n+nd}{@override}
+\PYG{+w}{  }\PYG{n}{Future}\PYG{o}{\PYGZlt{}}\PYG{n}{CreateRouteResponse}\PYG{o}{\PYGZgt{}}\PYG{+w}{ }\PYG{n}{createRoute}\PYG{p}{(}\PYG{n}{CreateRouteModel}\PYG{+w}{ }\PYG{n}{route}\PYG{p}{)}\PYG{+w}{ }\PYG{k+kd}{async}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{    }\PYG{n}{\PYGZus{}logger}\PYG{p}{.}\PYG{n}{d}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{try to create route}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{    }\PYG{k}{try}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{protoRoute}\PYG{+w}{ }\PYG{o}{=}
+\PYG{+w}{          }\PYG{n}{\PYGZus{}modelsConverter}\PYG{p}{.}\PYG{n}{convertCreateRouteModelToCreateRouteRequest}\PYG{p}{(}
+\PYG{+w}{        }\PYG{n}{route}\PYG{p}{,}
+\PYG{+w}{      }\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{      }\PYG{k+kd}{final}\PYG{+w}{ }\PYG{n}{response}\PYG{+w}{ }\PYG{o}{=}\PYG{+w}{ }\PYG{k+kd}{await}\PYG{+w}{ }\PYG{n}{\PYGZus{}apiClient}\PYG{p}{.}\PYG{n}{createRoute}\PYG{p}{(}\PYG{n}{protoRoute}\PYG{p}{)}\PYG{p}{;}
+
+\PYG{+w}{      }\PYG{n}{\PYGZus{}logger}\PYG{p}{.}\PYG{n}{d}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{route created: }\PYG{l+s+si}{\PYGZdl{}}\PYG{n}{response}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{      }\PYG{k}{return}\PYG{+w}{ }\PYG{n}{response}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}\PYG{+w}{ }\PYG{k+kd}{on}\PYG{+w}{ }\PYG{n}{GrpcError}\PYG{+w}{ }\PYG{k}{catch}\PYG{+w}{ }\PYG{p}{(}\PYG{n}{error}\PYG{p}{)}\PYG{+w}{ }\PYG{p}{\PYGZob{}}
+\PYG{+w}{      }\PYG{k}{throw}\PYG{+w}{ }\PYG{n}{error}\PYG{p}{.}\PYG{n}{toCustomGrpcException}\PYG{p}{(}\PYG{n+nl}{featureName:}\PYG{+w}{ }\PYG{l+s+s1}{\PYGZsq{}}\PYG{l+s+s1}{CreateRoute}\PYG{l+s+s1}{\PYGZsq{}}\PYG{p}{)}\PYG{p}{;}
+\PYG{+w}{    }\PYG{p}{\PYGZcb{}}
+\PYG{+w}{  }\PYG{p}{\PYGZcb{}}
+\PYG{p}{\PYGZcb{}}
+\end{MintedVerbatim}
