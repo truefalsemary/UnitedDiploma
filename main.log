@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.5.18)  7 JUN 2025 23:34
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.5.18)  8 JUN 2025 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,7 +954,6 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"PT
 (fontspec)             Mono/BI/OT:script=latn;language=dflt;"
 
-)
 
 Package fontspec Info: 
 (fontspec)             Font family 'PTSans(0)' created for font 'PT Sans' with
@@ -972,7 +971,7 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"PT
 (fontspec)             Sans/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
-
+)
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 21.
@@ -999,14 +998,8 @@ Package fontspec Info:
 (./Chapters/introduction.aux) (./Chapters/first_chapter_business.aux)
 (./Chapters/sixth_chapter_mobile_ui.aux)
 (./Chapters/second_chapter_backend_architecture.aux)
-(./Chapters/forth_chapter_mobile_architecture.aux
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-) (./Chapters/fifth_chapter_mobile_implementation.aux)
+(./Chapters/forth_chapter_mobile_architecture.aux)
+(./Chapters/fifth_chapter_mobile_implementation.aux)
 (./Chapters/third_chapter_backend_implementation.aux)
 (./Chapters/conclustion.aux) (./bibpage.aux))
 \openout1 = `main.aux'.
@@ -1229,27 +1222,27 @@ Overfull \hbox (1.22397pt too wide) detected at line 33
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 35
- []\TU/PTSans(1)/m/n/14.4 172
+ []\TU/PTSans(1)/m/n/14.4 173
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 36
- []\TU/PTSans(1)/m/n/14.4 178
+ []\TU/PTSans(1)/m/n/14.4 179
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 37
- []\TU/PTSans(1)/m/n/14.4 197
+ []\TU/PTSans(1)/m/n/14.4 198
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 38
- []\TU/PTSans(1)/m/n/14.4 202
+ []\TU/PTSans(1)/m/n/14.4 203
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 39
- []\TU/PTSans(1)/m/n/14.4 204
+ []\TU/PTSans(1)/m/n/14.4 205
  []
 
 )
@@ -1262,21 +1255,9 @@ Overfull \hbox (1.22397pt too wide) detected at line 39
 \openout2 = `Chapters/introduction.aux'.
 
  (./Chapters/introduction.tex
-Overfull \hbox (2.92136pt too wide) in paragraph at lines 3--4
-\TU/PTSans(1)/m/n/14.4 мацию и стал неотъемлемым компонентом глобальных экономи
-ческих про-
- []
-
-
-Overfull \hbox (2.30212pt too wide) in paragraph at lines 3--4
-\TU/PTSans(1)/m/n/14.4 обеспечению устойчивого социального и культурного взаимо
-действия меж-
- []
-
-
-Overfull \hbox (7.13849pt too wide) in paragraph at lines 5--7
+Underfull \hbox (badness 1077) in paragraph at lines 5--7
 []\TU/PTSans(1)/m/n/14.4 Актуальность исследования внутреннего туризма обусловл
-ена не толь-
+ена не
  []
 
 
@@ -1288,32 +1269,14 @@ Overfull \hbox (7.13849pt too wide) in paragraph at lines 5--7
 ]
 
 [5]
-Overfull \hbox (1.9113pt too wide) in paragraph at lines 15--18
+Underfull \hbox (badness 1331) in paragraph at lines 15--18
 []\TU/PTSans(1)/m/n/14.4 Целью настоящей работы является всестороннее обоснован
-ие и прак-
- []
-
-
-Overfull \hbox (37.79814pt too wide) in paragraph at lines 15--18
-\TU/PTSans(1)/m/n/14.4 кого круга внутренних путешественников и тем самым стиму
-лировать социально-
+ие и
  []
 
 
 
-[6]
-Overfull \hbox (15.80933pt too wide) in paragraph at lines 18--19
-[]\TU/PTSans(1)/b/n/14.4 Бизнес-аналитика и стратегия монетизации \TU/PTSans(1)
-/m/n/14.4 – исследовать рынок travel-
- []
-
-
-Overfull \hbox (8.29256pt too wide) in paragraph at lines 21--22
-[]\TU/PTSans(1)/b/n/14.4 Разработка масштабируемого серверного ядра \TU/PTSans(
-1)/m/n/14.4 – спроектировать мик-
- []
-
-)
+[6])
 
 [7]
 \openout2 = `Chapters/first_chapter_business.aux'.
@@ -1324,154 +1287,70 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
 
-Overfull \hbox (5.75816pt too wide) in paragraph at lines 12--13
-[]\TU/PTSans(1)/m/n/14.4 Возможность выбора и создания маршрутов с учётом разли
-чных слож-
- []
-
-
 
 [8
 
 
 
 ]
-Overfull \hbox (1.7431pt too wide) in paragraph at lines 24--25
-\TU/PTSans(1)/m/n/14.4 руты умеренной сложности, с наличием инфраструктуры (туа
-леты, ме-
- []
-
-
 
 [9]
 
 [10]
 
 [11]
-Overfull \hbox (2.99461pt too wide) in paragraph at lines 37--38
-[]\TU/PTSans(1)/m/n/14.4 Доступ к карточке маршрута, содержащей развернутое тек
-стовое опи-
- []
-
-
-Overfull \hbox (10.42502pt too wide) in paragraph at lines 38--39
-[]\TU/PTSans(1)/m/n/14.4 Визуализация маршрутов посредством качественных фотогр
-афий, поз-
- []
-
-
 
 [12]
-Overfull \hbox (2.76088pt too wide) in paragraph at lines 54--55
-[]\TU/PTSans(1)/m/n/14.4 Как пользователь с ограниченными физическими возможнос
-тями (на-
- []
-
-
-Overfull \hbox (0.40263pt too wide) in paragraph at lines 58--59
+Underfull \hbox (badness 3260) in paragraph at lines 58--59
 []\TU/PTSans(1)/m/n/14.4 Наличие специализированного фильтра для поиска маршрут
-ов, адап-
+ов,
  []
 
 
 
 [13]
-Overfull \hbox (5.0983pt too wide) in paragraph at lines 60--61
-\TU/PTSans(1)/m/n/14.4 мацию о наличии пандусов, ширине дорожек, доступности об
-ществен-
- []
-
-
 
 [14]
 
 [15]
-Overfull \hbox (9.04056pt too wide) in paragraph at lines 88--89
-[]\TU/PTSans(1)/m/n/14.4 Как пользователь, работающий полный рабочий день и име
-ющий огра-
- []
-
-
 
 [16]
 
 [17]
 
 [18]
-Overfull \hbox (11.80742pt too wide) in paragraph at lines 127--128
-\TU/PTSans(1)/m/n/14.4 вательских предпочтений в удобной веб-панели администрат
-ора, обес-
- []
-
-
 
 [19]
-Overfull \hbox (7.18425pt too wide) in paragraph at lines 146--147
-[]\TU/PTSans(1)/m/n/14.4 Функциональные возможности, относящиеся к данной катег
-ории, фор-
- []
-
-
-Overfull \hbox (1.8922pt too wide) in paragraph at lines 146--147
-\TU/PTSans(1)/m/n/14.4 мируют базовую основу мобильного приложения. Их наличие 
-является кри-
- []
-
-
-Overfull \hbox (12.28264pt too wide) in paragraph at lines 150--151
-\TU/PTSans(1)/m/n/14.4 висом, предоставляя исчерпывающую информацию о доступных
- марш-
- []
-
-
 
 [20]
-Overfull \hbox (2.98022pt too wide) in paragraph at lines 152--153
-\TU/PTSans(1)/m/n/14.4 ние пользовательского контента, вовлечение тревел-блогер
-ов и опыт-
- []
-
-
-Overfull \hbox (6.83607pt too wide) in paragraph at lines 159--162
-[]\TU/PTSans(1)/m/n/14.4 Функции данного уровня приоритета направлены на повыше
-ние удоб-
+Underfull \hbox (badness 2452) in paragraph at lines 159--162
+\TU/PTSans(1)/m/n/14.4 удобства взаимодействия с приложением, увеличение вовлеч
+ённости
  []
 
 
 
 [21]
-Overfull \hbox (0.94179pt too wide) in paragraph at lines 164--165
-[]\TU/PTSans(1)/m/n/14.4 Сохранение избранных маршрутов и функция их обмена. Да
-нная воз-
- []
-
-
-Overfull \hbox (7.66022pt too wide) in paragraph at lines 174--175
+Underfull \hbox (badness 1082) in paragraph at lines 174--175
 []\TU/PTSans(1)/m/n/14.4 Персонализированные рекомендации маршрутов, основанные
- на ана-
+ на
  []
 
 
 
 [22]
-Overfull \hbox (3.98695pt too wide) in paragraph at lines 182--183
-\TU/PTSans(1)/m/n/14.4 ляет команде сосредоточиться на реализации наиболее знач
-имых для поль-
- []
-
-
-Overfull \hbox (28.54785pt too wide) in paragraph at lines 182--183
-\TU/PTSans(1)/m/n/14.4 зователей возможностей, обеспечивающих успешный запуск п
-родукта. Средне-
- []
-
-
 
 [23]
 
 [24]
 
 [25]
+Underfull \hbox (badness 1320) in paragraph at lines 204--206
+[]\TU/PTSans(1)/m/n/14.4 Правительственные инициативы и инвестиции, направленны
+е на
+ []
+
+
 
 [26]
 Underfull \hbox (badness 10000) in paragraph at lines 214--214
@@ -1529,153 +1408,63 @@ Overfull \hbox (5.32082pt too wide) in paragraph at lines 211--225
  []
 
 
-Overfull \hbox (3.57062pt too wide) in paragraph at lines 232--233
-\TU/PTSans(1)/m/n/14.4 шие практики, уже реализованные на рынке мобильных турис
-тических при-
- []
-
-
-Overfull \hbox (7.7098pt too wide) in paragraph at lines 232--233
-\TU/PTSans(1)/m/n/14.4 ложений. Анализ существующих решений предоставляет возмо
-жность опре-
- []
-
-
 
 [27]
-Overfull \hbox (12.09413pt too wide) in paragraph at lines 240--241
+Underfull \hbox (badness 1460) in paragraph at lines 240--241
 []\TU/PTSans(1)/m/n/14.4 Развитая многофункциональность и интеграция с обществе
-нным транс-
+нным
  []
 
 
 
 [28]
-Overfull \hbox (0.31288pt too wide) in paragraph at lines 256--257
-[]\TU/PTSans(1)/m/n/14.4 TripAdvisor представляет собой одну из наиболее автори
-тетных и вос-
- []
-
-
 
 [29]
-Overfull \hbox (0.35814pt too wide) in paragraph at lines 261--262
+Underfull \hbox (badness 1817) in paragraph at lines 261--262
 []\TU/PTSans(1)/m/n/14.4 Международное присутствие и широкая географическая дос
-тупность.
+туп-
  []
 
 
-Overfull \hbox (3.53378pt too wide) in paragraph at lines 262--263
+Underfull \hbox (badness 2221) in paragraph at lines 262--263
 []\TU/PTSans(1)/m/n/14.4 Высокая степень вовлечённости аудитории. Благодаря акт
-ивной поль-
+ивной
  []
 
 
-Overfull \hbox (7.85379pt too wide) in paragraph at lines 263--264
+Underfull \hbox (badness 1178) in paragraph at lines 263--264
 []\TU/PTSans(1)/m/n/14.4 Комплексная интеграция с сервисами бронирования. Платф
-орма обес-
+орма
  []
 
 
 
 [30]
-Overfull \hbox (11.20132pt too wide) in paragraph at lines 271--272
-[]\TU/PTSans(1)/m/n/14.4 Ограниченные возможности фильтрации по специализирован
-ным кри-
- []
-
-
-Overfull \hbox (14.83778pt too wide) in paragraph at lines 271--272
-\TU/PTSans(1)/m/n/14.4 териям. TripAdvisor предлагает недостаточно гибкие инстр
-ументы филь-
- []
-
-
 
 [31]
-Overfull \hbox (7.58017pt too wide) in paragraph at lines 275--276
-\TU/PTSans(1)/m/n/14.4 можности для разработки специализированного решения. При
-ложение «Пу-
- []
-
-
-Overfull \hbox (11.46054pt too wide) in paragraph at lines 275--276
-\TU/PTSans(1)/m/n/14.4 пользователям качественно новые возможности персонализир
-ованного пла-
- []
-
-
-Overfull \hbox (10.19127pt too wide) in paragraph at lines 278--279
+Underfull \hbox (badness 1616) in paragraph at lines 278--279
 []\TU/PTSans(1)/m/n/14.4 Russpass является специализированной цифровой туристич
-еской плат-
+еской
  []
 
 
 
 [32]
-Overfull \hbox (12.31143pt too wide) in paragraph at lines 282--283
-\TU/PTSans(1)/m/n/14.4 гих мест размещения, приобретение билетов на различные в
-иды транс-
- []
-
-
-Overfull \hbox (8.51111pt too wide) in paragraph at lines 282--283
-\TU/PTSans(1)/m/n/14.4 порта, заказ экскурсий, а также планирование развлекател
-ьных и куль-
- []
-
-
-Overfull \hbox (0.49539pt too wide) in paragraph at lines 282--283
-\TU/PTSans(1)/m/n/14.4 турных мероприятий. Такая комплексная интеграция различн
-ых услуг
- []
-
-
-Overfull \hbox (3.84294pt too wide) in paragraph at lines 282--283
-\TU/PTSans(1)/m/n/14.4 позволяет минимизировать затраты времени на организацион
-ные во-
- []
-
-
-Overfull \hbox (8.58311pt too wide) in paragraph at lines 283--284
-\TU/PTSans(1)/m/n/14.4 проектом, инициированным Правительством Москвы, она акти
-вно вза-
- []
-
-
 
 [33]
-Overfull \hbox (28.76257pt too wide) in paragraph at lines 285--286
+Underfull \hbox (badness 1320) in paragraph at lines 285--286
 []\TU/PTSans(1)/m/n/14.4 Интуитивность интерфейса и удобство эксплуатации. Плат
-форма Russpass
- []
-
-
-Overfull \hbox (4.36768pt too wide) in paragraph at lines 292--293
-\TU/PTSans(1)/m/n/14.4 функций. В отличие от более специализированных туристиче
-ских сер-
+форма
  []
 
 
 
 [34]
-Overfull \hbox (14.39139pt too wide) in paragraph at lines 293--294
-\TU/PTSans(1)/m/n/14.4 вого продвижения. Несмотря на поддержку на государственн
-ом уровне,
- []
-
-
 
 [35]
-Overfull \hbox (7.83432pt too wide) in paragraph at lines 303--304
-\TU/PTSans(1)/m/n/14.4 гие), физическую подготовку пользователей, уровень сложн
-ости марш-
- []
-
-
-Overfull \hbox (1.40259pt too wide) in paragraph at lines 305--306
+Underfull \hbox (badness 1629) in paragraph at lines 305--306
 []\TU/PTSans(1)/m/n/14.4 Социальные функции и пользовательский контент. Пользов
-атели име-
+атели
  []
 
 
@@ -1768,17 +1557,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [38]
-Overfull \hbox (2.2425pt too wide) in paragraph at lines 372--373
-[]\TU/PTSans(1)/m/n/14.4 Международная платформа TripAdvisor демонстрирует слаб
-ое покры-
- []
-
-
 
 [39]
-Overfull \hbox (16.86185pt too wide) in paragraph at lines 387--388
+Underfull \hbox (badness 1163) in paragraph at lines 387--388
 []\TU/PTSans(1)/m/n/14.4 Комплексное освещение региональных российских направле
-ний, вклю-
+ний,
  []
 
 
@@ -1792,46 +1575,16 @@ Overfull \hbox (16.86185pt too wide) in paragraph at lines 387--388
 [43]
 
 [44]
-Overfull \hbox (4.25378pt too wide) in paragraph at lines 424--425
-\TU/PTSans(1)/m/n/14.4 ные перевозчики. Интеграция с их системами бронирования 
-(или под-
- []
-
-
-Overfull \hbox (3.82854pt too wide) in paragraph at lines 424--425
-\TU/PTSans(1)/m/n/14.4 ключение через GDS/агрегаторы) позволяет пользователям и
-скать би-
- []
-
-
 
 [45]
-Overfull \hbox (11.98277pt too wide) in paragraph at lines 425--426
-[]\TU/PTSans(1)/m/n/14.4 Экскурсионные и туроператоры: поставщики экскурсионных
- программ,
- []
-
-
-Overfull \hbox (2.38982pt too wide) in paragraph at lines 431--432
-[]\TU/PTSans(1)/m/n/14.4 Разработка и поддержка ИТ-платформы (включая разработк
-у, хостинг,
- []
-
-
-Overfull \hbox (37.41061pt too wide) in paragraph at lines 432--433
+Underfull \hbox (badness 5288) in paragraph at lines 432--433
 []\TU/PTSans(1)/m/n/14.4 Расходы на маркетинг и продвижение (онлайн-реклама, SE
-O-продвижение,
+O-
  []
 
 
 
 [46]
-Overfull \hbox (10.13702pt too wide) in paragraph at lines 444--445
-\TU/PTSans(1)/m/n/14.4 рекламой понимаются рекламные материалы, органично встро
-енные в поль-
- []
-
-
 
 [47]
 
@@ -1842,18 +1595,6 @@ Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langu
 ge=dflt;mapping=tex-text;!
 Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
 ge=dflt;mapping=tex-text;!
-
-Overfull \hbox (14.51172pt too wide) in paragraph at lines 476--481
-\TU/PTSans(1)/m/n/14.4 поддержку, модерацию). Затраты на серверы зависят от наг
-рузки: для неболь-
- []
-
-
-Overfull \hbox (3.2314pt too wide) in paragraph at lines 476--481
-\TU/PTSans(1)/m/n/14.4 курсии) как нативный контент в маршрутном приложении. До
-пустимая став-
- []
-
 
 
 [49]
@@ -1928,12 +1669,6 @@ ge=dflt;mapping=tex-text;!
 
 
 [52]
-Overfull \hbox (2.9239pt too wide) in paragraph at lines 511--512
-\TU/PTSans(1)/m/n/14.4 качества контента, недостаток персонализации маршрутов, 
-слабая ра-
- []
-
-
 
 [53]
 
@@ -1948,21 +1683,9 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 6.
 
 
-Overfull \hbox (1.95322pt too wide) in paragraph at lines 7--8
+Underfull \hbox (badness 3049) in paragraph at lines 7--8
 []\TU/PTSans(1)/m/n/14.4 Проектирование пользовательского интерфейса (UI) мобил
-ьного при-
- []
-
-
-Overfull \hbox (5.52776pt too wide) in paragraph at lines 7--8
-\TU/PTSans(1)/m/n/14.4 ложения осуществляется на основе современных принципов U
-X/UI-дизайна
- []
-
-
-Overfull \hbox (4.2729pt too wide) in paragraph at lines 10--11
-[]\TU/PTSans(1)/m/n/14.4 Для проектирования интерфейса использовалась итеративн
-ая модель
+ьного
  []
 
 
@@ -1972,72 +1695,25 @@ Overfull \hbox (4.2729pt too wide) in paragraph at lines 10--11
 
 
 ]
-Overfull \hbox (16.8729pt too wide) in paragraph at lines 17--19
-[]\TU/PTSans(1)/m/n/14.4 Проектирование интерфейса базируется на следующих ключ
-евых прин-
- []
-
-
 
 [57]
-Overfull \hbox (2.2509pt too wide) in paragraph at lines 21--22
-\TU/PTSans(1)/m/n/14.4 трастные элементы. В дальнейшем планируется реализация п
-оддерж-
- []
-
-
 
 [58]
-Overfull \hbox (3.41095pt too wide) in paragraph at lines 31--32
-[]\TU/PTSans(1)/m/n/14.4 Возможность реализации сложной анимации и пользователь
-ских сце-
- []
-
-
 
 [59]
-Overfull \hbox (3.0548pt too wide) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 []\TU/PTSans(1)/m/n/14.4 Кроссплатформенность: Приложение должно работать как н
-а Android,
- []
-
-
-Overfull \hbox (3.01543pt too wide) in paragraph at lines 46--47
-\TU/PTSans(1)/m/n/14.4 так и на iOS-устройствах. В качестве фреймворка выбран F
-lutter, обес-
+а
  []
 
 
 
 [60]
-Overfull \hbox (7.0724pt too wide) in paragraph at lines 51--52
-[]\TU/PTSans(1)/m/n/14.4 Персонализация: Пользовательский интерфейс должен пред
-лагать ин-
- []
 
-
-Overfull \hbox (7.0042pt too wide) in paragraph at lines 57--60
-\TU/PTSans(1)/m/n/14.4 последовательности и логики переходов между экранами. Ра
-зработка струк-
- []
-
-
-Overfull \hbox (5.14151pt too wide) in paragraph at lines 60--61
-\TU/PTSans(1)/m/n/14.4 персональные предложения, рекламные интеграции, категори
-и марш-
- []
-
-
-Overfull \hbox (6.42146pt too wide) in paragraph at lines 60--61
-\TU/PTSans(1)/m/n/14.4 маршруты подобранные маршруты в виде ленты постов. (см. 
-Рис.2.1.1.) 
- []
-
+[61]
 File: Images/ui/Picture1.png Graphic file (type bmp)
 <Images/ui/Picture1.png>
 
-
-[61]
 
 [62]
 File: Images/ui/Picture2.png Graphic file (type bmp)
@@ -2057,11 +1733,6 @@ File: Images/ui/Picture5.png Graphic file (type bmp)
 
 
 [65]
-Overfull \hbox (1.2311pt too wide) in paragraph at lines 102--103
-\TU/PTSans(1)/m/n/14.4 три экрана, чтобы не перегружать интерфейс. На первом эк
-ране поль-
- []
-
 File: Images/ui/Picture6.png Graphic file (type bmp)
 <Images/ui/Picture6.png>
 File: Images/ui/Picture7.png Graphic file (type bmp)
@@ -2083,76 +1754,38 @@ File: Images/ui/Picture9.png Graphic file (type bmp)
 [69]
 
 [70]
-Overfull \hbox (5.15717pt too wide) in paragraph at lines 136--137
-\TU/PTSans(1)/m/n/14.4 ли (например, планирование маршрута, добавление в избран
-ное, про-
- []
-
-
 
 [71]
-Overfull \hbox (8.89735pt too wide) in paragraph at lines 149--150
-[]\TU/PTSans(1)/m/n/14.4 Используется система адаптивной вёрстки с применением 
-MediaQuery,
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+[]\TU/PTSans(1)/m/n/14.4 Используется система адаптивной вёрстки с применением
  []
 
 
-Overfull \hbox (16.73094pt too wide) in paragraph at lines 156--157
-[]\TU/PTSans(1)/m/n/14.4 Элементы управления снабжаются семантическими метками 
-(Semantics,
+Underfull \hbox (badness 3977) in paragraph at lines 149--150
+\TU/PTSans(1)/m/n/14.4 MediaQuery, LayoutBuilder и Flexible/Expanded компоненто
+в во
  []
 
 
-Overfull \hbox (14.00934pt too wide) in paragraph at lines 157--158
-[]\TU/PTSans(1)/m/n/14.4 Цветовая палитра и контрастность соответствуют рекомен
-дациям WCAG
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+[]\TU/PTSans(1)/m/n/14.4 Элементы управления снабжаются семантическими метками
  []
 
 
 
 [72]
-Overfull \hbox (18.9498pt too wide) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 []\TU/PTSans(1)/m/n/14.4 Используется lazy-загрузка компонентов (ListView.build
-er, FutureBuilder)
- []
-
-
-Overfull \hbox (8.32133pt too wide) in paragraph at lines 166--167
-[]\TU/PTSans(1)/m/n/14.4 Изображения и карты кэшируются и масштабируются под ра
-змер экра-
- []
-
-
-Overfull \hbox (57.38213pt too wide) in paragraph at lines 167--168
-[]\TU/PTSans(1)/m/n/14.4 Предусмотрена предварительная загрузка данных и отобра
-жение placeholder-
+er,
  []
 
 
 
 [73]
-Overfull \hbox (0.45897pt too wide) in paragraph at lines 199--200
-\TU/PTSans(1)/m/n/14.4 ем Mobile-First подхода позволила создать оптимизированн
-ое для мобиль-
- []
-
-
-Overfull \hbox (12.95943pt too wide) in paragraph at lines 199--200
-\TU/PTSans(1)/m/n/14.4 обеспечивает переиспользование элементов, упрощает тести
-рование и уско-
- []
-
-
 
 [74]
-Overfull \hbox (7.5417pt too wide) in paragraph at lines 205--206
-[]\TU/PTSans(1)/m/n/14.4 Разработанная структура экранов полностью покрывает по
-льзователь-
- []
 
-)
-
-[75]
+[75])
 
 [76]
 \openout2 = `Chapters/second_chapter_backend_architecture.aux'.
@@ -2163,12 +1796,6 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
 
-Overfull \hbox (6.60097pt too wide) in paragraph at lines 10--11
-\TU/PTSans(1)/m/n/14.4 данных. Сервис аутентификации должен обеспечивать выдачу
- средств
- []
-
-
 
 [77
 
@@ -2177,45 +1804,21 @@ Overfull \hbox (6.60097pt too wide) in paragraph at lines 10--11
 ]
 
 [78]
-Overfull \hbox (0.794pt too wide) in paragraph at lines 13--14
-[]\TU/PTSans(1)/m/n/14.4 Сервис FileStorage (Хранение изображений и медиафайлов
-): для под-
- []
-
-
 
 [79]
-Overfull \hbox (8.27815pt too wide) in paragraph at lines 14--15
-\TU/PTSans(1)/m/n/14.4 гистрации нового пользователя бэкенд с помощью сервиса N
-otification
- []
-
-
 
 [80]
-Overfull \hbox (2.68039pt too wide) in paragraph at lines 20--21
+Underfull \hbox (badness 7030) in paragraph at lines 20--21
 []\TU/PTSans(1)/m/n/14.4 Масштабируемость и отказоустойчивость: Архитектура сис
-темы долж-
- []
-
-
-Overfull \hbox (6.42053pt too wide) in paragraph at lines 20--21
-\TU/PTSans(1)/m/n/14.4 но запустить дополнительные экземпляры наиболее загружен
-ных сер-
+темы
  []
 
 
 
 [81]
-Overfull \hbox (14.40198pt too wide) in paragraph at lines 21--23
+Underfull \hbox (badness 1009) in paragraph at lines 21--23
 []\TU/PTSans(1)/m/n/14.4 Безопасность: Важным нефункциональным требованием явля
-ется обес-
- []
-
-
-Overfull \hbox (10.54271pt too wide) in paragraph at lines 23--24
-[]\TU/PTSans(1)/m/n/14.4 Безопасное хранение паролей: Все пользовательские паро
-ли хра-
+ется
  []
 
 
@@ -2223,42 +1826,12 @@ Overfull \hbox (10.54271pt too wide) in paragraph at lines 23--24
 [82]
 
 [83]
-Overfull \hbox (1.71942pt too wide) in paragraph at lines 34--36
-\TU/PTSans(1)/m/n/14.4 России» основана на микросервисном подходе. Основными пр
-ичинами вы-
- []
-
-
-Overfull \hbox (1.40259pt too wide) in paragraph at lines 36--37
-[]\TU/PTSans(1)/m/n/14.4 Независимое масштабирование сервисов. Дробление прилож
-ения на
- []
-
-
 
 [84]
-Overfull \hbox (5.75139pt too wide) in paragraph at lines 40--41
-\TU/PTSans(1)/m/n/14.4 ных технологий контейнеризации и оркестрации. Каждый мик
-росервис упа-
- []
-
-
-Overfull \hbox (35.68262pt too wide) in paragraph at lines 40--41
-\TU/PTSans(1)/m/n/14.4 кован в контейнер (Docker) и управляется оркестратором (
-например, Kubernetes),
- []
-
-
 
 [85]
 
 [86]
-Overfull \hbox (1.1252pt too wide) in paragraph at lines 48--49
-[]\TU/PTSans(1)/m/n/14.4 Разделение хранилищ данных: Каждый микросервис имеет с
-вою соб-
- []
-
-
 
 [87]
 
@@ -2267,48 +1840,25 @@ Overfull \hbox (1.1252pt too wide) in paragraph at lines 48--49
 [89]
 
 [90]
-Overfull \hbox (0.77368pt too wide) in paragraph at lines 65--66
+Underfull \hbox (badness 1168) in paragraph at lines 65--66
 []\TU/PTSans(1)/m/n/14.4 Этот раздел посвящен диаграммам проектирования архитек
-туры сер-
+туры
  []
 
 File: Images/second_chapter_backend_architecture/Picture1.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture1.png>
 
-Overfull \hbox (56.96838pt too wide) in paragraph at lines 68--75
-\TU/PTSans(1)/m/n/14.4 пользователь, мобильное клиентское приложение, серверная
- часть, S3-совместимое
- []
-
-
 
 [91]
 
 [92]
-Overfull \hbox (9.43016pt too wide) in paragraph at lines 84--85
-[]\TU/PTSans(1)/m/n/14.4 Activity Service — сервис обработки пользовательской а
-ктивности (лай-
- []
-
 File: Images/second_chapter_backend_architecture/Picture2.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture2.png>
 
-Overfull \hbox (0.22855pt too wide) in paragraph at lines 93--99
-\TU/PTSans(1)/m/n/14.4 висы взаимодействуют между собой синхронно через gRPC-вы
-зовы и асин-
- []
-
-
 
 [93]
-Overfull \hbox (11.34457pt too wide) in paragraph at lines 102--103
-[]\TU/PTSans(1)/m/n/14.4 Для каждого микросервиса приведены компонентные диагра
-ммы, опи-
- []
-
-
 
 [94]
 File: Images/second_chapter_backend_architecture/Picture3.png Graphic file (typ
@@ -2317,15 +1867,21 @@ e bmp)
 
 
 [95]
-Overfull \hbox (15.46375pt too wide) in paragraph at lines 124--125
-\TU/PTSans(1)/m/n/14.4 создания/обновления профиля и управления отношениями «по
-дписка–
+Underfull \hbox (badness 2050) in paragraph at lines 124--125
+[]\TU/PTSans(1)/m/n/14.4 Profile Logic — бизнес-логика сервиса, обрабатывающая 
+опера-
  []
 
 
-Overfull \hbox (22.67815pt too wide) in paragraph at lines 126--127
+Underfull \hbox (badness 3068) in paragraph at lines 124--125
+\TU/PTSans(1)/m/n/14.4 ции создания/обновления профиля и управления отношениями
+
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 126--127
 []\TU/PTSans(1)/m/n/14.4 FileStorage Client — клиентский модуль для взаимодейст
-вия с FileStorage
+вия с
  []
 
 File: Images/second_chapter_backend_architecture/Picture4.png Graphic file (typ
@@ -2344,11 +1900,6 @@ e bmp)
 [98]
 
 [99]
-Overfull \hbox (0.93544pt too wide) in paragraph at lines 155--156
-\TU/PTSans(1)/m/n/14.4 стопримечательности), route_places (связующая таблица ме
-жду routes
- []
-
 File: Images/second_chapter_backend_architecture/Picture6.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture6.png>
@@ -2377,45 +1928,16 @@ e bmp)
 
 
 [105]
-Overfull \hbox (0.4865pt too wide) in paragraph at lines 217--218
-[]\TU/PTSans(1)/m/n/14.4 id (uuid, PRIMARY KEY) — глобально уникальный идентифи
-катор поль-
- []
-
 File: Images/second_chapter_backend_architecture/Picture10.png Graphic file (ty
 pe bmp)
 <Images/second_chapter_backend_architecture/Picture10.png>
 
 
 [106]
-Overfull \hbox (2.86633pt too wide) in paragraph at lines 234--235
-[]\TU/PTSans(1)/m/n/14.4 date_of_birth (date) — дата рождения; может использова
-ться для опре-
- []
-
-
 
 [107]
-Overfull \hbox (2.8663pt too wide) in paragraph at lines 237--238
-\TU/PTSans(1)/m/n/14.4 филя (обычно совпадает с регистрацией); автоматически за
-даётся при
- []
-
-
-Overfull \hbox (7.64581pt too wide) in paragraph at lines 239--240
-[]\TU/PTSans(1)/m/n/14.4 following_count (integer) — количество пользователей, 
-на которых под-
- []
-
-
 
 [108]
-Overfull \hbox (0.7258pt too wide) in paragraph at lines 245--246
-\TU/PTSans(1)/m/n/14.4 писка. Является частью составного первичного ключа и вне
-шним клю-
- []
-
-
 
 [109]
 File: Images/second_chapter_backend_architecture/Picture11.png Graphic file (ty
@@ -2431,12 +1953,6 @@ Overfull \vbox (22.35323pt too high) has occurred while \output is active []
 [111]
 
 [112]
-Overfull \hbox (6.04489pt too wide) in paragraph at lines 283--284
-[]\TU/PTSans(1)/m/n/14.4 id (uuid, PRIMARY KEY) — глобально уникальный идентифи
-катор марш-
- []
-
-
 
 [113]
 
@@ -2449,15 +1965,9 @@ pe bmp)
 [115]
 
 [116]
-Overfull \hbox (2.1273pt too wide) in paragraph at lines 330--332
+Underfull \hbox (badness 4429) in paragraph at lines 330--332
 []\TU/PTSans(1)/m/n/14.4 Таблица route_comments хранит комментарии пользователе
-й к марш-
- []
-
-
-Overfull \hbox (0.44328pt too wide) in paragraph at lines 336--337
-[]\TU/PTSans(1)/m/n/14.4 comment_id (bigint, PRIMARY KEY) — уникальный идентифи
-катор ком-
+й к
  []
 
 File: Images/second_chapter_backend_architecture/Picture13.png Graphic file (ty
@@ -2468,99 +1978,28 @@ pe bmp)
 [117]
 
 [118]
-Overfull \hbox (13.9437pt too wide) in paragraph at lines 351--353
+Underfull \hbox (badness 1924) in paragraph at lines 351--353
 \TU/PTSans(1)/m/n/14.4 vkr-profile и др.). В каждом репозитории настраивается с
-обственный workflow
- []
-
-
-Overfull \hbox (5.00009pt too wide) in paragraph at lines 351--353
-\TU/PTSans(1)/m/n/14.4 ки: если изменяется код микросервиса, запускается создан
-ие Docker-образа
+обственный
  []
 
 
 
 [119]
-Overfull \hbox (20.33092pt too wide) in paragraph at lines 355--357
-\TU/PTSans(1)/m/n/14.4 Helm-чартов в проекте предполагается использовать GitHub
- Container Registry
- []
-
-
-Overfull \hbox (0.8109pt too wide) in paragraph at lines 355--357
-\TU/PTSans(1)/m/n/14.4 (GHCR) под личной учётной записью pedrecho. Все образы с
-ервисов и сфор-
- []
-
-
-Overfull \hbox (3.5706pt too wide) in paragraph at lines 355--357
-\TU/PTSans(1)/m/n/14.4 мированные чарты публикуются в этот регистр, что позволя
-ет удобно управ-
- []
-
-
-Overfull \hbox (14.16098pt too wide) in paragraph at lines 359--361
-\TU/PTSans(1)/m/n/14.4 тефактов с помощью GitHub Actions. Публикация чарта позв
-оляет Kubernetes-
+Underfull \hbox (badness 1033) in paragraph at lines 355--357
+\TU/PTSans(1)/m/n/14.4 ступность при развертывании. Каждый образ или чарт получ
+ает уни-
  []
 
 
 
 [120]
-Overfull \hbox (0.31161pt too wide) in paragraph at lines 363--365
-[]\TU/PTSans(1)/m/n/14.4 В качестве внешнего прокси-сервера и балансировщика на
-грузки для
- []
-
-
-Overfull \hbox (19.55125pt too wide) in paragraph at lines 367--368
-[]\TU/PTSans(1)/m/n/14.4 Управление конфигурацией системы осуществляется через 
-файлы Helm-
- []
-
-
-Overfull \hbox (56.75616pt too wide) in paragraph at lines 367--368
-\TU/PTSans(1)/m/n/14.4 версий. Вместо этого в репозитории сохраняется шаблон va
-lues.secret.example.yaml,
- []
-
-
-Overfull \hbox (60.55777pt too wide) in paragraph at lines 367--368
-\TU/PTSans(1)/m/n/14.4 без реальных значений. На этапе деплоя значения из value
-s.yaml и values.secret.yaml
- []
-
-
 
 [121]
-Overfull \hbox (7.81606pt too wide) in paragraph at lines 376--377
-[]\TU/PTSans(1)/m/n/14.4 Refresh-токен (UUID) со значительно более длительным в
-ременем жиз-
- []
-
-
 
 [122]
 
 [123]
-Overfull \hbox (9.48827pt too wide) in paragraph at lines 387--388
-[]\TU/PTSans(1)/m/n/14.4 Хранилище объектов MinIO настроено с разграничением до
-ступа: один
- []
-
-
-Overfull \hbox (3.82855pt too wide) in paragraph at lines 387--388
-\TU/PTSans(1)/m/n/14.4 публичный бакет используется для общедоступных ресурсов 
-(аватары поль-
- []
-
-
-Overfull \hbox (0.55301pt too wide) in paragraph at lines 387--388
-\TU/PTSans(1)/m/n/14.4 хранятся в приватных бакетах. Доступ к приватным файлам 
-возможен толь-
- []
-
 Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
 ge=dflt;mapping=tex-text;!
 
@@ -2573,32 +2012,9 @@ ge=dflt;mapping=tex-text;!
 \openout2 = `Chapters/forth_chapter_mobile_architecture.aux'.
 
  (./Chapters/forth_chapter_mobile_architecture.tex
-Overfull \hbox (4.20294pt too wide) in paragraph at lines 3--4
-\TU/PTSans(1)/m/n/14.4 до детального анализа альтернативных архитектурных подхо
-дов (MVC, MVP,
- []
-
-
-Overfull \hbox (13.84967pt too wide) in paragraph at lines 3--4
-\TU/PTSans(1)/m/n/14.4 MVVM, VIPER, MVI), принципов SOLID и организации кода по
- подходу Feature-
- []
-
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 6.
-
-
-Overfull \hbox (4.46344pt too wide) in paragraph at lines 14--15
-\TU/PTSans(1)/m/n/14.4 ские аспекты, чтобы обеспечить соответствие приложения о
-жиданиям поль-
- []
-
-
-Overfull \hbox (4.47786pt too wide) in paragraph at lines 14--15
-\TU/PTSans(1)/m/n/14.4 разработку пользовательского интерфейса, обеспечение без
-опасности дан-
- []
 
 
 
@@ -2607,38 +2023,14 @@ Overfull \hbox (4.47786pt too wide) in paragraph at lines 14--15
 
 
 ]
-Overfull \hbox (1.07689pt too wide) in paragraph at lines 20--21
-\TU/PTSans(1)/m/n/14.4 пользователей устройств на базе операционных систем iOS 
-и Android.
- []
-
-
-Overfull \hbox (1.68678pt too wide) in paragraph at lines 22--23
-[]\TU/PTSans(1)/b/n/14.4 Адаптивность\TU/PTSans(1)/m/n/14.4 : дизайн интерфейса
- должен быть адаптирован под раз-
+Underfull \hbox (badness 3068) in paragraph at lines 20--21
+[]\TU/PTSans(1)/b/n/14.4 Поддержка iOS и Android\TU/PTSans(1)/m/n/14.4 : прилож
+ение должно быть доступно
  []
 
 
 
 [128]
-Overfull \hbox (2.90118pt too wide) in paragraph at lines 24--25
-[]\TU/PTSans(1)/b/n/14.4 Защита персональных данных\TU/PTSans(1)/m/n/14.4 : при
-ложение должно обеспечивать на-
- []
-
-
-Overfull \hbox (9.08582pt too wide) in paragraph at lines 24--25
-\TU/PTSans(1)/m/n/14.4 дёжную защиту персональных данных пользователей, включая
- их име-
- []
-
-
-Overfull \hbox (5.43459pt too wide) in paragraph at lines 25--26
-\TU/PTSans(1)/m/n/14.4 торизованных пользователей. Это предотвращает несанкцион
-ирован-
- []
-
-
 
 [129]
 File: Images/mobile_logic/история_поиск_маршрута-2025-04-13-175239.png Graphic 
@@ -2653,33 +2045,15 @@ File: Images/mobile_logic/создание_маршрута-2025-04-13-180512.pn
 (type bmp)
 <Images/mobile_logic/создание_маршрута-2025-04-13-180512.png>
 
-Overfull \hbox (3.44102pt too wide) in paragraph at lines 46--53
-\TU/PTSans(1)/m/n/14.4 циональности, которая позволяет пользователям делиться с
-воими лю-
- []
-
-
-Overfull \hbox (0.85541pt too wide) in paragraph at lines 46--53
-\TU/PTSans(1)/m/n/14.4 бимыми маршрутами с другими. Пользователи могут создават
-ь марш-
- []
-
-
 
 [132]
-Overfull \hbox (12.7366pt too wide) in paragraph at lines 59--60
-[]\TU/PTSans(1)/b/n/14.4 Создатель маршрута \TU/PTSans(1)/m/n/14.4 — это пользо
-ватель, который создаёт новые марш-
- []
-
-
 
 [133]
 
 [134]
-Overfull \hbox (1.20572pt too wide) in paragraph at lines 67--68
+Underfull \hbox (badness 2368) in paragraph at lines 67--68
 []\TU/PTSans(1)/m/n/14.4 Диаграмма вариантов использования демонстрирует следую
-щие вза-
+щие
  []
 
 
@@ -2697,38 +2071,20 @@ ype bmp)
 [138]
 
 [139]
-Overfull \hbox (29.88579pt too wide) in paragraph at lines 172--173
-\TU/PTSans(1)/m/n/14.4 редает пользовательские события в Presenter. Во Flutter 
-это StatefulWidget
+Underfull \hbox (badness 1043) in paragraph at lines 172--173
+[]\TU/PTSans(1)/b/n/14.4 View \TU/PTSans(1)/m/n/14.4 — пассивный элемент, котор
+ый только отображает данные
  []
 
 
 
 [140]
-Overfull \hbox (1.65544pt too wide) in paragraph at lines 186--187
-[]\TU/PTSans(1)/m/n/14.4 Presenter всё ещё может становиться громоздким, особен
-но для слож-
- []
-
-
 
 [141]
 
 [142]
-Overfull \hbox (1.03622pt too wide) in paragraph at lines 235--236
-\TU/PTSans(1)/m/n/14.4 таких как просмотр деталей достопримечательности, архите
-ктура мо-
- []
-
-
 
 [143]
-Overfull \hbox (20.85062pt too wide) in paragraph at lines 286--287
-[]\TU/PTSans(1)/b/n/14.4 Presenter \TU/PTSans(1)/m/n/14.4 — получает действия о
-т View, запрашивает данные от Interactor
- []
-
-
 
 [144]
 
@@ -2739,23 +2095,23 @@ Overfull \hbox (20.85062pt too wide) in paragraph at lines 286--287
 [147]
 
 [148]
-Overfull \hbox (7.46214pt too wide) in paragraph at lines 386--387
+Underfull \hbox (badness 1509) in paragraph at lines 386--387
 []\TU/PTSans(1)/b/n/14.4 Избыточное количество boilerplate-кода \TU/PTSans(1)/m
-/n/14.4 — требуется написание боль-
+/n/14.4 — требуется написание
  []
 
 
-Overfull \hbox (8.7225pt too wide) in paragraph at lines 422--423
+Underfull \hbox (badness 1642) in paragraph at lines 422--423
 []\TU/PTSans(1)/m/n/14.4 BLoC — архитектурный шаблон, специально разработанный 
-для Flutter,
+для
  []
 
 
 
 [149]
-Overfull \hbox (5.19911pt too wide) in paragraph at lines 438--439
+Underfull \hbox (badness 1466) in paragraph at lines 438--439
 []\TU/PTSans(1)/b/n/14.4 Events \TU/PTSans(1)/m/n/14.4 — такие события, как ”За
-грузить маршруты”, ”Применить фильтр
+грузить маршруты”, ”Применить
  []
 
 
@@ -2763,72 +2119,29 @@ Overfull \hbox (5.19911pt too wide) in paragraph at lines 438--439
 [150]
 
 [151]
-Overfull \hbox (0.5143pt too wide) in paragraph at lines 468--469
+Underfull \hbox (badness 3471) in paragraph at lines 468--469
 []\TU/PTSans(1)/b/n/14.4 Разделение ответственности\TU/PTSans(1)/m/n/14.4 : Чет
-кое разделение UI от бизнес-логики.
+кое разделение UI от бизнес-
  []
 
 
 
 [152]
-Overfull \hbox (32.95375pt too wide) in paragraph at lines 485--486
-[]\TU/PTSans(1)/b/n/14.4 S – Принцип единственной ответственности (Single Respo
-nsibility Principle
- []
-
-
-Overfull \hbox (13.06253pt too wide) in paragraph at lines 487--488
+Underfull \hbox (badness 2042) in paragraph at lines 487--488
 []\TU/PTSans(1)/b/n/14.4 L – Принцип подстановки Барбары Лисков (Liskov Substit
-ution Principle
+ution
  []
 
 
 
 [153]
-Overfull \hbox (1.53346pt too wide) in paragraph at lines 488--489
-\TU/PTSans(1)/m/n/14.4 сов, которые они не используют. Предпочтительнее создава
-ть неболь-
- []
-
-
 
 [154]
-Overfull \hbox (2.49062pt too wide) in paragraph at lines 498--501
-\TU/PTSans(1)/m/n/14.4 ние структурировано с использованием многоуровневого под
-хода, где каж-
- []
-
-
-Overfull \hbox (3.39656pt too wide) in paragraph at lines 501--502
-\TU/PTSans(1)/m/n/14.4 ты Flutter и компоненты управления состоянием (BLoC), ко
-торые адап-
- []
-
-
-Overfull \hbox (23.12033pt too wide) in paragraph at lines 502--503
-\TU/PTSans(1)/m/n/14.4 источников данных. Включает модели (например, \TU/PTSans
-(1)/m/it/14.4 RouteModel\TU/PTSans(1)/m/n/14.4 , \TU/PTSans(1)/m/it/14.4 PlaceM
-odel\TU/PTSans(1)/m/n/14.4 )
- []
-
-
 
 [155]
-Overfull \hbox (22.08568pt too wide) in paragraph at lines 512--513
+Underfull \hbox (badness 1087) in paragraph at lines 512--513
 []\TU/PTSans(1)/m/n/14.4 Применение Чистой архитектуры способствует независимос
-ти от фрейм-
- []
-
-
-Overfull \hbox (3.15175pt too wide) in paragraph at lines 517--518
-\TU/PTSans(1)/m/n/14.4 Это также облегчает навигацию по проекту и параллельную 
-работу несколь-
- []
-
-
-Overfull \hbox (7.60896pt too wide) in paragraph at lines 517--518
-\TU/PTSans(1)/m/n/14.4 ких разработчиков над разными функциональностями. Внутри
- каждой функ-
+ти от
  []
 
 
@@ -2836,36 +2149,35 @@ Overfull \hbox (7.60896pt too wide) in paragraph at lines 517--518
 [156]
 
 [157]
-Overfull \hbox (14.37445pt too wide) in paragraph at lines 529--530
-[]\TU/PTSans(1)/m/n/14.4 yx_scope_flutter: библиотека-адаптер, позволяющая инте
-грировать кон-
- []
-
-
 
 [158]
-Overfull \hbox (0.23366pt too wide) in paragraph at lines 545--546
+Underfull \hbox (badness 5077) in paragraph at lines 545--546
 []\TU/PTSans(1)/b/n/14.4 ScopeHolder\TU/PTSans(1)/m/n/14.4 : Сущность, которая 
-«держит» активный экземпляр Scope.
+«держит» активный экземпляр
  []
 
 
-Overfull \hbox (5.834pt too wide) in paragraph at lines 546--547
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
 []\TU/PTSans(1)/b/n/14.4 ScopeProvider \TU/PTSans(1)/m/n/14.4 и \TU/PTSans(1)/b
-/n/14.4 ScopeBuilder\TU/PTSans(1)/m/n/14.4 : Виджеты из библиотеки yx_scope_flu
-tter,
+/n/14.4 ScopeBuilder\TU/PTSans(1)/m/n/14.4 : Виджеты из библиотеки
  []
 
 
-Overfull \hbox (15.7484pt too wide) in paragraph at lines 549--550
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+\TU/PTSans(1)/m/n/14.4 yx_scope_flutter, предназначенные для интеграции скоупов
+ в
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 549--550
 []\TU/PTSans(1)/m/n/14.4 В данном приложении \TU/PTSans(1)/b/n/14.4 yx_scope \T
-U/PTSans(1)/m/n/14.4 используется для определения несколь-
+U/PTSans(1)/m/n/14.4 используется для определения
  []
 
 
-Overfull \hbox (0.14343pt too wide) in paragraph at lines 549--550
-\TU/PTSans(1)/m/n/14.4 ненным циклом функциональностей, что хорошо согласуется 
-с Feature-First
+Underfull \hbox (badness 1215) in paragraph at lines 549--550
+\TU/PTSans(1)/m/n/14.4 ражением основного контента, и более локальные скоупы, т
+акие как
  []
 
 
@@ -2873,26 +2185,14 @@ Overfull \hbox (0.14343pt too wide) in paragraph at lines 549--550
 [159]
 
 [160]
-Overfull \hbox (0.45688pt too wide) in paragraph at lines 569--570
+Underfull \hbox (badness 6691) in paragraph at lines 569--570
 []\TU/PTSans(1)/m/n/14.4 Проведённый анализ альтернативных архитектурных подход
-ов (MVC,
+ов
  []
 
 
 
-[161]
-Overfull \hbox (16.41542pt too wide) in paragraph at lines 575--576
-\TU/PTSans(1)/m/n/14.4 ной сериализации Protocol Buffers, строгой типизации чер
-ез .proto-контракты,
- []
-
-
-Overfull \hbox (3.13736pt too wide) in paragraph at lines 577--578
-\TU/PTSans(1)/m/n/14.4 тов использования позволила выявить ключевые сценарии вз
-аимодействия
- []
-
-)
+[161])
 
 [162]
 \openout2 = `Chapters/fifth_chapter_mobile_implementation.aux'.
@@ -2912,7 +2212,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 File: Images/mobile_logic/структура_фичи.png Graphic file (type bmp)
 <Images/mobile_logic/структура_фичи.png>
 
-Overfull \hbox (73.09062pt too wide) in paragraph at lines 13--14
+Overfull \hbox (73.09062pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
@@ -2921,21 +2221,9 @@ Overfull \hbox (73.09062pt too wide) in paragraph at lines 13--14
 [164
 
 ]
-Overfull \hbox (6.12074pt too wide) in paragraph at lines 21--22
-\TU/PTSans(1)/m/n/14.4 слое данных, который у каждой функциональности свой, что
- следует feature-
- []
-
-
-Overfull \hbox (1.06375pt too wide) in paragraph at lines 26--27
-[]\TU/PTSans(1)/b/n/14.4 getRoutes \TU/PTSans(1)/m/n/14.4 отвечает за получение
- списка маршрутов согласно выбран-
- []
-
-
-Overfull \hbox (3.62695pt too wide) in paragraph at lines 29--30
+Underfull \hbox (badness 1983) in paragraph at lines 33--34
 []\TU/PTSans(1)/b/n/14.4 createPlace \TU/PTSans(1)/m/n/14.4 отправляет запрос н
-а создание пользвателем места марш-
+а создание пользвателем места
  []
 
 
@@ -2943,158 +2231,168 @@ Overfull \hbox (3.62695pt too wide) in paragraph at lines 29--30
 [165
 
 ]
-Overfull \hbox (107.69698pt too wide) in paragraph at lines 35--36
-\TU/PTSans(1)/m/n/14.4 созданы кастомные исключения (AlreadyExistsGrpcException
-, InvalidArgumentGrpcException,
- []
-
-
-Overfull \hbox (89.07906pt too wide) in paragraph at lines 35--36
-\TU/PTSans(1)/m/n/14.4 InternalServerGrpcException, UnknownGrpcException), насл
-едуемые от BaseGrpcException.
- []
-
-
-Overfull \hbox (8.52089pt too wide) in paragraph at lines 37--38
+Underfull \hbox (badness 1303) in paragraph at lines 41--42
 []\TU/PTSans(1)/m/n/14.4 Дальше полученные данные обрабатываются в соответствую
-ших BLoC-
+ших
  []
 
 
 
 [166]
-Overfull \hbox (128.5965pt too wide) in paragraph at lines 49--50
-\TU/PTSans(1)/m/n/14.4 торого четыре состояния: FilterRoutesInitial, FilterRout
-esLoadInProgress, FilterRoutesLoadSuccess
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\TU/PTSans(1)/m/n/14.4 Этот блок обрабатывает уже два события:
  []
 
 
-Overfull \hbox (73.7117pt too wide) in paragraph at lines 49--50
-\TU/PTSans(1)/m/n/14.4 (успешная загрузка доступных и пользовательских фильтров
-) и FilterRoutesLoadFailure.
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+\TU/PTSans(1)/m/n/14.4 AvailableFilterRoutesFetched (запрос доступных фильтров)
+ и
  []
 
 
-Overfull \hbox (5.29913pt too wide) in paragraph at lines 51--52
-[]\TU/PTSans(1)/m/n/14.4 Этот блок обрабатывает уже два события: AvailableFilte
-rRoutesFetched
+Underfull \hbox (badness 2762) in paragraph at lines 55--56
+\TU/PTSans(1)/m/n/14.4 UserFilterRoutesChanged (изменение пользовательских филь
+тров). Код
  []
 
 
-Overfull \hbox (50.44261pt too wide) in paragraph at lines 53--54
-\TU/PTSans(1)/m/n/14.4 тров и изменения пользовательских фильтров, взаимодейств
-уя с ContentRepository.
+Underfull \hbox (badness 3439) in paragraph at lines 57--58
+\TU/PTSans(1)/m/n/14.4 ных фильтров и изменения пользовательских фильтров, взаи
+модей-
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 57--58
+\TU/PTSans(1)/m/n/14.4 ствуя с ContentRepository. Код блока находится в Приложе
+нии, файл
  []
 
 
 
 [167]
-Overfull \hbox (8.52087pt too wide) in paragraph at lines 58--59
+Underfull \hbox (badness 1454) in paragraph at lines 62--63
 []\TU/PTSans(1)/m/n/14.4 Функциональность создания маршрутов является более сло
-жной функ-
+жной
  []
 
 
-Overfull \hbox (101.05527pt too wide) in paragraph at lines 71--72
-[]\TU/PTSans(1)/m/n/14.4 Так для заполнения общей информации о маршруте был соз
-дан CreateRouteFormBloc.
+Underfull \hbox (badness 3758) in paragraph at lines 75--76
+[]\TU/PTSans(1)/m/n/14.4 Так для заполнения общей информации о маршруте был со-
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
+\TU/PTSans(1)/m/n/14.4 здан CreateRouteFormBloc. У него есть два основных состо
+яния:
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 75--76
+\TU/PTSans(1)/m/n/14.4 CreateRouteFormEdited (форма редактируется) и CreateRout
+eFormFilled
  []
 
 
 
 [168]
-Overfull \hbox (25.45058pt too wide) in paragraph at lines 75--76
-\TU/PTSans(1)/m/n/14.4 но. Полный код представлен в Приложении А, файл create_r
-oute_form_bloc.dart. 
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+\TU/PTSans(1)/m/n/14.4 здания общей информации о маршруте и определяет, заполне
+на
  []
 
 
-Overfull \hbox (96.02965pt too wide) in paragraph at lines 77--78
+Underfull \hbox (badness 1845) in paragraph at lines 79--80
+\TU/PTSans(1)/m/n/14.4 ли форма корректно. Полный код представлен в Приложении,
+ файл
+ []
+
+
+Underfull \hbox (badness 1199) in paragraph at lines 81--82
 []\TU/PTSans(1)/m/n/14.4 За создание и изменение порядка точек на маршруте отве
-чает CreatePointsFormBloc.
- []
-
-
-Overfull \hbox (1.77188pt too wide) in paragraph at lines 79--80
-\TU/PTSans(1)/m/n/14.4 ки, изменения порядка точек (PlaceFormReorderPoints), а 
-также сброса фор-
- []
-
-
-Overfull \hbox (155.45372pt too wide) in paragraph at lines 79--80
-\TU/PTSans(1)/m/n/14.4 мы (PlaceFormReset). Код событий представлен в Приложени
-и А, файл create_points_form_event.dart. 
- []
-
-
-Overfull \hbox (168.94142pt too wide) in paragraph at lines 83--84
-\TU/PTSans(1)/m/n/14.4 CreatePathPointEditedFormModel, CreatePathPointFilledFor
-mModel, CreatePlacePointEditedFormModel,
+чает
  []
 
 
 
 [169]
-Overfull \hbox (44.37216pt too wide) in paragraph at lines 85--86
-\TU/PTSans(1)/m/n/14.4 ния. Код событий представлен в Приложении А, файл create
-_point_form_event.dart. 
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+[]\TU/PTSans(1)/m/n/14.4 А также он содержит следующие события на изменения
  []
 
 
-Overfull \hbox (47.91925pt too wide) in paragraph at lines 89--90
-[]\TU/PTSans(1)/m/n/14.4 Объединение состояния блоков CreatePointsFormBloc и Cr
-eateRouteFormBloc
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+\TU/PTSans(1)/m/n/14.4 этого состояния. Код событий представлен в Приложении, ф
+айл
  []
 
 
-Overfull \hbox (88.35779pt too wide) in paragraph at lines 89--90
-\TU/PTSans(1)/m/n/14.4 терактор координирует процесс создания маршрута, взаимод
-ействуя с ContentRepository.
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]\TU/PTSans(1)/m/n/14.4 Объединение состояния блоков CreatePointsFormBloc и
  []
 
 
-Overfull \hbox (2.44615pt too wide) in paragraph at lines 89--90
-\TU/PTSans(1)/m/n/14.4 Полный код представлен в Приложении А, файл create_route
-_interactor.dart. 
+Underfull \hbox (badness 7064) in paragraph at lines 93--94
+\TU/PTSans(1)/m/n/14.4 CreateRouteFormBloc происходит в методе createRoute инте
+рактора
  []
 
 
-Overfull \hbox (57.07765pt too wide) in paragraph at lines 93--94
-[]\TU/PTSans(1)/m/n/14.4 Взаимодействие между блоками CreatePointsFormBloc и Cr
-eateRouteFormBloc,
+Underfull \hbox (badness 1377) in paragraph at lines 93--94
+\TU/PTSans(1)/m/n/14.4 рута, взаимодействуя с ContentRepository. Полный код пре
+дставлен в
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+[]\TU/PTSans(1)/m/n/14.4 Взаимодействие между блоками CreatePointsFormBloc и
  []
 
 
 
 [170]
-Overfull \hbox (16.82498pt too wide) in paragraph at lines 103--104
-\TU/PTSans(1)/m/n/14.4 архитектурных решений. Чёткое разделение ответственности
- между ApiClient
+Underfull \hbox (badness 1769) in paragraph at lines 109--110
+[]\TU/PTSans(1)/m/n/14.4 Паттерн BLoC продемонстрировал свою эффективность при 
+ре-
  []
 
 
-Overfull \hbox (8.50983pt too wide) in paragraph at lines 105--106
-\TU/PTSans(1)/m/n/14.4 и FilterRoutesBloc, тогда как для сложной функциональнос
-ти создания марш-
+Underfull \hbox (badness 2293) in paragraph at lines 109--110
+\TU/PTSans(1)/m/n/14.4 ализации различных по сложности функциональностей. Для п
+ростых
  []
 
 
-Overfull \hbox (60.07745pt too wide) in paragraph at lines 105--106
-\TU/PTSans(1)/m/n/14.4 ствующих блоков (CreateRouteFormBloc, CreatePointsFormBl
-oc, CreatePointFormBloc)
+Underfull \hbox (badness 1048) in paragraph at lines 109--110
+\TU/PTSans(1)/m/n/14.4 задач (получение и фильтрация маршрутов) достаточно базо
+вых бло-
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 109--110
+\TU/PTSans(1)/m/n/14.4 ков RoutesBloc и FilterRoutesBloc, тогда как для сложной
+ функци-
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 109--110
+\TU/PTSans(1)/m/n/14.4 ональности создания маршрутов была успешно применена ком
+пози-
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 109--110
+\TU/PTSans(1)/m/n/14.4 ция из нескольких взаимодействующих блоков (CreateRouteF
+ormBloc,
  []
 
 
 
 [171]
-Overfull \hbox (0.12572pt too wide) in paragraph at lines 111--112
-[]\TU/PTSans(1)/m/n/14.4 Механизм BlocListener для связи между блоками (автомат
-ическое об-
- []
 
-)
+[172])
 
-[172]
+[173]
 \openout2 = `Chapters/third_chapter_backend_implementation.aux'.
 
  (./Chapters/third_chapter_backend_implementation.tex
@@ -3103,269 +2401,186 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
 
-Overfull \hbox (13.49481pt too wide) in paragraph at lines 11--12
+Underfull \hbox (badness 1629) in paragraph at lines 11--12
 []\TU/PTSans(1)/m/n/14.4 Детерминированность сборки: Механизм модулей Go (go.mo
-d и go.sum)
+d и
  []
 
 
 
-[173
+[174
 
 
 
 ]
-Overfull \hbox (8.6937pt too wide) in paragraph at lines 17--18
+Underfull \hbox (badness 2990) in paragraph at lines 17--18
 []\TU/PTSans(1)/m/n/14.4 Межсервисное взаимодействие организовано с использован
-ием gRPC,
+ием
  []
 
 
-Overfull \hbox (1.95656pt too wide) in paragraph at lines 17--18
-\TU/PTSans(1)/m/n/14.4 что обеспечивает бинарную сериализацию данных (Protocol 
-Buffers) и стро-
- []
-
-
-Overfull \hbox (5.84456pt too wide) in paragraph at lines 21--22
-[]\TU/PTSans(1)/m/n/14.4 Строгие контракты и стабильность API: Определение серв
-исов в .proto-
- []
-
-
-
-[174]
 
 [175]
-Overfull \hbox (2.25092pt too wide) in paragraph at lines 36--37
-\TU/PTSans(1)/m/n/14.4 gopkg.in/yaml.v3. Формат YAML выбран из-за его читабельн
-ости и поддерж-
- []
-
-
-Overfull \hbox (6.59001pt too wide) in paragraph at lines 45--46
-[]\TU/PTSans(1)/m/n/14.4 Для работы с PostgreSQL используется стандартный пакет
- database/sql
- []
-
-
 
 [176]
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+[]\TU/PTSans(1)/m/n/14.4 Для работы с PostgreSQL используется стандартный пакет
+
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 45--46
+\TU/PTSans(1)/m/n/14.4 database/sql вместе с драйвером (pgx или pq). Такой подх
+од даёт
+ []
+
+
 
 [177]
-Overfull \hbox (0.9418pt too wide) in paragraph at lines 54--55
-\TU/PTSans(1)/m/n/14.4 TTL ключ автоматически удаляется, что упрощает управлени
-е памятью. Так-
- []
-
-
-Overfull \hbox (8.10202pt too wide) in paragraph at lines 63--64
-[]\TU/PTSans(1)/m/n/14.4 Обычный NATS — это лёгкий брокер сообщений с поддержко
-й pub/sub,
- []
-
-
-Overfull \hbox (3.32841pt too wide) in paragraph at lines 63--64
-\TU/PTSans(1)/m/n/14.4 но без долговременного хранения: сообщения доставляются 
-активным под-
- []
-
-
 
 [178]
+Underfull \hbox (badness 1377) in paragraph at lines 63--64
+[]\TU/PTSans(1)/m/n/14.4 Обычный NATS — это лёгкий брокер сообщений с поддержко
+й
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 63--64
+\TU/PTSans(1)/m/n/14.4 pub/sub, но без долговременного хранения: сообщения дост
+авляются
+ []
+
+
+Underfull \hbox (badness 2512) in paragraph at lines 63--64
+\TU/PTSans(1)/m/n/14.4 активным подписчикам мгновенно и затем удаляются (at-mos
+t-once).
+ []
+
+
 
 [179]
-Overfull \hbox (3.97125pt too wide) in paragraph at lines 78--79
-\TU/PTSans(1)/m/n/14.4 возвращает UNAUTHENTICATED. При успехе генерирует JWT и 
-refresh-
- []
-
-
 
 [180]
-Overfull \hbox (6.7988pt too wide) in paragraph at lines 80--81
-[]\TU/PTSans(1)/m/n/14.4 ValidateToken: принимает JWT, декодирует и проверяет п
-одпись и срок.
- []
-
-
-Overfull \hbox (17.69576pt too wide) in paragraph at lines 81--82
-[]\TU/PTSans(1)/m/n/14.4 При необходимости могут быть методы Logout (удаление r
-efresh-токена)
- []
-
-
-Overfull \hbox (10.5453pt too wide) in paragraph at lines 83--84
-\TU/PTSans(1)/m/n/14.4 ные структуры. В корне пакета определены интерфейсы (фай
-лы repository.go,
- []
-
-
 
 [181]
-Overfull \hbox (13.3834pt too wide) in paragraph at lines 87--88
-\TU/PTSans(1)/m/n/14.4 Brevo. Также сервис Auth может выполнять вызов CreatePro
-file в ProfileService
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+[]\TU/PTSans(1)/m/n/14.4 ValidateToken: принимает JWT, декодирует и проверяет п
+од-
  []
 
 
-Overfull \hbox (10.81252pt too wide) in paragraph at lines 87--88
-\TU/PTSans(1)/m/n/14.4 возникновении ошибок взаимодействия возвращает FAILED_PR
-ECONDITION
+Underfull \hbox (badness 3364) in paragraph at lines 80--81
+\TU/PTSans(1)/m/n/14.4 пись и срок. Если токен невалиден или истёк — возвращает
+
  []
 
 
-Overfull \hbox (59.51462pt too wide) in paragraph at lines 87--88
-\TU/PTSans(1)/m/n/14.4 ную логику AuthService (или встроенным middleware), гене
-рируя UNAUTHENTICATED
- []
-
-
-Overfull \hbox (31.8535pt too wide) in paragraph at lines 90--91
-\TU/PTSans(1)/m/n/14.4 ФИО, дате рождения, аватаре, а также за реализацию подпи
-сок (follow/unfollow)
+Underfull \hbox (badness 2426) in paragraph at lines 83--84
+\TU/PTSans(1)/m/n/14.4 содержит gRPC-сервер и переводит входящие протоколы Prot
+obuf в
  []
 
 
 
 [182]
-Overfull \hbox (2.01721pt too wide) in paragraph at lines 92--93
-[]\TU/PTSans(1)/m/n/14.4 Основные бизнес-задачи: хранение данных профиля, подде
-ржка уни-
+Underfull \hbox (badness 3108) in paragraph at lines 90--91
+[]\TU/PTSans(1)/m/n/14.4 Назначение: Сервис профилей отвечает за хранение и упр
+ав-
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 90--91
+\TU/PTSans(1)/m/n/14.4 ление пользовательскими профилями, включая информацию о 
+имени
  []
 
 
 
 [183]
+Underfull \hbox (badness 1142) in paragraph at lines 92--93
+[]\TU/PTSans(1)/m/n/14.4 Основные бизнес-задачи: хранение данных профиля, подде
+ржка
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 92--93
+\TU/PTSans(1)/m/n/14.4 уникальности username, обработка действий «подписаться/о
+тписаться»
+ []
+
+
 
 [184]
-Overfull \hbox (47.83621pt too wide) in paragraph at lines 105--106
-\TU/PTSans(1)/m/n/14.4 шой размер, неподдерживаемый формат) возвращается INVALI
-D_ARGUMENT
- []
-
-
-Overfull \hbox (43.14055pt too wide) in paragraph at lines 107--108
-\TU/PTSans(1)/m/n/14.4 ProfileRepository (CRUD-операции над profiles/follows) и
- интерфейс ProfileUsecase
- []
-
-
-Overfull \hbox (8.5162pt too wide) in paragraph at lines 107--108
-\TU/PTSans(1)/m/n/14.4 запросы в вызовы usecase. Такой подход гарантирует незав
-исимость бизнес-
- []
-
-
-Overfull \hbox (10.04932pt too wide) in paragraph at lines 109--110
-\TU/PTSans(1)/m/n/14.4 ProfileService обращается к FileStorageService (filestor
-age.FileStorageService)
- []
-
-
 
 [185]
-Overfull \hbox (13.00699pt too wide) in paragraph at lines 116--117
-[]\TU/PTSans(1)/m/n/14.4 База данных: PostgreSQL с таблицами: route_likes (поля
- route_id, user_id,
+Underfull \hbox (badness 1019) in paragraph at lines 105--106
+\TU/PTSans(1)/m/n/14.4 ком большой размер, неподдерживаемый формат) возвращаетс
+я
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+\TU/PTSans(1)/m/n/14.4 ProfileRepository (CRUD-операции над profiles/follows) и
+ интерфейс
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 109--110
+\TU/PTSans(1)/m/n/14.4 инициирует gRPC-вызов CreateProfile в ProfileService для
+ добавления
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+\TU/PTSans(1)/m/n/14.4 ProfileService обращается к FileStorageService
  []
 
 
 
 [186]
-Overfull \hbox (8.24258pt too wide) in paragraph at lines 122--123
-\TU/PTSans(1)/m/n/14.4 вание пользователя (ProfileService) и маршрута (ContentS
-ervice). Встав-
- []
-
-
 
 [187]
-Overfull \hbox (34.96132pt too wide) in paragraph at lines 127--128
-\TU/PTSans(1)/m/n/14.4 если пользователь не авторизован — UNAUTHENTICATED, и PE
-RMISSION_DENIED
- []
-
-
-Overfull \hbox (34.16057pt too wide) in paragraph at lines 129--130
-[]\TU/PTSans(1)/m/n/14.4 Архитектура: Чистая архитектура: доменные сущности «Li
-ke» и «Comment»,
- []
-
-
-Overfull \hbox (5.72935pt too wide) in paragraph at lines 129--130
-\TU/PTSans(1)/m/n/14.4 репозиторий для CRUD-операций над таблицами (PostgreSQL)
-, usecase-слой
- []
-
-
-Overfull \hbox (1.49701pt too wide) in paragraph at lines 129--130
-\TU/PTSans(1)/m/n/14.4 для бизнес-логики (проверка существования маршрута/польз
-ователя, тран-
- []
-
-
-Overfull \hbox (20.30394pt too wide) in paragraph at lines 133--134
-[]\TU/PTSans(1)/m/n/14.4 Взаимодействие: при добавлении лайка или комментария A
-ctivityService
- []
-
-
 
 [188]
-Overfull \hbox (2.88199pt too wide) in paragraph at lines 136--137
-\TU/PTSans(1)/m/n/14.4 ристическим контентом: маршрутами (routes) и достопримеч
-ательностями/-
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+\TU/PTSans(1)/m/n/14.4 если пользователь не авторизован — UNAUTHENTICATED, и
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 129--130
+[]\TU/PTSans(1)/m/n/14.4 Архитектура: Чистая архитектура: доменные сущности «Li
+ke» и
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 129--130
+\TU/PTSans(1)/m/n/14.4 usecase-слой для бизнес-логики (проверка существования м
+аршрута/-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+[]\TU/PTSans(1)/m/n/14.4 Взаимодействие: при добавлении лайка или комментария
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+\TU/PTSans(1)/m/n/14.4 инкапсулированы в usecase (например, интерфейсы ContentC
+lient,
  []
 
 
 
 [189]
-Overfull \hbox (3.88324pt too wide) in paragraph at lines 153--154
-\TU/PTSans(1)/m/n/14.4 станцию, координаты, описание, user_id). Проверяет обяза
-тельные по-
- []
-
-
-Overfull \hbox (11.54692pt too wide) in paragraph at lines 153--154
-\TU/PTSans(1)/m/n/14.4 чальных мест может выполнять дополнительные вставки в ro
-ute_places. 
- []
-
-
 
 [190]
 
 [191]
-Overfull \hbox (11.60838pt too wide) in paragraph at lines 167--168
-[]\TU/PTSans(1)/m/n/14.4 GetPlaceImage (stream): загрузка изображения с помощью
- gRPC-стрима
- []
-
-
-Overfull \hbox (15.92583pt too wide) in paragraph at lines 169--170
-\TU/PTSans(1)/m/n/14.4 Таким образом, большинство gRPC-методов ContentService о
-борачивает стан-
- []
-
-
-Overfull \hbox (9.25862pt too wide) in paragraph at lines 169--170
-\TU/PTSans(1)/m/n/14.4 сутствующих записей, ALREADY_EXISTS для дубликатов, INVA
-LID_ARGUMENT
- []
-
-
 
 [192]
-Overfull \hbox (22.74341pt too wide) in paragraph at lines 173--174
-\TU/PTSans(1)/m/n/14.4 шифрование. API-Gateway (Envoy) перенаправляет HTTP-запр
-осы по presigned
- []
-
-
-Overfull \hbox (70.0135pt too wide) in paragraph at lines 175--176
-\TU/PTSans(1)/m/n/14.4 маршруты по user_id, AuthService — при проверке прав вла
-дельца, и FileStorageService
+Underfull \hbox (badness 2261) in paragraph at lines 169--170
+\TU/PTSans(1)/m/n/14.4 ет стандартные CRUD-операции над SQL, дополняя их необхо
+димы-
  []
 
 
@@ -3375,295 +2590,224 @@ Overfull \hbox (70.0135pt too wide) in paragraph at lines 175--176
 [194]
 
 [195]
-Overfull \hbox (74.073pt too wide) in paragraph at lines 194--195
-\TU/PTSans(1)/m/n/14.4 URL. Например, при смене аватара ProfileService запрашив
-ает GetPresignedUploadURL,
- []
-
-
-Overfull \hbox (35.33574pt too wide) in paragraph at lines 194--195
-\TU/PTSans(1)/m/n/14.4 получает ссылку и отправляет файл напрямую в MinIO. Либо
- вызывает UploadFile
- []
-
-
-Overfull \hbox (79.13925pt too wide) in paragraph at lines 194--195
-\TU/PTSans(1)/m/n/14.4 (Envoy) перенаправляет запросы по presigned URL напрямую
- в MinIO. FileStorageService
- []
-
-
 
 [196]
-Overfull \hbox (22.92422pt too wide) in paragraph at lines 203--204
-\TU/PTSans(1)/m/n/14.4 Например, после регистрации AuthService публикует событи
-е «UserRegistered»
- []
-
-
-Overfull \hbox (18.51656pt too wide) in paragraph at lines 205--206
-\TU/PTSans(1)/m/n/14.4 или мониторинг статусы успеха/ошибок API Brevo (например
-, 502 Bad Gateway
+Underfull \hbox (badness 1215) in paragraph at lines 194--195
+\TU/PTSans(1)/m/n/14.4 лучения файлов: они могут использовать gRPC-методы загру
+зки либо
  []
 
 
 
 [197]
-Overfull \hbox (7.39427pt too wide) in paragraph at lines 207--208
-\TU/PTSans(1)/m/n/14.4 ципов модульности, слабой связанности и расширяемости. A
-uthService обес-
+Underfull \hbox (badness 3098) in paragraph at lines 203--204
+\TU/PTSans(1)/m/n/14.4 висов. Например, после регистрации AuthService публикует
+ событие
  []
 
 
-Overfull \hbox (42.5095pt too wide) in paragraph at lines 207--208
-\TU/PTSans(1)/m/n/14.4 ные данные пользователей, ActivityService — социальные ф
-ункции, ContentService
- []
-
-
-Overfull \hbox (6.5193pt too wide) in paragraph at lines 213--214
-[]\TU/PTSans(1)/m/n/14.4 В системе «Путешествия по России» каждый микросервис (
-auth, profile,
- []
-
-
-Overfull \hbox (5.51848pt too wide) in paragraph at lines 213--214
-\TU/PTSans(1)/m/n/14.4 activity, content, filestorage, notifications, broker) о
-формлен отдельным Helm-
+Underfull \hbox (badness 1540) in paragraph at lines 203--204
+\TU/PTSans(1)/m/n/14.4 зывает Brevo API. Подобным образом могут обрабатываться 
+события
  []
 
 
 
 [198]
-Overfull \hbox (47.30212pt too wide) in paragraph at lines 215--216
-\TU/PTSans(1)/m/n/14.4 пользующих PostgreSQL, настраивается Kubernetes Job с ан
-нотацией helm.sh/hook:
- []
-
-
-Overfull \hbox (34.05542pt too wide) in paragraph at lines 218--219
-\TU/PTSans(1)/m/n/14.4 зованием секретов (например, GHCR_TOKEN, GHCR_USERNAME, 
-GOPRIVATE_PAT)
+Underfull \hbox (badness 1057) in paragraph at lines 213--214
+[]\TU/PTSans(1)/m/n/14.4 В системе «Путешествия по России» каждый микросервис (
+auth,
  []
 
 
 
 [199]
-Overfull \hbox (3.49529pt too wide) in paragraph at lines 220--221
-[]\TU/PTSans(1)/m/n/14.4 Сборка приложения ведётся с помощью многоступенчатого 
-Dockerfile.
- []
-
-Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
-ge=dflt;mapping=tex-text;!
-Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
-ge=dflt;mapping=tex-text;!
-Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
-ge=dflt;mapping=tex-text;!
-
-Overfull \hbox (21.31012pt too wide) in paragraph at lines 228--229
-\TU/PTSans(1)/m/n/14.4 Все собранные Docker-образы и чарты публикуются в GitHub
- Container Registry
- []
-
-
 
 [200]
-Overfull \hbox (2.57957pt too wide) in paragraph at lines 236--237
-\TU/PTSans(1)/m/n/14.4 очень высокопроизводительный логгер: он обеспечивает «bl
-azing fast» ско-
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+[]\TU/PTSans(1)/m/n/14.4 Сборка приложения ведётся с помощью многоступенчатого
  []
 
+
+Underfull \hbox (badness 1430) in paragraph at lines 220--221
+\TU/PTSans(1)/m/n/14.4 Dockerfile. На этапе build используется образ golang:1.2
+4, в котором
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 220--221
+\TU/PTSans(1)/m/n/14.4 инструменты сборки и прочие ненужные слои. Такой подход 
+значи-
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 220--221
+\TU/PTSans(1)/m/n/14.4 тельно уменьшает размер контейнера и поверхность потенци
+альных
+ []
+
+Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
 
 
 [201]
-Overfull \hbox (18.2252pt too wide) in paragraph at lines 247--248
-[]\TU/PTSans(1)/m/n/14.4 В Go для написания юнит-тестов используется стандартны
-й пакет testing.
- []
-
-
 
 [202]
-Overfull \hbox (7.19609pt too wide) in paragraph at lines 256--258
-[]\TU/PTSans(1)/m/n/14.4 Интеграционные тесты проверяют совместную работу серви
-сов в усло-
- []
-
-
 
 [203]
-Overfull \hbox (7.87622pt too wide) in paragraph at lines 259--260
-\TU/PTSans(1)/m/n/14.4 выполнения Postman коллекций, который легко интегрируетс
-я в CI/CD-
- []
-
-
-Overfull \hbox (15.38498pt too wide) in paragraph at lines 259--260
-\TU/PTSans(1)/m/n/14.4 пайплайн. К примеру, в Kubernetes можно запустить Postma
-n-контейнер
- []
-
-
-Overfull \hbox (2.41734pt too wide) in paragraph at lines 260--261
-[]\TU/PTSans(1)/m/n/14.4 Само тестовое окружение развертывается с помощью Helm-
-чарта (на-
+Underfull \hbox (badness 1824) in paragraph at lines 251--252
+[]\TU/PTSans(1)/m/n/14.4 В юнит-тестах проверяются изолированные логические фун
+кции
  []
 
 
 
 [204]
 
-[205])
+[205]
 
-[206]
+[206])
+
+[207]
 \openout2 = `Chapters/conclustion.aux'.
 
  (./Chapters/conclustion.tex
-Overfull \hbox (1.22008pt too wide) in paragraph at lines 4--5
+Underfull \hbox (badness 3471) in paragraph at lines 4--5
 []\TU/PTSans(1)/m/n/14.4 Ключевым катализатором пользовательской вовлечённости 
-стал тща-
+стал
+ []
+
+
+Underfull \hbox (badness 1057) in paragraph at lines 4--5
+\TU/PTSans(1)/m/n/14.4 тщательно проработанный дизайн: серия глубинных интервью
+ и CJM-
  []
 
 
 
-[207
+[208
 
 
 
 ])
-Overfull \hbox (0.8313pt too wide) in paragraph at lines 8--61
-[]\TU/PTSans(1)/m/n/14.4 Надёжность всей экосистемы поддерживает микросервисное
- сервер-
- []
-
-
-Overfull \hbox (27.22311pt too wide) in paragraph at lines 8--61
-\TU/PTSans(1)/m/n/14.4 ное ядро на Go: сервисы Auth, Profile, Content, Activity
-, FileStorage и Notifications
- []
-
-
-Overfull \hbox (1.29286pt too wide) in paragraph at lines 8--61
-\TU/PTSans(1)/m/n/14.4 ная шина NATS JetStream обеспечивает горизонтальную масш
-табируемость
- []
-
-
-Overfull \hbox (8.48738pt too wide) in paragraph at lines 8--61
-\TU/PTSans(1)/m/n/14.4 тельностью. Полностью автоматизированный CI/CD-конвейер 
-GitHub Actions
+Underfull \hbox (badness 10000) in paragraph at lines 8--61
+\TU/PTSans(1)/m/n/14.4 и Notifications взаимодействуют по строго типизированным
+ gRPC-
  []
 
 
 
-[208]
+[209]
 \openout2 = `bibpage.aux'.
 
  (./bibpage.tex (./main.bbl
 
-[209
+[210
 
 
 
 ]
 
-[210]
-Underfull \hbox (badness 1688) in paragraph at lines 127--131
+[211]
+Underfull \hbox (badness 1688) in paragraph at lines 133--137
 []\TU/PTSans(1)/m/n/14.4 Flutter Team.  General approach to app architecture (c
 ase study
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
 \TU/PTSans(1)/m/n/14.4 overview), 2025.  URL [][]$[][][][][] [] [] [] [][][][] 
 [] [][][][][][][] [] [][][] [] [][][][][][][][][][][][][][][][][] []
  []
 
 
 
-[211]
-Underfull \hbox (badness 10000) in paragraph at lines 145--149
+[212]
+Underfull \hbox (badness 10000) in paragraph at lines 151--155
 \TU/PTSans(1)/m/n/14.4 2025.  URL [][]$[][][][][] [] [] [] [][][][] [] [][][][]
 [][][] [] [][][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][
 ] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--185
+
+[213]
+Underfull \hbox (badness 10000) in paragraph at lines 187--191
 []\TU/PTSans(1)/m/n/14.4 Команда Яндекс.Образования.  ООП в dart (Объектно-
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 181--185
+Underfull \hbox (badness 3746) in paragraph at lines 187--191
 \TU/PTSans(1)/m/n/14.4 ориентированное программирование), .  URL [][]$[][][][][
 ] [] [] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 181--185
+Underfull \hbox (badness 4686) in paragraph at lines 187--191
 [][][][][][] [] [][] [] [][][][][][][][] [] [][][][][][][] [] [][][][][][][] []
  [][][][][][][][][]$[][]\TU/PTSans(1)/m/n/14.4 .  Дата обращения: 8
  []
 
 
-
-[212]
-Underfull \hbox (badness 10000) in paragraph at lines 187--191
+Underfull \hbox (badness 10000) in paragraph at lines 193--197
 [][][][][][][][][] [] [][][][][][] [] [][] [] [][][][][][][][] [] [][][][][][][
 ] [] [][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][][]$[
 ][]\TU/PTSans(1)/m/n/14.4 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--197
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 []\TU/PTSans(1)/m/n/14.4 Команда Яндекс.Образования.  Зависимости flutter-проек
 та,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--197
+Underfull \hbox (badness 10000) in paragraph at lines 199--203
 \TU/PTSans(1)/m/n/14.4 .  URL [][]$[][][][][] [] [] [] [][][][][][][][][] [] []
 [][][][][] [] [][] [] [][][][][][][][] [] [][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--203
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 []\TU/PTSans(1)/m/n/14.4 Команда Яндекс.Образования.  Какие бывают видже-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--203
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 \TU/PTSans(1)/m/n/14.4 ты: Statelesswidget, statefulwidget, inheritedwidget, .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--203
+Underfull \hbox (badness 10000) in paragraph at lines 205--209
 \TU/PTSans(1)/m/n/14.4 URL [][]$[][][][][] [] [] [] [][][][][][][][][] [] [][][
 ][][][] [] [][] [] [][][][][][][][] [] [][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 199--203
+Underfull \hbox (badness 1199) in paragraph at lines 205--209
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][]$[][]\TU/PTSans(1)/m/n/14.4 .  Дата обращения: 27 апреля
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--215
 []\TU/PTSans(1)/m/n/14.4 Команда Яндекс.Образования.  Интернационализация flutt
 er-
  []
 
 
-Underfull \hbox (badness 3009) in paragraph at lines 205--209
+Underfull \hbox (badness 3009) in paragraph at lines 211--215
 \TU/PTSans(1)/m/n/14.4 приложения, .  URL [][]$[][][][][] [] [] [] [][][][][][]
 [][][] [] [][][][][][] [] [][] [] [][][][][][][][] [] [][][][][][][] []
  []
 
 ))
 
-[213]
+[214]
 File: diploma_application.pdf Graphic file (type pdf)
 <use diploma_application.pdf>
 File: diploma_application.pdf Graphic file (type pdf)
@@ -3678,694 +2822,694 @@ File: diploma_application.pdf Graphic file (type pdf)
 
 File: diploma_application.pdf Graphic file (type pdf)
 <use diploma_application.pdf, page 1>
-[214
-
-
-
-]
-File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 2>
-File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 2>
-
-
-File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 2>
 [215
 
+
+
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 3>
+<use diploma_application.pdf, page 2>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 3>
+<use diploma_application.pdf, page 2>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 3>
+<use diploma_application.pdf, page 2>
 [216
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 4>
+<use diploma_application.pdf, page 3>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 4>
+<use diploma_application.pdf, page 3>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 4>
+<use diploma_application.pdf, page 3>
 [217
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 5>
+<use diploma_application.pdf, page 4>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 5>
+<use diploma_application.pdf, page 4>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 5>
+<use diploma_application.pdf, page 4>
 [218
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 6>
+<use diploma_application.pdf, page 5>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 6>
+<use diploma_application.pdf, page 5>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 6>
+<use diploma_application.pdf, page 5>
 [219
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 7>
+<use diploma_application.pdf, page 6>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 7>
+<use diploma_application.pdf, page 6>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 7>
+<use diploma_application.pdf, page 6>
 [220
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 8>
+<use diploma_application.pdf, page 7>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 8>
+<use diploma_application.pdf, page 7>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 8>
+<use diploma_application.pdf, page 7>
 [221
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 9>
+<use diploma_application.pdf, page 8>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 9>
+<use diploma_application.pdf, page 8>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 9>
+<use diploma_application.pdf, page 8>
 [222
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 10>
+<use diploma_application.pdf, page 9>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 10>
+<use diploma_application.pdf, page 9>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 10>
+<use diploma_application.pdf, page 9>
 [223
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 11>
+<use diploma_application.pdf, page 10>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 11>
+<use diploma_application.pdf, page 10>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 11>
+<use diploma_application.pdf, page 10>
 [224
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 12>
+<use diploma_application.pdf, page 11>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 12>
+<use diploma_application.pdf, page 11>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 12>
+<use diploma_application.pdf, page 11>
 [225
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 13>
+<use diploma_application.pdf, page 12>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 13>
+<use diploma_application.pdf, page 12>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 13>
+<use diploma_application.pdf, page 12>
 [226
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 14>
+<use diploma_application.pdf, page 13>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 14>
+<use diploma_application.pdf, page 13>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 14>
+<use diploma_application.pdf, page 13>
 [227
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 15>
+<use diploma_application.pdf, page 14>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 15>
+<use diploma_application.pdf, page 14>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 15>
+<use diploma_application.pdf, page 14>
 [228
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 16>
+<use diploma_application.pdf, page 15>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 16>
+<use diploma_application.pdf, page 15>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 16>
+<use diploma_application.pdf, page 15>
 [229
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 17>
+<use diploma_application.pdf, page 16>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 17>
+<use diploma_application.pdf, page 16>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 17>
+<use diploma_application.pdf, page 16>
 [230
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 18>
+<use diploma_application.pdf, page 17>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 18>
+<use diploma_application.pdf, page 17>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 18>
+<use diploma_application.pdf, page 17>
 [231
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 19>
+<use diploma_application.pdf, page 18>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 19>
+<use diploma_application.pdf, page 18>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 19>
+<use diploma_application.pdf, page 18>
 [232
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 20>
+<use diploma_application.pdf, page 19>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 20>
+<use diploma_application.pdf, page 19>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 20>
+<use diploma_application.pdf, page 19>
 [233
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 21>
+<use diploma_application.pdf, page 20>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 21>
+<use diploma_application.pdf, page 20>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 21>
+<use diploma_application.pdf, page 20>
 [234
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 22>
+<use diploma_application.pdf, page 21>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 22>
+<use diploma_application.pdf, page 21>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 22>
+<use diploma_application.pdf, page 21>
 [235
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 23>
+<use diploma_application.pdf, page 22>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 23>
+<use diploma_application.pdf, page 22>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 23>
+<use diploma_application.pdf, page 22>
 [236
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 24>
+<use diploma_application.pdf, page 23>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 24>
+<use diploma_application.pdf, page 23>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 24>
+<use diploma_application.pdf, page 23>
 [237
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 25>
+<use diploma_application.pdf, page 24>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 25>
+<use diploma_application.pdf, page 24>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 25>
+<use diploma_application.pdf, page 24>
 [238
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 26>
+<use diploma_application.pdf, page 25>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 26>
+<use diploma_application.pdf, page 25>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 26>
+<use diploma_application.pdf, page 25>
 [239
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 27>
+<use diploma_application.pdf, page 26>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 27>
+<use diploma_application.pdf, page 26>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 27>
+<use diploma_application.pdf, page 26>
 [240
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 28>
+<use diploma_application.pdf, page 27>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 28>
+<use diploma_application.pdf, page 27>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 28>
+<use diploma_application.pdf, page 27>
 [241
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 29>
+<use diploma_application.pdf, page 28>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 29>
+<use diploma_application.pdf, page 28>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 29>
+<use diploma_application.pdf, page 28>
 [242
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 30>
+<use diploma_application.pdf, page 29>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 30>
+<use diploma_application.pdf, page 29>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 30>
+<use diploma_application.pdf, page 29>
 [243
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 31>
+<use diploma_application.pdf, page 30>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 31>
+<use diploma_application.pdf, page 30>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 31>
+<use diploma_application.pdf, page 30>
 [244
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 32>
+<use diploma_application.pdf, page 31>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 32>
+<use diploma_application.pdf, page 31>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 32>
+<use diploma_application.pdf, page 31>
 [245
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 33>
+<use diploma_application.pdf, page 32>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 33>
+<use diploma_application.pdf, page 32>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 33>
+<use diploma_application.pdf, page 32>
 [246
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 34>
+<use diploma_application.pdf, page 33>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 34>
+<use diploma_application.pdf, page 33>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 34>
+<use diploma_application.pdf, page 33>
 [247
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 35>
+<use diploma_application.pdf, page 34>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 35>
+<use diploma_application.pdf, page 34>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 35>
+<use diploma_application.pdf, page 34>
 [248
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 36>
+<use diploma_application.pdf, page 35>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 36>
+<use diploma_application.pdf, page 35>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 36>
+<use diploma_application.pdf, page 35>
 [249
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 37>
+<use diploma_application.pdf, page 36>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 37>
+<use diploma_application.pdf, page 36>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 37>
+<use diploma_application.pdf, page 36>
 [250
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 38>
+<use diploma_application.pdf, page 37>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 38>
+<use diploma_application.pdf, page 37>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 38>
+<use diploma_application.pdf, page 37>
 [251
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 39>
+<use diploma_application.pdf, page 38>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 39>
+<use diploma_application.pdf, page 38>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 39>
+<use diploma_application.pdf, page 38>
 [252
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 40>
+<use diploma_application.pdf, page 39>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 40>
+<use diploma_application.pdf, page 39>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 40>
+<use diploma_application.pdf, page 39>
 [253
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 41>
+<use diploma_application.pdf, page 40>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 41>
+<use diploma_application.pdf, page 40>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 41>
+<use diploma_application.pdf, page 40>
 [254
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 42>
+<use diploma_application.pdf, page 41>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 42>
+<use diploma_application.pdf, page 41>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 42>
+<use diploma_application.pdf, page 41>
 [255
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 43>
+<use diploma_application.pdf, page 42>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 43>
+<use diploma_application.pdf, page 42>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 43>
+<use diploma_application.pdf, page 42>
 [256
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 44>
+<use diploma_application.pdf, page 43>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 44>
+<use diploma_application.pdf, page 43>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 44>
+<use diploma_application.pdf, page 43>
 [257
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 45>
+<use diploma_application.pdf, page 44>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 45>
+<use diploma_application.pdf, page 44>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 45>
+<use diploma_application.pdf, page 44>
 [258
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 46>
+<use diploma_application.pdf, page 45>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 46>
+<use diploma_application.pdf, page 45>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 46>
+<use diploma_application.pdf, page 45>
 [259
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 47>
+<use diploma_application.pdf, page 46>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 47>
+<use diploma_application.pdf, page 46>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 47>
+<use diploma_application.pdf, page 46>
 [260
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 48>
+<use diploma_application.pdf, page 47>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 48>
+<use diploma_application.pdf, page 47>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 48>
+<use diploma_application.pdf, page 47>
 [261
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 49>
+<use diploma_application.pdf, page 48>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 49>
+<use diploma_application.pdf, page 48>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 49>
+<use diploma_application.pdf, page 48>
 [262
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 50>
+<use diploma_application.pdf, page 49>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 50>
+<use diploma_application.pdf, page 49>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 50>
+<use diploma_application.pdf, page 49>
 [263
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 51>
+<use diploma_application.pdf, page 50>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 51>
+<use diploma_application.pdf, page 50>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 51>
+<use diploma_application.pdf, page 50>
 [264
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 52>
+<use diploma_application.pdf, page 51>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 52>
+<use diploma_application.pdf, page 51>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 52>
+<use diploma_application.pdf, page 51>
 [265
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 53>
+<use diploma_application.pdf, page 52>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 53>
+<use diploma_application.pdf, page 52>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 53>
+<use diploma_application.pdf, page 52>
 [266
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 54>
+<use diploma_application.pdf, page 53>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 54>
+<use diploma_application.pdf, page 53>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 54>
+<use diploma_application.pdf, page 53>
 [267
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 55>
+<use diploma_application.pdf, page 54>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 55>
+<use diploma_application.pdf, page 54>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 55>
+<use diploma_application.pdf, page 54>
 [268
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 56>
+<use diploma_application.pdf, page 55>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 56>
+<use diploma_application.pdf, page 55>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 56>
+<use diploma_application.pdf, page 55>
 [269
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 57>
+<use diploma_application.pdf, page 56>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 57>
+<use diploma_application.pdf, page 56>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 57>
+<use diploma_application.pdf, page 56>
 [270
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 58>
+<use diploma_application.pdf, page 57>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 58>
+<use diploma_application.pdf, page 57>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 58>
+<use diploma_application.pdf, page 57>
 [271
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 59>
+<use diploma_application.pdf, page 58>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 59>
+<use diploma_application.pdf, page 58>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 59>
+<use diploma_application.pdf, page 58>
 [272
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 60>
+<use diploma_application.pdf, page 59>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 60>
+<use diploma_application.pdf, page 59>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 60>
+<use diploma_application.pdf, page 59>
 [273
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 61>
+<use diploma_application.pdf, page 60>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 61>
+<use diploma_application.pdf, page 60>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 61>
+<use diploma_application.pdf, page 60>
 [274
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 62>
+<use diploma_application.pdf, page 61>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 62>
+<use diploma_application.pdf, page 61>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 62>
+<use diploma_application.pdf, page 61>
 [275
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 63>
+<use diploma_application.pdf, page 62>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 63>
+<use diploma_application.pdf, page 62>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 63>
+<use diploma_application.pdf, page 62>
 [276
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20250607233418 FAD58DE7366495DB465
+File: diploma_application.pdf Graphic file (type pdf)
+<use diploma_application.pdf, page 63>
+File: diploma_application.pdf Graphic file (type pdf)
+<use diploma_application.pdf, page 63>
+
+
+File: diploma_application.pdf Graphic file (type pdf)
+<use diploma_application.pdf, page 63>
+[277
+
+]
+runsystem(latexminted cleantemp  --timestamp 20250608003912 FAD58DE7366495DB465
 0CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux (./macros.aux) (./tocpage.aux) (./Chapters/introduction.aux)
@@ -4381,18 +3525,18 @@ L3 programming layer <2025-01-18>
  ***********
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: CCC0D6188542C703BB8D820B48B33BCF;12333.
  ) 
 Here is how much of TeX's memory you used:
- 32580 strings out of 473832
- 706208 string characters out of 5729481
- 1228354 words of memory out of 5000000
- 54994 multiletter control sequences out of 15000+600000
+ 32585 strings out of 473832
+ 706337 string characters out of 5729481
+ 1231466 words of memory out of 5000000
+ 54999 multiletter control sequences out of 15000+600000
  564702 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 100i,17n,112p,1987b,853s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,17n,112p,1987b,845s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (276 pages).
+Output written on main.pdf (277 pages).

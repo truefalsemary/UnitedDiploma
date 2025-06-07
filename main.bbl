@@ -1,4 +1,4 @@
-\begin{thebibliography}{34}
+\begin{thebibliography}{35}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -99,17 +99,23 @@ Robert~C. Martin.
 \newblock URL \url{https://habr.com/ru/companies/yandex/articles/852278/}.
 \newblock Дата обращения: 9 апреля 2025.
 
-\bibitem[gRPC Authors(2025{\natexlab{a}})]{GRPCIntro}
+\bibitem[gRPC Authors(2025)]{GRPCIntro}
 gRPC Authors.
-\newblock What is grpc? an introduction to grpc, 2025{\natexlab{a}}.
+\newblock What is grpc? an introduction to grpc, 2025.
 \newblock URL \url{https://grpc.io/docs/what-is-grpc/introduction/}.
 \newblock Дата обращения: 19 апреля 2025.
 
-\bibitem[gRPC Authors(2025{\natexlab{b}})]{GRPCDartBasics}
+\bibitem[gRPC Authors()]{GRPCDartBasics}
 gRPC Authors.
-\newblock grpc basics: Dart, 2025{\natexlab{b}}.
+\newblock grpc basics: Dart.
 \newblock URL \url{https://grpc.io/docs/languages/dart/basics/}.
 \newblock Дата обращения: 19 апреля 2025.
+
+\bibitem[Чернышев()]{ChernyshevDartBasics}
+Станислав Чернышев.
+\newblock Основы dart.
+\newblock URL \url{https://drive.google.com/file/d/1xNJbmkHmazcPiDG3hanw2xPURyM_HUBE/view}.
+\newblock Дата обращения: 21 апреля 2025.
 
 \bibitem[Team(2025{\natexlab{a}})]{FlutterConceptsArch}
 Flutter Team.
