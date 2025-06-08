@@ -1,0 +1,37 @@
+
+\xpg@aux {spelling=modern}{russian}
+\contentsline {section}{\numberline {}ВВЕДЕНИЕ}{4}{section.1}%
+\contentsline {section}{\numberline {}ГЛАВА 1 ИССЛЕДОВАНИЕ И ПЛАНИРОВАНИЕ СТАРТАПА «ПУТЕШЕСТВИЯ ПО РОССИИ»}{8}{section.2}%
+\contentsline {subsection}{1.1 Исследование целевой аудитории}{8}{section*.1}%
+\contentsline {subsection}{1.2 Приоритизация функциональности}{19}{section*.1}%
+\contentsline {subsection}{1.3 Оценка рынка}{23}{section*.1}%
+\contentsline {subsection}{1.4 Исследование конкурентной среды}{27}{table.caption.2}%
+\contentsline {subsection}{1.5 Бизнес-модель стартапа}{41}{table.caption.3}%
+\contentsline {subsection}{1.6 Экосистема монетизации}{46}{table.caption.3}%
+\contentsline {subsection}{1.7 Финансовая модель}{48}{table.caption.3}%
+\contentsline {section}{\numberline {}ГЛАВА 2 ПРОЕКТИРОВАНИЕ ПОЛЬЗОВАТЕЛЬСКОГО ИНТЕРФЕЙСА МОБИЛЬНОГО ПРИЛОЖЕНИЯ}{55}{section.3}%
+\contentsline {subsection}{2.1 Принципы и подходы к проектированию интерфейса}{55}{section*.6}%
+\contentsline {subsection}{2.2. Разработка макетов интерфейса}{58}{section*.6}%
+\contentsline {subsection}{2.3. Проектирование структуры экранов и пользовательских сценариев}{60}{section*.6}%
+\contentsline {subsection}{2.4. Технические требования к интерфейсу}{70}{figure.caption.15}%
+\contentsline {section}{\numberline {}ГЛАВА 3 ПРОЕКТИРОВАНИЕ СЕРВЕРНОЙ ЧАСТИ ПРИЛОЖЕНИЯ}{76}{section.4}%
+\contentsline {subsection}{3.1 Описание требований и ограничений}{76}{section*.16}%
+\contentsline {subsection}{3.2 Архитектурное решение}{83}{section*.16}%
+\contentsline {subsection}{3.3 Диаграммы проектирования}{89}{section*.16}%
+\contentsline {subsection}{2.4 Компоненты инфраструктуры}{116}{figure.caption.29}%
+\contentsline {subsection}{2.5 Меры обеспечения безопасности}{121}{figure.caption.29}%
+\contentsline {section}{\numberline {}ГЛАВА 4 ПРОЕКТИРОВАНИЕ МОБИЛЬНОЙ ЧАСТИ ПРИЛОЖЕНИЯ}{125}{section.5}%
+\contentsline {subsection}{4.1 Проектирование архитектуры мобильного приложения}{125}{section*.30}%
+\contentsline {subsection}{4.2 Основные пути пользователя}{128}{section*.30}%
+\contentsline {subsection}{4.3 Архитектура мобильного приложения}{134}{figure.caption.33}%
+\contentsline {section}{\numberline {}ГЛАВА 5 РАЗРАБОТКА МОБИЛЬНОГО ПРИЛОЖЕНИЯ}{160}{section.6}%
+\contentsline {subsection}{5.1 Базовая структура приложения}{160}{section*.40}%
+\contentsline {subsection}{5.2 Реализация слоя данных (взаимодействия с бекендом)}{162}{figure.caption.41}%
+\contentsline {section}{\numberline {}ГЛАВА 6 РЕАЛИЗАЦИЯ И ТЕСТИРОВАНИЕ СЕРВЕРНОЙ ЧАСТИ}{171}{section.7}%
+\contentsline {subsection}{6.1. Обзор технологий и инструментов}{171}{section*.42}%
+\contentsline {subsection}{6.2 Реализация микросервисов}{177}{section*.42}%
+\contentsline {subsection}{3.3 Организация DevOps-инфраструктуры и CI/CD}{196}{section*.42}%
+\contentsline {subsection}{3.4 Тестирование микросервисной системы}{200}{section*.42}%
+\contentsline {section}{\numberline {}ЗАКЛЮЧЕНИЕ}{205}{section.8}%
+\contentsline {section}{\numberline {}ИСТОЧНИКИ}{207}{section.9}%
+\contentsline {section}{ПРИЛОЖЕНИЕ}{212}{section.9}%
