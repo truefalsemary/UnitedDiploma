@@ -137,4 +137,20 @@
 
 \emergencystretch 3em
 
+
+% Настройка itemize и enumerate для единообразного абзацного отступа
+\setlist[itemize]{
+    leftmargin=0pt,         % нет дополнительного левого отступа
+    itemindent=1.25cm,      % отступ элемента списка = абзацному отступу
+    labelsep=0.5em,         % расстояние между маркером и текстом
+    labelwidth=0pt          % ширина области для маркера
+}
+
+\setlist[enumerate]{
+    leftmargin=0pt,         % нет дополнительного левого отступа  
+    itemindent=1.25cm,      % отступ элемента списка = абзацному отступу
+    labelsep=0.5em,         % расстояние между номером и текстом
+    labelwidth=0pt          % ширина области для номера
+}
+
 \sloppy

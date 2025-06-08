@@ -3,39 +3,39 @@
 \contentsline {section}{\numberline {}ВВЕДЕНИЕ}{4}{section.1}%
 \contentsline {section}{\numberline {}ГЛАВА 1 ИССЛЕДОВАНИЕ И ПЛАНИРОВАНИЕ СТАРТАПА «ПУТЕШЕСТВИЯ ПО РОССИИ»}{8}{section.2}%
 \contentsline {subsection}{1.1 Исследование целевой аудитории}{8}{section*.1}%
-\contentsline {subsection}{1.2 Приоритизация функциональности}{20}{section*.1}%
+\contentsline {subsection}{1.2 Приоритизация функциональности}{19}{section*.1}%
 \contentsline {subsection}{1.3 Оценка рынка}{23}{section*.1}%
-\contentsline {subsection}{1.4 Исследование конкурентной среды}{28}{table.caption.2}%
+\contentsline {subsection}{1.4 Исследование конкурентной среды}{27}{table.caption.2}%
 \contentsline {subsection}{1.5 Бизнес-модель стартапа}{41}{table.caption.3}%
-\contentsline {subsection}{1.6 Экосистема монетизации}{47}{table.caption.3}%
+\contentsline {subsection}{1.6 Экосистема монетизации}{46}{table.caption.3}%
 \contentsline {subsection}{1.7 Финансовая модель}{48}{table.caption.3}%
-\contentsline {section}{\numberline {}ГЛАВА 2 ПРОЕКТИРОВАНИЕ ПОЛЬЗОВАТЕЛЬСКОГО ИНТЕРФЕЙСА МОБИЛЬНОГО ПРИЛОЖЕНИЯ}{56}{section.3}%
-\contentsline {subsection}{2.1 Принципы и подходы к проектированию интерфейса}{56}{section*.6}%
-\contentsline {subsection}{2.2. Разработка макетов интерфейса}{59}{section*.6}%
-\contentsline {subsection}{2.3. Проектирование структуры экранов и пользовательских сценариев}{61}{section*.6}%
-\contentsline {subsection}{2.4. Технические требования к интерфейсу}{71}{figure.caption.15}%
-\contentsline {subsection}{Выводы по главе}{74}{figure.caption.15}%
-\contentsline {section}{\numberline {}ГЛАВА 3 ПРОЕКТИРОВАНИЕ СЕРВЕРНОЙ ЧАСТИ ПРИЛОЖЕНИЯ}{77}{section.4}%
-\contentsline {subsection}{3.1 Описание требований и ограничений}{77}{section*.16}%
-\contentsline {subsection}{3.2 Архитектурное решение}{84}{section*.16}%
-\contentsline {subsection}{3.3 Диаграммы проектирования}{91}{section*.16}%
-\contentsline {subsection}{2.4 Компоненты инфраструктуры}{118}{figure.caption.29}%
-\contentsline {subsection}{2.5 Меры обеспечения безопасности}{122}{figure.caption.29}%
-\contentsline {subsection}{Выводы по главе}{125}{figure.caption.29}%
-\contentsline {section}{\numberline {}ГЛАВА 4 ПРОЕКТИРОВАНИЕ МОБИЛЬНОЙ ЧАСТИ ПРИЛОЖЕНИЯ}{127}{section.5}%
-\contentsline {subsection}{4.1 Проектирование архитектуры мобильного приложения}{127}{section*.30}%
-\contentsline {subsection}{4.2 Основные пути пользователя}{130}{section*.30}%
-\contentsline {subsection}{4.3 Архитектура мобильного приложения}{137}{figure.caption.33}%
-\contentsline {subsection}{Выводы по главе}{161}{figure.caption.39}%
-\contentsline {section}{\numberline {}ГЛАВА 5 РАЗРАБОТКА МОБИЛЬНОГО ПРИЛОЖЕНИЯ}{163}{section.6}%
-\contentsline {subsection}{5.1 Базовая структура приложения}{163}{section*.40}%
-\contentsline {subsection}{5.2 Реализация слоя данных (взаимодействия с бекендом)}{165}{figure.caption.41}%
-\contentsline {subsection}{Выводы по главе}{171}{Item.48}%
-\contentsline {section}{\numberline {}ГЛАВА 6 РЕАЛИЗАЦИЯ И ТЕСТИРОВАНИЕ СЕРВЕРНОЙ ЧАСТИ}{174}{section.7}%
-\contentsline {subsection}{6.1. Обзор технологий и инструментов}{174}{section*.42}%
-\contentsline {subsection}{6.2 Реализация микросервисов}{180}{section*.42}%
-\contentsline {subsection}{3.3 Организация DevOps-инфраструктуры и CI/CD}{199}{section*.42}%
-\contentsline {subsection}{3.4 Тестирование микросервисной системы}{204}{section*.42}%
-\contentsline {subsection}{Выводы по главе}{206}{section*.42}%
-\contentsline {section}{\numberline {}ЗАКЛЮЧЕНИЕ}{208}{section.8}%
-\contentsline {section}{ИСТОЧНИКИ}{210}{section.8}%
+\contentsline {section}{\numberline {}ГЛАВА 2 ПРОЕКТИРОВАНИЕ ПОЛЬЗОВАТЕЛЬСКОГО ИНТЕРФЕЙСА МОБИЛЬНОГО ПРИЛОЖЕНИЯ}{55}{section.3}%
+\contentsline {subsection}{2.1 Принципы и подходы к проектированию интерфейса}{55}{section*.6}%
+\contentsline {subsection}{2.2. Разработка макетов интерфейса}{58}{section*.6}%
+\contentsline {subsection}{2.3. Проектирование структуры экранов и пользовательских сценариев}{60}{section*.6}%
+\contentsline {subsection}{2.4. Технические требования к интерфейсу}{70}{figure.caption.15}%
+\contentsline {subsection}{Выводы по главе}{73}{figure.caption.15}%
+\contentsline {section}{\numberline {}ГЛАВА 3 ПРОЕКТИРОВАНИЕ СЕРВЕРНОЙ ЧАСТИ ПРИЛОЖЕНИЯ}{76}{section.4}%
+\contentsline {subsection}{3.1 Описание требований и ограничений}{76}{section*.16}%
+\contentsline {subsection}{3.2 Архитектурное решение}{83}{section*.16}%
+\contentsline {subsection}{3.3 Диаграммы проектирования}{89}{section*.16}%
+\contentsline {subsection}{2.4 Компоненты инфраструктуры}{116}{figure.caption.29}%
+\contentsline {subsection}{2.5 Меры обеспечения безопасности}{121}{figure.caption.29}%
+\contentsline {subsection}{Выводы по главе}{123}{figure.caption.29}%
+\contentsline {section}{\numberline {}ГЛАВА 4 ПРОЕКТИРОВАНИЕ МОБИЛЬНОЙ ЧАСТИ ПРИЛОЖЕНИЯ}{125}{section.5}%
+\contentsline {subsection}{4.1 Проектирование архитектуры мобильного приложения}{125}{section*.30}%
+\contentsline {subsection}{4.2 Основные пути пользователя}{128}{section*.30}%
+\contentsline {subsection}{4.3 Архитектура мобильного приложения}{135}{figure.caption.33}%
+\contentsline {subsection}{Выводы по главе}{159}{figure.caption.39}%
+\contentsline {section}{\numberline {}ГЛАВА 5 РАЗРАБОТКА МОБИЛЬНОГО ПРИЛОЖЕНИЯ}{161}{section.6}%
+\contentsline {subsection}{5.1 Базовая структура приложения}{161}{section*.40}%
+\contentsline {subsection}{5.2 Реализация слоя данных (взаимодействия с бекендом)}{163}{figure.caption.41}%
+\contentsline {subsection}{Выводы по главе}{169}{Item.48}%
+\contentsline {section}{\numberline {}ГЛАВА 6 РЕАЛИЗАЦИЯ И ТЕСТИРОВАНИЕ СЕРВЕРНОЙ ЧАСТИ}{172}{section.7}%
+\contentsline {subsection}{6.1. Обзор технологий и инструментов}{172}{section*.42}%
+\contentsline {subsection}{6.2 Реализация микросервисов}{178}{section*.42}%
+\contentsline {subsection}{3.3 Организация DevOps-инфраструктуры и CI/CD}{197}{section*.42}%
+\contentsline {subsection}{3.4 Тестирование микросервисной системы}{201}{section*.42}%
+\contentsline {subsection}{Выводы по главе}{203}{section*.42}%
+\contentsline {section}{\numberline {}ЗАКЛЮЧЕНИЕ}{206}{section.8}%
+\contentsline {section}{\numberline {}ИСТОЧНИКИ}{208}{section.9}%

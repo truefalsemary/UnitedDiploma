@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.5.18)  8 JUN 2025 00:39
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.5.18)  8 JUN 2025 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1168,7 +1168,7 @@ File: united_diploma_titlepage.pdf Graphic file (type pdf)
 
  (./tocpage.tex (./main.toc
 Overfull \hbox (1.22397pt too wide) detected at line 22
- []\TU/PTSans(1)/m/n/14.4 117
+ []\TU/PTSans(1)/m/n/14.4 115
  []
 
 
@@ -1177,72 +1177,72 @@ Overfull \hbox (1.22397pt too wide) detected at line 22
 
 ]
 Overfull \hbox (1.22397pt too wide) detected at line 23
- []\TU/PTSans(1)/m/n/14.4 121
+ []\TU/PTSans(1)/m/n/14.4 120
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 24
- []\TU/PTSans(1)/m/n/14.4 124
+ []\TU/PTSans(1)/m/n/14.4 122
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 26
- []\TU/PTSans(1)/m/n/14.4 126
+ []\TU/PTSans(1)/m/n/14.4 124
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 27
- []\TU/PTSans(1)/m/n/14.4 129
+ []\TU/PTSans(1)/m/n/14.4 127
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 28
- []\TU/PTSans(1)/m/n/14.4 136
+ []\TU/PTSans(1)/m/n/14.4 134
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 29
- []\TU/PTSans(1)/m/n/14.4 160
+ []\TU/PTSans(1)/m/n/14.4 158
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 31
- []\TU/PTSans(1)/m/n/14.4 162
+ []\TU/PTSans(1)/m/n/14.4 160
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 32
- []\TU/PTSans(1)/m/n/14.4 164
+ []\TU/PTSans(1)/m/n/14.4 162
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 33
- []\TU/PTSans(1)/m/n/14.4 170
+ []\TU/PTSans(1)/m/n/14.4 168
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 35
- []\TU/PTSans(1)/m/n/14.4 173
+ []\TU/PTSans(1)/m/n/14.4 171
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 36
- []\TU/PTSans(1)/m/n/14.4 179
+ []\TU/PTSans(1)/m/n/14.4 177
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 37
- []\TU/PTSans(1)/m/n/14.4 198
+ []\TU/PTSans(1)/m/n/14.4 196
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 38
- []\TU/PTSans(1)/m/n/14.4 203
+ []\TU/PTSans(1)/m/n/14.4 200
  []
 
 
 Overfull \hbox (1.22397pt too wide) detected at line 39
- []\TU/PTSans(1)/m/n/14.4 205
+ []\TU/PTSans(1)/m/n/14.4 202
  []
 
 )
@@ -1301,7 +1301,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 [11]
 
 [12]
-Underfull \hbox (badness 3260) in paragraph at lines 58--59
+Underfull \hbox (badness 3396) in paragraph at lines 58--59
 []\TU/PTSans(1)/m/n/14.4 Наличие специализированного фильтра для поиска маршрут
 ов,
  []
@@ -1331,7 +1331,7 @@ Underfull \hbox (badness 2452) in paragraph at lines 159--162
 
 
 [21]
-Underfull \hbox (badness 1082) in paragraph at lines 174--175
+Underfull \hbox (badness 1168) in paragraph at lines 174--175
 []\TU/PTSans(1)/m/n/14.4 Персонализированные рекомендации маршрутов, основанные
  на
  []
@@ -1410,7 +1410,7 @@ Overfull \hbox (5.32082pt too wide) in paragraph at lines 211--225
 
 
 [27]
-Underfull \hbox (badness 1460) in paragraph at lines 240--241
+Underfull \hbox (badness 1540) in paragraph at lines 240--241
 []\TU/PTSans(1)/m/n/14.4 Развитая многофункциональность и интеграция с обществе
 нным
  []
@@ -1420,19 +1420,19 @@ Underfull \hbox (badness 1460) in paragraph at lines 240--241
 [28]
 
 [29]
-Underfull \hbox (badness 1817) in paragraph at lines 261--262
+Underfull \hbox (badness 1910) in paragraph at lines 261--262
 []\TU/PTSans(1)/m/n/14.4 Международное присутствие и широкая географическая дос
 туп-
  []
 
 
-Underfull \hbox (badness 2221) in paragraph at lines 262--263
+Underfull \hbox (badness 2326) in paragraph at lines 262--263
 []\TU/PTSans(1)/m/n/14.4 Высокая степень вовлечённости аудитории. Благодаря акт
 ивной
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 263--264
+Underfull \hbox (badness 1248) in paragraph at lines 263--264
 []\TU/PTSans(1)/m/n/14.4 Комплексная интеграция с сервисами бронирования. Платф
 орма
  []
@@ -1440,6 +1440,12 @@ Underfull \hbox (badness 1178) in paragraph at lines 263--264
 
 
 [30]
+Underfull \hbox (badness 3514) in paragraph at lines 271--272
+\TU/PTSans(1)/m/n/14.4 критериям. TripAdvisor предлагает недостаточно гибкие ин
+струменты
+ []
+
+
 
 [31]
 Underfull \hbox (badness 1616) in paragraph at lines 278--279
@@ -1450,19 +1456,19 @@ Underfull \hbox (badness 1616) in paragraph at lines 278--279
 
 
 [32]
-
-[33]
-Underfull \hbox (badness 1320) in paragraph at lines 285--286
+Underfull \hbox (badness 1400) in paragraph at lines 285--286
 []\TU/PTSans(1)/m/n/14.4 Интуитивность интерфейса и удобство эксплуатации. Плат
 форма
  []
 
 
 
+[33]
+
 [34]
 
 [35]
-Underfull \hbox (badness 1629) in paragraph at lines 305--306
+Underfull \hbox (badness 1715) in paragraph at lines 305--306
 []\TU/PTSans(1)/m/n/14.4 Социальные функции и пользовательский контент. Пользов
 атели
  []
@@ -1470,8 +1476,6 @@ Underfull \hbox (badness 1629) in paragraph at lines 305--306
 
 
 [36]
-
-[37]
 Overfull \hbox (2.27213pt too wide) in paragraph at lines 334--334
 []\TU/PTSans(1)/b/n/12 Яндекс.Карты| 
  []
@@ -1556,10 +1560,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
+[37]
+
 [38]
 
 [39]
-Underfull \hbox (badness 1163) in paragraph at lines 387--388
+Underfull \hbox (badness 1248) in paragraph at lines 387--388
 []\TU/PTSans(1)/m/n/14.4 Комплексное освещение региональных российских направле
 ний,
  []
@@ -1577,7 +1583,7 @@ Underfull \hbox (badness 1163) in paragraph at lines 387--388
 [44]
 
 [45]
-Underfull \hbox (badness 5288) in paragraph at lines 432--433
+Underfull \hbox (badness 5446) in paragraph at lines 432--433
 []\TU/PTSans(1)/m/n/14.4 Расходы на маркетинг и продвижение (онлайн-реклама, SE
 O-
  []
@@ -1587,17 +1593,15 @@ O-
 [46]
 
 [47]
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
+ge=dflt;mapping=tex-text;!
+
 
 [48]
-Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
-ge=dflt;mapping=tex-text;!
-Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
-ge=dflt;mapping=tex-text;!
-Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
-ge=dflt;mapping=tex-text;!
-
-
-[49]
 Underfull \hbox (badness 10000) in paragraph at lines 486--486
 []\TU/PTSans(1)/b/n/14.4 Доход рекла-
  []
@@ -1647,6 +1651,9 @@ Overfull \hbox (3.09444pt too wide) in paragraph at lines 484--495
  [][] 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
 ge=dflt;mapping=tex-text;!
 Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
@@ -1660,21 +1667,21 @@ ge=dflt;mapping=tex-text;!
 Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
 ge=dflt;mapping=tex-text;!
 
+
+[49]
 
 [50]
-
-[51]
 Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
 ge=dflt;mapping=tex-text;!
 
+
+[51]
 
 [52]
 
-[53]
+[53])
 
-[54])
-
-[55]
+[54]
 \openout2 = `Chapters/sixth_chapter_mobile_ui.aux'.
 
  (./Chapters/sixth_chapter_mobile_ui.tex
@@ -1690,17 +1697,17 @@ Underfull \hbox (badness 3049) in paragraph at lines 7--8
 
 
 
-[56
+[55
 
 
 
 ]
 
+[56]
+
 [57]
 
 [58]
-
-[59]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 []\TU/PTSans(1)/m/n/14.4 Кроссплатформенность: Приложение должно работать как н
 а
@@ -1708,62 +1715,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
 
 
-[60]
-
-[61]
+[59]
 File: Images/ui/Picture1.png Graphic file (type bmp)
 <Images/ui/Picture1.png>
 
 
-[62]
+[60]
+
+[61]
 File: Images/ui/Picture2.png Graphic file (type bmp)
 <Images/ui/Picture2.png>
 File: Images/ui/Picture3.png Graphic file (type bmp)
 <Images/ui/Picture3.png>
 
 
-[63]
+[62]
 File: Images/ui/Picture4.png Graphic file (type bmp)
 <Images/ui/Picture4.png>
 
 
-[64]
+[63]
 File: Images/ui/Picture5.png Graphic file (type bmp)
 <Images/ui/Picture5.png>
 
 
-[65]
+[64]
 File: Images/ui/Picture6.png Graphic file (type bmp)
 <Images/ui/Picture6.png>
 File: Images/ui/Picture7.png Graphic file (type bmp)
 <Images/ui/Picture7.png>
 
 
-[66]
+[65]
 
-[67]
+[66]
 File: Images/ui/Picture8.png Graphic file (type bmp)
 <Images/ui/Picture8.png>
 
 
-[68]
+[67]
 File: Images/ui/Picture9.png Graphic file (type bmp)
 <Images/ui/Picture9.png>
 
 
+[68]
+
 [69]
 
 [70]
-
-[71]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 []\TU/PTSans(1)/m/n/14.4 Используется система адаптивной вёрстки с применением
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 149--150
-\TU/PTSans(1)/m/n/14.4 MediaQuery, LayoutBuilder и Flexible/Expanded компоненто
-в во
  []
 
 
@@ -1773,7 +1774,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
 
 
-[72]
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 165--166
 []\TU/PTSans(1)/m/n/14.4 Используется lazy-загрузка компонентов (ListView.build
 er,
@@ -1781,13 +1782,13 @@ er,
 
 
 
-[73]
+[72]
+
+[73])
 
 [74]
 
-[75])
-
-[76]
+[75]
 \openout2 = `Chapters/second_chapter_backend_architecture.aux'.
 
  (./Chapters/second_chapter_backend_architecture.tex
@@ -1797,31 +1798,33 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[77
+[76
 
 
 
 ]
 
+[77]
+
 [78]
 
 [79]
-
-[80]
-Underfull \hbox (badness 7030) in paragraph at lines 20--21
+Underfull \hbox (badness 7326) in paragraph at lines 20--21
 []\TU/PTSans(1)/m/n/14.4 Масштабируемость и отказоустойчивость: Архитектура сис
 темы
  []
 
 
 
-[81]
-Underfull \hbox (badness 1009) in paragraph at lines 21--23
+[80]
+Underfull \hbox (badness 1092) in paragraph at lines 21--23
 []\TU/PTSans(1)/m/n/14.4 Безопасность: Важным нефункциональным требованием явля
 ется
  []
 
 
+
+[81]
 
 [82]
 
@@ -1836,10 +1839,6 @@ Underfull \hbox (badness 1009) in paragraph at lines 21--23
 [87]
 
 [88]
-
-[89]
-
-[90]
 Underfull \hbox (badness 1168) in paragraph at lines 65--66
 []\TU/PTSans(1)/m/n/14.4 Этот раздел посвящен диаграммам проектирования архитек
 туры
@@ -1850,36 +1849,26 @@ e bmp)
 <Images/second_chapter_backend_architecture/Picture1.png>
 
 
-[91]
+[89]
 
-[92]
+[90]
+
+[91]
 File: Images/second_chapter_backend_architecture/Picture2.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture2.png>
 
 
-[93]
+[92]
 
-[94]
+[93]
 File: Images/second_chapter_backend_architecture/Picture3.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture3.png>
 
 
-[95]
-Underfull \hbox (badness 2050) in paragraph at lines 124--125
-[]\TU/PTSans(1)/m/n/14.4 Profile Logic — бизнес-логика сервиса, обрабатывающая 
-опера-
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 124--125
-\TU/PTSans(1)/m/n/14.4 ции создания/обновления профиля и управления отношениями
-
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 126--127
+[94]
+Underfull \hbox (badness 2894) in paragraph at lines 126--127
 []\TU/PTSans(1)/m/n/14.4 FileStorage Client — клиентский модуль для взаимодейст
 вия с
  []
@@ -1889,95 +1878,94 @@ e bmp)
 <Images/second_chapter_backend_architecture/Picture4.png>
 
 
-[96]
+[95]
 
-[97]
+[96]
 File: Images/second_chapter_backend_architecture/Picture5.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture5.png>
 
 
-[98]
+[97]
 
-[99]
+[98]
 File: Images/second_chapter_backend_architecture/Picture6.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture6.png>
 
 
-[100]
+[99]
 File: Images/second_chapter_backend_architecture/Picture7.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture7.png>
 
 
-[101]
+[100]
 
-[102]
+[101]
 File: Images/second_chapter_backend_architecture/Picture8.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture8.png>
 
 
-[103]
+[102]
 
-[104]
+[103]
 File: Images/second_chapter_backend_architecture/Picture9.png Graphic file (typ
 e bmp)
 <Images/second_chapter_backend_architecture/Picture9.png>
 
 
-[105]
+[104]
 File: Images/second_chapter_backend_architecture/Picture10.png Graphic file (ty
 pe bmp)
 <Images/second_chapter_backend_architecture/Picture10.png>
 
+
+[105]
 
 [106]
 
 [107]
 
 [108]
-
-[109]
 File: Images/second_chapter_backend_architecture/Picture11.png Graphic file (ty
 pe bmp)
 <Images/second_chapter_backend_architecture/Picture11.png>
 
 
-[110]
+[109]
 Overfull \vbox (22.35323pt too high) has occurred while \output is active []
 
 
+
+[110]
 
 [111]
 
 [112]
 
 [113]
-
-[114]
 File: Images/second_chapter_backend_architecture/Picture12.png Graphic file (ty
 pe bmp)
 <Images/second_chapter_backend_architecture/Picture12.png>
 
 
-[115]
-
-[116]
+[114]
 Underfull \hbox (badness 4429) in paragraph at lines 330--332
 []\TU/PTSans(1)/m/n/14.4 Таблица route_comments хранит комментарии пользователе
 й к
  []
 
+
+
+[115]
 File: Images/second_chapter_backend_architecture/Picture13.png Graphic file (ty
 pe bmp)
 <Images/second_chapter_backend_architecture/Picture13.png>
 
 
-[117]
-
-[118]
+[116]
 Underfull \hbox (badness 1924) in paragraph at lines 351--353
 \TU/PTSans(1)/m/n/14.4 vkr-profile и др.). В каждом репозитории настраивается с
 обственный
@@ -1985,7 +1973,7 @@ Underfull \hbox (badness 1924) in paragraph at lines 351--353
 
 
 
-[119]
+[117]
 Underfull \hbox (badness 1033) in paragraph at lines 355--357
 \TU/PTSans(1)/m/n/14.4 ступность при развертывании. Каждый образ или чарт получ
 ает уни-
@@ -1993,22 +1981,22 @@ Underfull \hbox (badness 1033) in paragraph at lines 355--357
 
 
 
+[118]
+
+[119]
+
 [120]
 
 [121]
 
 [122]
-
-[123]
 Missing character: There is no   (U+202F) in font PT Sans/OT:script=cyrl;langua
 ge=dflt;mapping=tex-text;!
 
 
+[123])
+
 [124]
-
-[125])
-
-[126]
 \openout2 = `Chapters/forth_chapter_mobile_architecture.aux'.
 
  (./Chapters/forth_chapter_mobile_architecture.tex
@@ -2018,39 +2006,33 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[127
+[125
 
 
 
 ]
-Underfull \hbox (badness 3068) in paragraph at lines 20--21
-[]\TU/PTSans(1)/b/n/14.4 Поддержка iOS и Android\TU/PTSans(1)/m/n/14.4 : прилож
-ение должно быть доступно
- []
 
+[126]
 
-
-[128]
-
-[129]
+[127]
 File: Images/mobile_logic/история_поиск_маршрута-2025-04-13-175239.png Graphic 
 file (type bmp)
 <Images/mobile_logic/история_поиск_маршрута-2025-04-13-175239.png>
 
 
-[130]
+[128]
 
-[131]
+[129]
 File: Images/mobile_logic/создание_маршрута-2025-04-13-180512.png Graphic file 
 (type bmp)
 <Images/mobile_logic/создание_маршрута-2025-04-13-180512.png>
 
 
+[130]
+
+[131]
+
 [132]
-
-[133]
-
-[134]
 Underfull \hbox (badness 2368) in paragraph at lines 67--68
 []\TU/PTSans(1)/m/n/14.4 Диаграмма вариантов использования демонстрирует следую
 щие
@@ -2058,11 +2040,15 @@ Underfull \hbox (badness 2368) in paragraph at lines 67--68
 
 
 
-[135]
+[133]
 File: Images/mobile_logic/диаграмма_вариантов_использования.png Graphic file (t
 ype bmp)
 <Images/mobile_logic/диаграмма_вариантов_использования.png>
 
+
+[134]
+
+[135]
 
 [136]
 
@@ -2071,12 +2057,6 @@ ype bmp)
 [138]
 
 [139]
-Underfull \hbox (badness 1043) in paragraph at lines 172--173
-[]\TU/PTSans(1)/b/n/14.4 View \TU/PTSans(1)/m/n/14.4 — пассивный элемент, котор
-ый только отображает данные
- []
-
-
 
 [140]
 
@@ -2091,11 +2071,7 @@ Underfull \hbox (badness 1043) in paragraph at lines 172--173
 [145]
 
 [146]
-
-[147]
-
-[148]
-Underfull \hbox (badness 1509) in paragraph at lines 386--387
+Underfull \hbox (badness 1596) in paragraph at lines 386--387
 []\TU/PTSans(1)/b/n/14.4 Избыточное количество boilerplate-кода \TU/PTSans(1)/m
 /n/14.4 — требуется написание
  []
@@ -2108,37 +2084,37 @@ Underfull \hbox (badness 1642) in paragraph at lines 422--423
 
 
 
-[149]
-Underfull \hbox (badness 1466) in paragraph at lines 438--439
+[147]
+Underfull \hbox (badness 1521) in paragraph at lines 438--439
 []\TU/PTSans(1)/b/n/14.4 Events \TU/PTSans(1)/m/n/14.4 — такие события, как ”За
 грузить маршруты”, ”Применить
  []
 
 
 
-[150]
+[148]
 
-[151]
-Underfull \hbox (badness 3471) in paragraph at lines 468--469
+[149]
+Underfull \hbox (badness 3590) in paragraph at lines 468--469
 []\TU/PTSans(1)/b/n/14.4 Разделение ответственности\TU/PTSans(1)/m/n/14.4 : Чет
 кое разделение UI от бизнес-
  []
 
 
 
-[152]
-Underfull \hbox (badness 2042) in paragraph at lines 487--488
+[150]
+Underfull \hbox (badness 2119) in paragraph at lines 487--488
 []\TU/PTSans(1)/b/n/14.4 L – Принцип подстановки Барбары Лисков (Liskov Substit
 ution
  []
 
 
 
+[151]
+
+[152]
+
 [153]
-
-[154]
-
-[155]
 Underfull \hbox (badness 1087) in paragraph at lines 512--513
 []\TU/PTSans(1)/m/n/14.4 Применение Чистой архитектуры способствует независимос
 ти от
@@ -2146,12 +2122,12 @@ Underfull \hbox (badness 1087) in paragraph at lines 512--513
 
 
 
+[154]
+
+[155]
+
 [156]
-
-[157]
-
-[158]
-Underfull \hbox (badness 5077) in paragraph at lines 545--546
+Underfull \hbox (badness 5260) in paragraph at lines 545--546
 []\TU/PTSans(1)/b/n/14.4 ScopeHolder\TU/PTSans(1)/m/n/14.4 : Сущность, которая 
 «держит» активный экземпляр
  []
@@ -2163,9 +2139,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 546--547
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
+Underfull \hbox (badness 3029) in paragraph at lines 546--547
 \TU/PTSans(1)/m/n/14.4 yx_scope_flutter, предназначенные для интеграции скоупов
- в
+ в дерево
  []
 
 
@@ -2182,9 +2158,15 @@ Underfull \hbox (badness 1215) in paragraph at lines 549--550
 
 
 
-[159]
+[157]
+Underfull \hbox (badness 3019) in paragraph at lines 560--561
+\TU/PTSans(1)/m/n/14.4 ентский и серверный код на различных языках (включая Dar
+t для
+ []
 
-[160]
+
+
+[158]
 Underfull \hbox (badness 6691) in paragraph at lines 569--570
 []\TU/PTSans(1)/m/n/14.4 Проведённый анализ альтернативных архитектурных подход
 ов
@@ -2192,9 +2174,9 @@ Underfull \hbox (badness 6691) in paragraph at lines 569--570
 
 
 
-[161])
+[159])
 
-[162]
+[160]
 \openout2 = `Chapters/fifth_chapter_mobile_implementation.aux'.
 
  (./Chapters/fifth_chapter_mobile_implementation.tex
@@ -2204,7 +2186,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 
-[163
+[161
 
 
 
@@ -2218,17 +2200,17 @@ Overfull \hbox (73.09062pt too wide) in paragraph at lines 17--18
 
 
 
-[164
+[162
 
 ]
-Underfull \hbox (badness 1983) in paragraph at lines 33--34
+Underfull \hbox (badness 2065) in paragraph at lines 33--34
 []\TU/PTSans(1)/b/n/14.4 createPlace \TU/PTSans(1)/m/n/14.4 отправляет запрос н
 а создание пользвателем места
  []
 
 
 
-[165
+[163
 
 ]
 Underfull \hbox (badness 1303) in paragraph at lines 41--42
@@ -2238,7 +2220,7 @@ Underfull \hbox (badness 1303) in paragraph at lines 41--42
 
 
 
-[166]
+[164]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 []\TU/PTSans(1)/m/n/14.4 Этот блок обрабатывает уже два события:
  []
@@ -2269,7 +2251,7 @@ Underfull \hbox (badness 1552) in paragraph at lines 57--58
 
 
 
-[167]
+[165]
 Underfull \hbox (badness 1454) in paragraph at lines 62--63
 []\TU/PTSans(1)/m/n/14.4 Функциональность создания маршрутов является более сло
 жной
@@ -2295,7 +2277,7 @@ eFormFilled
 
 
 
-[168]
+[166]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 \TU/PTSans(1)/m/n/14.4 здания общей информации о маршруте и определяет, заполне
 на
@@ -2315,7 +2297,7 @@ Underfull \hbox (badness 1199) in paragraph at lines 81--82
 
 
 
-[169]
+[167]
 Underfull \hbox (badness 10000) in paragraph at lines 89--90
 []\TU/PTSans(1)/m/n/14.4 А также он содержит следующие события на изменения
  []
@@ -2350,7 +2332,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
 
 
-[170]
+[168]
 Underfull \hbox (badness 1769) in paragraph at lines 109--110
 []\TU/PTSans(1)/m/n/14.4 Паттерн BLoC продемонстрировал свою эффективность при 
 ре-
@@ -2388,11 +2370,11 @@ ormBloc,
 
 
 
+[169]
+
+[170])
+
 [171]
-
-[172])
-
-[173]
 \openout2 = `Chapters/third_chapter_backend_implementation.aux'.
 
  (./Chapters/third_chapter_backend_implementation.tex
@@ -2401,14 +2383,14 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 4.
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 11--12
+Underfull \hbox (badness 1708) in paragraph at lines 11--12
 []\TU/PTSans(1)/m/n/14.4 Детерминированность сборки: Механизм модулей Go (go.mo
 d и
  []
 
 
 
-[174
+[172
 
 
 
@@ -2419,10 +2401,16 @@ Underfull \hbox (badness 2990) in paragraph at lines 17--18
  []
 
 
+Underfull \hbox (badness 1028) in paragraph at lines 21--22
+[]\TU/PTSans(1)/m/n/14.4 Строгие контракты и стабильность API: Определение серв
+исов в
+ []
 
-[175]
 
-[176]
+
+[173]
+
+[174]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 []\TU/PTSans(1)/m/n/14.4 Для работы с PostgreSQL используется стандартный пакет
 
@@ -2436,9 +2424,9 @@ Underfull \hbox (badness 3281) in paragraph at lines 45--46
 
 
 
-[177]
+[175]
 
-[178]
+[176]
 Underfull \hbox (badness 1377) in paragraph at lines 63--64
 []\TU/PTSans(1)/m/n/14.4 Обычный NATS — это лёгкий брокер сообщений с поддержко
 й
@@ -2458,23 +2446,11 @@ t-once).
 
 
 
+[177]
+
+[178]
+
 [179]
-
-[180]
-
-[181]
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
-[]\TU/PTSans(1)/m/n/14.4 ValidateToken: принимает JWT, декодирует и проверяет п
-од-
- []
-
-
-Underfull \hbox (badness 3364) in paragraph at lines 80--81
-\TU/PTSans(1)/m/n/14.4 пись и срок. Если токен невалиден или истёк — возвращает
-
- []
-
-
 Underfull \hbox (badness 2426) in paragraph at lines 83--84
 \TU/PTSans(1)/m/n/14.4 содержит gRPC-сервер и переводит входящие протоколы Prot
 obuf в
@@ -2482,7 +2458,7 @@ obuf в
 
 
 
-[182]
+[180]
 Underfull \hbox (badness 3108) in paragraph at lines 90--91
 []\TU/PTSans(1)/m/n/14.4 Назначение: Сервис профилей отвечает за хранение и упр
 ав-
@@ -2496,7 +2472,7 @@ Underfull \hbox (badness 1377) in paragraph at lines 90--91
 
 
 
-[183]
+[181]
 Underfull \hbox (badness 1142) in paragraph at lines 92--93
 []\TU/PTSans(1)/m/n/14.4 Основные бизнес-задачи: хранение данных профиля, подде
 ржка
@@ -2510,15 +2486,15 @@ Underfull \hbox (badness 1205) in paragraph at lines 92--93
 
 
 
-[184]
-
-[185]
-Underfull \hbox (badness 1019) in paragraph at lines 105--106
-\TU/PTSans(1)/m/n/14.4 ком большой размер, неподдерживаемый формат) возвращаетс
-я
+[182]
+Underfull \hbox (badness 1077) in paragraph at lines 105--106
+\TU/PTSans(1)/m/n/14.4 ки файл регистрируется в таблице files FileStorage, а ID
+ сохраняется
  []
 
 
+
+[183]
 Underfull \hbox (badness 10000) in paragraph at lines 107--108
 \TU/PTSans(1)/m/n/14.4 ProfileRepository (CRUD-операции над profiles/follows) и
  интерфейс
@@ -2537,16 +2513,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
 
 
-[186]
+[184]
 
-[187]
-
-[188]
+[185]
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 \TU/PTSans(1)/m/n/14.4 если пользователь не авторизован — UNAUTHENTICATED, и
  []
 
 
+
+[186]
 Underfull \hbox (badness 3068) in paragraph at lines 129--130
 []\TU/PTSans(1)/m/n/14.4 Архитектура: Чистая архитектура: доменные сущности «Li
 ke» и
@@ -2571,13 +2547,25 @@ lient,
 
 
 
+[187]
+
+[188]
+
 [189]
+Underfull \hbox (badness 1412) in paragraph at lines 166--167
+\TU/PTSans(1)/m/n/14.4 и переадресует данные во FileStorageService: либо получа
+ет от него
+ []
+
+
 
 [190]
+Underfull \hbox (badness 1038) in paragraph at lines 167--168
+[]\TU/PTSans(1)/m/n/14.4 GetPlaceImage (stream): загрузка изображения с помощью
+ gRPC-
+ []
 
-[191]
 
-[192]
 Underfull \hbox (badness 2261) in paragraph at lines 169--170
 \TU/PTSans(1)/m/n/14.4 ет стандартные CRUD-операции над SQL, дополняя их необхо
 димы-
@@ -2585,13 +2573,11 @@ Underfull \hbox (badness 2261) in paragraph at lines 169--170
 
 
 
+[191]
+
+[192]
+
 [193]
-
-[194]
-
-[195]
-
-[196]
 Underfull \hbox (badness 1215) in paragraph at lines 194--195
 \TU/PTSans(1)/m/n/14.4 лучения файлов: они могут использовать gRPC-методы загру
 зки либо
@@ -2599,7 +2585,9 @@ Underfull \hbox (badness 1215) in paragraph at lines 194--195
 
 
 
-[197]
+[194]
+
+[195]
 Underfull \hbox (badness 3098) in paragraph at lines 203--204
 \TU/PTSans(1)/m/n/14.4 висов. Например, после регистрации AuthService публикует
  событие
@@ -2613,7 +2601,7 @@ Underfull \hbox (badness 1540) in paragraph at lines 203--204
 
 
 
-[198]
+[196]
 Underfull \hbox (badness 1057) in paragraph at lines 213--214
 []\TU/PTSans(1)/m/n/14.4 В системе «Путешествия по России» каждый микросервис (
 auth,
@@ -2621,9 +2609,7 @@ auth,
 
 
 
-[199]
-
-[200]
+[197]
 Underfull \hbox (badness 10000) in paragraph at lines 220--221
 []\TU/PTSans(1)/m/n/14.4 Сборка приложения ведётся с помощью многоступенчатого
  []
@@ -2646,6 +2632,9 @@ Underfull \hbox (badness 2393) in paragraph at lines 220--221
 альных
  []
 
+
+
+[198]
 Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
 ge=dflt;mapping=tex-text;!
 Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langua
@@ -2654,11 +2643,9 @@ Missing character: There is no → (U+2192) in font PT Sans/OT:script=cyrl;langu
 ge=dflt;mapping=tex-text;!
 
 
-[201]
+[199]
 
-[202]
-
-[203]
+[200]
 Underfull \hbox (badness 1824) in paragraph at lines 251--252
 []\TU/PTSans(1)/m/n/14.4 В юнит-тестах проверяются изолированные логические фун
 кции
@@ -2666,13 +2653,27 @@ Underfull \hbox (badness 1824) in paragraph at lines 251--252
 
 
 
+[201]
+
+[202]
+Underfull \hbox (badness 1033) in paragraph at lines 260--261
+\TU/PTSans(1)/m/n/14.4 выми скриптами. Например, можно использовать официальный
+ образ
+ []
+
+
+
+[203])
+Underfull \hbox (badness 1337) in paragraph at lines 270--59
+\TU/PTSans(1)/m/n/14.4 использованием микросервисной архитектуры. Разработанная
+ система
+ []
+
+
+
 [204]
 
 [205]
-
-[206])
-
-[207]
 \openout2 = `Chapters/conclustion.aux'.
 
  (./Chapters/conclustion.tex
@@ -2689,7 +2690,7 @@ Underfull \hbox (badness 1057) in paragraph at lines 4--5
 
 
 
-[208
+[206
 
 
 
@@ -2701,18 +2702,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--61
 
 
 
-[209]
+[207]
 \openout2 = `bibpage.aux'.
 
  (./bibpage.tex (./main.bbl
 
-[210
+[208
 
 
 
 ]
 
-[211]
+[209]
 Underfull \hbox (badness 1688) in paragraph at lines 133--137
 []\TU/PTSans(1)/m/n/14.4 Flutter Team.  General approach to app architecture (c
 ase study
@@ -2726,7 +2727,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--137
 
 
 
-[212]
+[210]
 Underfull \hbox (badness 10000) in paragraph at lines 151--155
 \TU/PTSans(1)/m/n/14.4 2025.  URL [][]$[][][][][] [] [] [] [][][][] [] [][][][]
 [][][] [] [][][] [] [][][][][][][][][][][][][][][][][] [] [][][][][][][][][][][
@@ -2735,7 +2736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--155
 
 
 
-[213]
+[211]
 Underfull \hbox (badness 10000) in paragraph at lines 187--191
 []\TU/PTSans(1)/m/n/14.4 Команда Яндекс.Образования.  ООП в dart (Объектно-
  []
@@ -2807,7 +2808,7 @@ Underfull \hbox (badness 3009) in paragraph at lines 211--215
 
 ))
 
-[214]
+[212]
 File: diploma_application.pdf Graphic file (type pdf)
 <use diploma_application.pdf>
 File: diploma_application.pdf Graphic file (type pdf)
@@ -2822,7 +2823,7 @@ File: diploma_application.pdf Graphic file (type pdf)
 
 File: diploma_application.pdf Graphic file (type pdf)
 <use diploma_application.pdf, page 1>
-[215
+[213
 
 
 
@@ -2835,681 +2836,681 @@ File: diploma_application.pdf Graphic file (type pdf)
 
 File: diploma_application.pdf Graphic file (type pdf)
 <use diploma_application.pdf, page 2>
+[214
+
+]
+File: diploma_application.pdf Graphic file (type pdf)
+<use diploma_application.pdf, page 3>
+File: diploma_application.pdf Graphic file (type pdf)
+<use diploma_application.pdf, page 3>
+
+
+File: diploma_application.pdf Graphic file (type pdf)
+<use diploma_application.pdf, page 3>
+[215
+
+]
+File: diploma_application.pdf Graphic file (type pdf)
+<use diploma_application.pdf, page 4>
+File: diploma_application.pdf Graphic file (type pdf)
+<use diploma_application.pdf, page 4>
+
+
+File: diploma_application.pdf Graphic file (type pdf)
+<use diploma_application.pdf, page 4>
 [216
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 3>
+<use diploma_application.pdf, page 5>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 3>
+<use diploma_application.pdf, page 5>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 3>
+<use diploma_application.pdf, page 5>
 [217
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 4>
+<use diploma_application.pdf, page 6>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 4>
+<use diploma_application.pdf, page 6>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 4>
+<use diploma_application.pdf, page 6>
 [218
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 5>
+<use diploma_application.pdf, page 7>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 5>
+<use diploma_application.pdf, page 7>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 5>
+<use diploma_application.pdf, page 7>
 [219
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 6>
+<use diploma_application.pdf, page 8>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 6>
+<use diploma_application.pdf, page 8>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 6>
+<use diploma_application.pdf, page 8>
 [220
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 7>
+<use diploma_application.pdf, page 9>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 7>
+<use diploma_application.pdf, page 9>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 7>
+<use diploma_application.pdf, page 9>
 [221
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 8>
+<use diploma_application.pdf, page 10>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 8>
+<use diploma_application.pdf, page 10>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 8>
+<use diploma_application.pdf, page 10>
 [222
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 9>
+<use diploma_application.pdf, page 11>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 9>
+<use diploma_application.pdf, page 11>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 9>
+<use diploma_application.pdf, page 11>
 [223
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 10>
+<use diploma_application.pdf, page 12>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 10>
+<use diploma_application.pdf, page 12>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 10>
+<use diploma_application.pdf, page 12>
 [224
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 11>
+<use diploma_application.pdf, page 13>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 11>
+<use diploma_application.pdf, page 13>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 11>
+<use diploma_application.pdf, page 13>
 [225
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 12>
+<use diploma_application.pdf, page 14>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 12>
+<use diploma_application.pdf, page 14>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 12>
+<use diploma_application.pdf, page 14>
 [226
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 13>
+<use diploma_application.pdf, page 15>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 13>
+<use diploma_application.pdf, page 15>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 13>
+<use diploma_application.pdf, page 15>
 [227
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 14>
+<use diploma_application.pdf, page 16>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 14>
+<use diploma_application.pdf, page 16>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 14>
+<use diploma_application.pdf, page 16>
 [228
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 15>
+<use diploma_application.pdf, page 17>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 15>
+<use diploma_application.pdf, page 17>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 15>
+<use diploma_application.pdf, page 17>
 [229
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 16>
+<use diploma_application.pdf, page 18>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 16>
+<use diploma_application.pdf, page 18>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 16>
+<use diploma_application.pdf, page 18>
 [230
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 17>
+<use diploma_application.pdf, page 19>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 17>
+<use diploma_application.pdf, page 19>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 17>
+<use diploma_application.pdf, page 19>
 [231
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 18>
+<use diploma_application.pdf, page 20>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 18>
+<use diploma_application.pdf, page 20>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 18>
+<use diploma_application.pdf, page 20>
 [232
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 19>
+<use diploma_application.pdf, page 21>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 19>
+<use diploma_application.pdf, page 21>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 19>
+<use diploma_application.pdf, page 21>
 [233
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 20>
+<use diploma_application.pdf, page 22>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 20>
+<use diploma_application.pdf, page 22>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 20>
+<use diploma_application.pdf, page 22>
 [234
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 21>
+<use diploma_application.pdf, page 23>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 21>
+<use diploma_application.pdf, page 23>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 21>
+<use diploma_application.pdf, page 23>
 [235
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 22>
+<use diploma_application.pdf, page 24>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 22>
+<use diploma_application.pdf, page 24>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 22>
+<use diploma_application.pdf, page 24>
 [236
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 23>
+<use diploma_application.pdf, page 25>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 23>
+<use diploma_application.pdf, page 25>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 23>
+<use diploma_application.pdf, page 25>
 [237
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 24>
+<use diploma_application.pdf, page 26>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 24>
+<use diploma_application.pdf, page 26>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 24>
+<use diploma_application.pdf, page 26>
 [238
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 25>
+<use diploma_application.pdf, page 27>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 25>
+<use diploma_application.pdf, page 27>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 25>
+<use diploma_application.pdf, page 27>
 [239
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 26>
+<use diploma_application.pdf, page 28>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 26>
+<use diploma_application.pdf, page 28>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 26>
+<use diploma_application.pdf, page 28>
 [240
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 27>
+<use diploma_application.pdf, page 29>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 27>
+<use diploma_application.pdf, page 29>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 27>
+<use diploma_application.pdf, page 29>
 [241
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 28>
+<use diploma_application.pdf, page 30>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 28>
+<use diploma_application.pdf, page 30>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 28>
+<use diploma_application.pdf, page 30>
 [242
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 29>
+<use diploma_application.pdf, page 31>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 29>
+<use diploma_application.pdf, page 31>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 29>
+<use diploma_application.pdf, page 31>
 [243
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 30>
+<use diploma_application.pdf, page 32>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 30>
+<use diploma_application.pdf, page 32>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 30>
+<use diploma_application.pdf, page 32>
 [244
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 31>
+<use diploma_application.pdf, page 33>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 31>
+<use diploma_application.pdf, page 33>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 31>
+<use diploma_application.pdf, page 33>
 [245
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 32>
+<use diploma_application.pdf, page 34>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 32>
+<use diploma_application.pdf, page 34>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 32>
+<use diploma_application.pdf, page 34>
 [246
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 33>
+<use diploma_application.pdf, page 35>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 33>
+<use diploma_application.pdf, page 35>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 33>
+<use diploma_application.pdf, page 35>
 [247
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 34>
+<use diploma_application.pdf, page 36>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 34>
+<use diploma_application.pdf, page 36>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 34>
+<use diploma_application.pdf, page 36>
 [248
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 35>
+<use diploma_application.pdf, page 37>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 35>
+<use diploma_application.pdf, page 37>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 35>
+<use diploma_application.pdf, page 37>
 [249
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 36>
+<use diploma_application.pdf, page 38>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 36>
+<use diploma_application.pdf, page 38>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 36>
+<use diploma_application.pdf, page 38>
 [250
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 37>
+<use diploma_application.pdf, page 39>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 37>
+<use diploma_application.pdf, page 39>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 37>
+<use diploma_application.pdf, page 39>
 [251
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 38>
+<use diploma_application.pdf, page 40>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 38>
+<use diploma_application.pdf, page 40>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 38>
+<use diploma_application.pdf, page 40>
 [252
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 39>
+<use diploma_application.pdf, page 41>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 39>
+<use diploma_application.pdf, page 41>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 39>
+<use diploma_application.pdf, page 41>
 [253
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 40>
+<use diploma_application.pdf, page 42>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 40>
+<use diploma_application.pdf, page 42>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 40>
+<use diploma_application.pdf, page 42>
 [254
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 41>
+<use diploma_application.pdf, page 43>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 41>
+<use diploma_application.pdf, page 43>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 41>
+<use diploma_application.pdf, page 43>
 [255
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 42>
+<use diploma_application.pdf, page 44>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 42>
+<use diploma_application.pdf, page 44>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 42>
+<use diploma_application.pdf, page 44>
 [256
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 43>
+<use diploma_application.pdf, page 45>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 43>
+<use diploma_application.pdf, page 45>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 43>
+<use diploma_application.pdf, page 45>
 [257
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 44>
+<use diploma_application.pdf, page 46>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 44>
+<use diploma_application.pdf, page 46>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 44>
+<use diploma_application.pdf, page 46>
 [258
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 45>
+<use diploma_application.pdf, page 47>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 45>
+<use diploma_application.pdf, page 47>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 45>
+<use diploma_application.pdf, page 47>
 [259
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 46>
+<use diploma_application.pdf, page 48>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 46>
+<use diploma_application.pdf, page 48>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 46>
+<use diploma_application.pdf, page 48>
 [260
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 47>
+<use diploma_application.pdf, page 49>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 47>
+<use diploma_application.pdf, page 49>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 47>
+<use diploma_application.pdf, page 49>
 [261
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 48>
+<use diploma_application.pdf, page 50>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 48>
+<use diploma_application.pdf, page 50>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 48>
+<use diploma_application.pdf, page 50>
 [262
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 49>
+<use diploma_application.pdf, page 51>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 49>
+<use diploma_application.pdf, page 51>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 49>
+<use diploma_application.pdf, page 51>
 [263
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 50>
+<use diploma_application.pdf, page 52>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 50>
+<use diploma_application.pdf, page 52>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 50>
+<use diploma_application.pdf, page 52>
 [264
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 51>
+<use diploma_application.pdf, page 53>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 51>
+<use diploma_application.pdf, page 53>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 51>
+<use diploma_application.pdf, page 53>
 [265
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 52>
+<use diploma_application.pdf, page 54>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 52>
+<use diploma_application.pdf, page 54>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 52>
+<use diploma_application.pdf, page 54>
 [266
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 53>
+<use diploma_application.pdf, page 55>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 53>
+<use diploma_application.pdf, page 55>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 53>
+<use diploma_application.pdf, page 55>
 [267
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 54>
+<use diploma_application.pdf, page 56>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 54>
+<use diploma_application.pdf, page 56>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 54>
+<use diploma_application.pdf, page 56>
 [268
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 55>
+<use diploma_application.pdf, page 57>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 55>
+<use diploma_application.pdf, page 57>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 55>
+<use diploma_application.pdf, page 57>
 [269
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 56>
+<use diploma_application.pdf, page 58>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 56>
+<use diploma_application.pdf, page 58>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 56>
+<use diploma_application.pdf, page 58>
 [270
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 57>
+<use diploma_application.pdf, page 59>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 57>
+<use diploma_application.pdf, page 59>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 57>
+<use diploma_application.pdf, page 59>
 [271
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 58>
+<use diploma_application.pdf, page 60>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 58>
+<use diploma_application.pdf, page 60>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 58>
+<use diploma_application.pdf, page 60>
 [272
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 59>
+<use diploma_application.pdf, page 61>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 59>
+<use diploma_application.pdf, page 61>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 59>
+<use diploma_application.pdf, page 61>
 [273
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 60>
+<use diploma_application.pdf, page 62>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 60>
+<use diploma_application.pdf, page 62>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 60>
+<use diploma_application.pdf, page 62>
 [274
 
 ]
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 61>
+<use diploma_application.pdf, page 63>
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 61>
+<use diploma_application.pdf, page 63>
 
 
 File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 61>
+<use diploma_application.pdf, page 63>
 [275
 
 ]
-File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 62>
-File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 62>
-
-
-File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 62>
-[276
-
-]
-File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 63>
-File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 63>
-
-
-File: diploma_application.pdf Graphic file (type pdf)
-<use diploma_application.pdf, page 63>
-[277
-
-]
-runsystem(latexminted cleantemp  --timestamp 20250608003912 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20250608113939 FAD58DE7366495DB465
 0CFEFAC2FCD61)...executed safely (allowed).
 
  (./main.aux (./macros.aux) (./tocpage.aux) (./Chapters/introduction.aux)
@@ -3528,15 +3529,15 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CCC0D6188542C703BB8D820B48B33BCF;12333.
+(rerunfilecheck)             Checksum: 27E656C2B19A621A75C2A7F31854D7B2;12333.
  ) 
 Here is how much of TeX's memory you used:
- 32585 strings out of 473832
- 706337 string characters out of 5729481
- 1231466 words of memory out of 5000000
- 54999 multiletter control sequences out of 15000+600000
+ 32587 strings out of 473832
+ 706357 string characters out of 5729481
+ 1232707 words of memory out of 5000000
+ 55001 multiletter control sequences out of 15000+600000
  564702 words of font info for 118 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  100i,17n,112p,1987b,845s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (277 pages).
+Output written on main.pdf (275 pages).
