@@ -1,0 +1,25 @@
+# Fdb version 4
+["pdflatex"] 1749373904.61898 "/Users/truefalsemary/Documents/Финашка_4_курс/диплом/United_diploma/main.tex" "main.pdf" "main" 1749373904.78805 2
+  "/Users/truefalsemary/Documents/Финашка_4_курс/диплом/United_diploma/main.tex" 1749373743.96562 2225 13be866b4348a2514a9a5acc8f587879 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/base/exscale.sty" 1738182759 2581 410e238d5562ac0c02c3a54e6b0161aa ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1739306980 46850 d87daedc2abdc653769a6f1067849fe0 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/extsizes/extarticle.cls" 1137110130 20602 3112294ba237d94ce4a1502cfef3594f ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/extsizes/size14.clo" 1137110130 6214 cc6d832fdd2fc5f4a20ee1a002f45d0f ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty" 1715459803 3755 4872b99d810c024f9c09bb1c62ffee3b ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1716410060 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty" 1738271527 6565 f51d809db6193fae7b06c1bc26ca8f75 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1724879202 9783 ab4bee47700c04aadedb8da27591b0ab ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/polyglossia/polyglossia.sty" 1738361565 62759 49291ce0d24a6fce6ac84ff6deec2987 ""
+  "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
+  "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1747599576 3345733 03fc3e24541bf60e10a33d5801ca83d8 ""
+  "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
+  "Settings/packages.tex" 1749371720.55026 2050 0922e3e68bc0f27b8e074f2ba21707b5 ""
+  "main.aux" 0 -1 0 "pdflatex"
+  "main.tex" 1749373743.96562 2225 13be866b4348a2514a9a5acc8f587879 ""
+  (generated)
+  "main.aux"
+  "main.log"
+  "main.pdf"
+  (rewritten before read)

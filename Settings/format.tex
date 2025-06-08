@@ -35,7 +35,7 @@
 % Section НЕ будет нумероваться визуально, но будет в TOC.
 % Внутренний счетчик section продолжает работать для нумерации subsection и т.д.
 \titleformat{\section}
-  {\normalfont\Large\bfseries\filcenter} % Формат заголовка (крупный, жирный, по центру)
+  {\normalfont\normalsize\bfseries\filcenter} % Формат заголовка (обычный размер, жирный, по центру)
   {}                                      % <-- Номер секции: ПУСТО (не выводим номер \section)
   {0em}                                   % Отступ между "номером" (которого нет) и текстом заголовка
   {}                                      % Код перед заголовком (оставляем пустым)
@@ -46,7 +46,7 @@
 
 % --- SUBSECTION ---
 \titleformat{\subsection}
-  {\normalfont\large\bfseries} % Формат (поменьше, жирный)
+  {\normalfont\normalsize\bfseries} % Формат (обычный размер, жирный)
   {\thesubsection.}
   {0.5em}
   {}
